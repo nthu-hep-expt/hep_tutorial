@@ -21,11 +21,13 @@
 ## Cluster and service from CERN and NTHU
 ### Introduction to lxplus, NTHU cluster
 ### Subscribe working folder in the lxplus
-### CERNBox
+### [CERNBox](https://cernbox.cern.ch/)
 ### BATCH & SLURM
 
 ## ATLAS Software tutorial and resources
-### CERN Service status
+### ATLAS software tutorial 
+### [CERN Service status](https://cern.service-now.com/service-portal/ssb.do)
+* You could check the computing service status here
 ### Git
 ### Derivation, Grid certificate, BigPanda, RUCIO
 ### AMI, PMG, Xsec info
@@ -36,5 +38,19 @@
 ### Where to get CERN ID card
 
 ## Resource
-### IML
+### Machine Learning in HEP:
+
 ### Summer schools, CERN, DESY, CERN-Fermilab, ISTEP, IoPAS, PISA, ...
+* [CERN Summer Program](https://home.cern/students-educators/summer-student-programme)
+   * Highly recommend you to apply 
+   * Aiming at undergraduate or graduate student
+   * Application deadline: January every year
+   * 90 CHF per day covering weekend
+   * 6 weeks [lectures](https://indico.cern.ch/category/345/) covering all topics about experimental particle physics 
+   * Participants will be assigned a project and cooperate with researchers in CERN
+* [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/) 
+* [DESY Summer school](https://summerstudents.desy.de/)
+* [IoPAS Summer school](http://www.phys.sinica.edu.tw/~summer/)
+   * Application deadline: May every year
+   * Research project with researcher in IoPAS
+   * You will be recommended to be work with Song-Ming Wang (ATLAS @ CERN)
