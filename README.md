@@ -1,8 +1,8 @@
 # HEP Tutorial/Resource
----
+
 ## Content
 
-* Introduction to NTHU HEP group
+* [Introduction to NTHU HEP group](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/README.md#introduction-to-nthu-hep-group)
 
 * Introduction to HEP
   * Basic knowledge and resources for Experimental particle physics
