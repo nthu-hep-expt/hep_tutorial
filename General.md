@@ -2,7 +2,7 @@
 
 ## Content
 
-* [Introduction to NTHU HEP group](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/README.md#introduction-to-nthu-hep-group)
+* [Introduction to NTHU HEP group](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/General.md#introduction-to-nthu-hep-group)
 
 * Introduction to HEP
   * Basic knowledge and resources for Experimental particle physics
@@ -56,14 +56,14 @@
 ---
 
 ## Introduction to NTHU HEP group
-[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/README.md#content)
+[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/General.md#content)
 
 ## Introduction to HEP
-[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/README.md#content)
+[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/General.md#content)
 ### Basic knowledge and resources for Experimental particle physics
-[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/README.md#content)
+[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/General.md#content)
 ### Topics: Detector, trigger, ... 
-[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/README.md#content)
+[back to content](https://github.com/nthu-hep-expt/hep_tutorial/blob/master/General.md#content)
 
 ## Basic linux tutorial and resource
 ### Usage of .bashrc
