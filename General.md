@@ -34,24 +34,10 @@
   * Summer schools, CERN, DESY, CERN-Fermilab, ISTEP, IoPAS, PISA, ...
 
 * Introduction to HWW group and analysis framework
-  * Weekly meeting & workshops & analysis paper/notes
-  * Twiki and tutorial pages for HWW PxAOD and analysis framework
-  * Details and instructions about CAF and PxAOD
-  * From TQSampleFolder to beautiful plots with Python & ROOT
-  * Plotting tool working with QFramework or nTuple/TTree
-  * Efficiently generate slides containing large amount of plots with Python and Latex
-  * Tutorial to EventDisplay & BDT & Fitting
-  * Analysis details of HWW 
-  
-    * What is an event/data/mc/signal/background/weight/ScaleFactor/...
-    * The main bkg for our analysis
-    * Introduction to basic objects (lep/jet/MET)
-    * What is SR/CR, samples we used, the issues we faced
-    * What’s the limit for our analysis now
-    * What’s normalization factor/nominal/systematics/
-    * What we could contribute in the analysis team
+  * See [HWW_Analysis.md](./HWW_Analysis.md)
 
 * Introduction to monoHbb group and analysis framework
+  * See [monoHbb_Analysis.md](./monoHbb_Analysis.md)
 
 ---
 
