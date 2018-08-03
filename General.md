@@ -48,9 +48,17 @@
    * 90 CHF per day covering weekend
    * 6 weeks [lectures](https://indico.cern.ch/category/345/) covering all topics about experimental particle physics 
    * Participants will be assigned a project and cooperate with researchers in CERN
+   * alumnus: Meng-Ju Tsai (2016), Ya-Feng Lo (2018)
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/) 
+   * alumnus: Meng-Ju Tsai (2018)
+
 * [DESY Summer school](https://summerstudents.desy.de/)
+
 * [IoPAS Summer school](http://www.phys.sinica.edu.tw/~summer/)
    * Application deadline: May every year
    * Research project with researcher in IoPAS
    * You will be recommended to be work with Song-Ming Wang (ATLAS @ CERN)
+   * alumnus: Yu-Hsin Chan (2016), Meng-Ju Tsai (2017) (Both worked with Song-Ming Wang)
+   
+
+
