@@ -40,7 +40,7 @@
 ## Resource
 ### Machine Learning in HEP:
 
-### HEP Summer schools: PISA, ...
+### HEP Summer schools: PISA, CTEQ, CERN-JINR European School of High-Energy Physics,  Machine Learning Summer School, ...
 #### Basic level
 * [The International Summer school on TeV Experimental Physics (ISTEP)](https://indico.ihep.ac.cn/event/7854/other-view?view=standard)
    * Suitable for undergraduate
@@ -66,5 +66,8 @@
    * You will be recommended to be work with Song-Ming Wang (ATLAS @ CERN)
    * Alumnus: Yu-Hsin Chan (2016), Meng-Ju Tsai (2017) (Both worked with Song-Ming Wang)
    
+* [SLAC Summer school](https://conf.slac.stanford.edu/ssi2018/)
+   * Alumnus: Jay Chan (2017?)
+
 
 
