@@ -37,6 +37,11 @@
 ### Cover travel information, maps in and near CERN, tpg, SBB
 ### Where to get CERN ID card
 
+## Preparation for summer school
+
+### CV & Reference letter
+
+
 ## Resource
 ### Machine Learning in HEP:
 
