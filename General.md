@@ -61,9 +61,9 @@
    * Alumnus: Meng-Ju Tsai (2016), Ya-Feng Lo (2018)
    
    
-   |Name | project |  detector|
+   |Name | Projects |  detector|
    |-----|---------|-----------|
-   |Meng-Ju| Underlying event measuremnt with Heavy Ion collisions | ALICE|
+   |Meng-Ju| Underlying Event measuremnt with Heavy Ion collisions | ALICE|
    |Ya-Feng| Open data with HWW analysis| ATLAS |
    
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/) 
