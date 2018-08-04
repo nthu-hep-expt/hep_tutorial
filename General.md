@@ -49,7 +49,7 @@
    * Suitable for undergraduate
    * Alumnus: Po-Shan Shih, Cheng-Hsin Han, Yu-Hsin Chan, Ya-Feng Lo, Meng-Ju Tsai (2015), Yu-Cheng Huang (2018)
    
-#### Advance level
+#### Advanced level
 
 * [CERN Summer Program](https://home.cern/students-educators/summer-student-programme)
    * Highly recommend you to apply 
