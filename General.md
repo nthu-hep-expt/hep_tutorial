@@ -72,23 +72,22 @@
 
 ### HEP Graduate Students @ Taiwan and US
 
-#### Taiwan
-ATLAS HWW @ NTHU
-* Meng-Ju Tsai 
-* Ya-Feng Lo  
-* Yu-Cheng Huang
+* Taiwan
+   * ATLAS HWW @ NTHU
+     * Meng-Ju Tsai 
+     * Ya-Feng Lo  
+     * Yu-Cheng Huang
 
-ATLAS MonoHbb @ NTHU
+   * ATLAS MonoHbb @ NTHU
+     * Yu-Hsin Chan 
+     * Po-Shan Shih, 
+     * Cheng-Hsin Han 
 
-* Yu-Hsin Chan 
-* Po-Shan Shih, 
-* Cheng-Hsin Han 
+* United State
 
-#### United State
+   * ATLAS MonoHbb @ University of Wisconsin–Madison
+     * Jay Chan 
 
-ATLAS MonoHbb @ University of Wisconsin–Madison
-* Jay Chan 
-
-ATLAS tta->bbbb @ University of Massachusetts Amherst
-* Yuan-Tang Chou 
+   * ATLAS tta->bbbb @ University of Massachusetts Amherst
+     * Yuan-Tang Chou 
 
