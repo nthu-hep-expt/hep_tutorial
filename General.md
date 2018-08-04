@@ -48,6 +48,7 @@
 * [The International Summer school on TeV Experimental Physics (ISTEP)](https://indico.ihep.ac.cn/event/7854/other-view?view=standard)
    * Suitable for undergraduate
    * Alumnus: Po-Shan Shih, Cheng-Hsin Han, Yu-Hsin Chan, Ya-Feng Lo, Meng-Ju Tsai (2015), Yu-Cheng Huang (2018)
+   
 #### Advance level
 
 * [CERN Summer Program](https://home.cern/students-educators/summer-student-programme)
@@ -58,6 +59,13 @@
    * 6 weeks [lectures](https://indico.cern.ch/category/345/) covering all topics about experimental particle physics 
    * Participants will be assigned a project and cooperate with researchers in CERN
    * Alumnus: Meng-Ju Tsai (2016), Ya-Feng Lo (2018)
+   
+   
+   |Name | project |  detector|
+   |-----|---------|-----------|
+   |Meng-Ju| Underlying event measuremnt with Heavy Ion collisions | ALICE|
+   |Ya-Feng| Open data with HWW analysis| ATLAS |
+   
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/) 
    * Alumnus: Meng-Ju Tsai (2018)
 
