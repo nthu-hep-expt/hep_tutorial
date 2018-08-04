@@ -38,9 +38,12 @@
 ### Where to get CERN ID card
 
 ## Resource
-### Machine Learning in HEP:
+### Machine Learning in HEP
 
-### HEP Summer schools: PISA, CTEQ, CERN-JINR European School of High-Energy Physics,  Machine Learning Summer School, ...
+* [The Machine Learning summer school](https://indico.cern.ch/event/687473/)
+
+
+### HEP Summer schools
 #### Basic level
 * [The International Summer school on TeV Experimental Physics (ISTEP)](https://indico.ihep.ac.cn/event/7854/other-view?view=standard)
    * Suitable for undergraduate
@@ -63,12 +66,20 @@
 * [IoPAS Summer school](http://www.phys.sinica.edu.tw/~summer/)
    * Application deadline: May every year
    * Research project with researcher in IoPAS
+   * Scholarship: $20000 NTD per month (totaly 2 months)
    * You will be recommended to be work with Song-Ming Wang (ATLAS @ CERN)
    * Alumnus: Yu-Hsin Chan (2016), Meng-Ju Tsai (2017) (Both worked with Song-Ming Wang)
    
 * [SLAC Summer school](https://conf.slac.stanford.edu/ssi2018/)
    * Alumnus: Jay Chan (2017?)
 
+* [PISA School on Future Colliders](https://indico.cern.ch/event/669093/overview)
+   * Alumnus: Meng-Ju Tsai (2018)
+
+* [CTEQ Summer school](https://www.physics.smu.edu/scalise/cteq/schools/summer18/)
+   * Alumnus: Yun-Ju Lu (?)
+
+* [CERN-JINR European School of High-Energy Physics](http://physicschool.web.cern.ch/PhysicSchool/ESHEP/ESHEP2018/)
 
 ### HEP Graduate Students @ Taiwan and US
 
@@ -80,13 +91,13 @@
 
    * ATLAS MonoHbb @ NTHU
      * Yu-Hsin Chan 
-     * Po-Shan Shih, 
+     * Po-Shan Shih
      * Cheng-Hsin Han 
 
 * United State
 
    * ATLAS MonoHbb @ University of Wisconsin–Madison
-     * Jay Chan 
+     * Chen Hsun Chan
 
    * ATLAS tta->bbbb @ University of Massachusetts Amherst
      * Yuan-Tang Chou 
