@@ -71,13 +71,13 @@
    * Alumnus: Yu-Hsin Chan (2016), Meng-Ju Tsai (2017) (Both worked with Song-Ming Wang)
    
 * [SLAC Summer school](https://conf.slac.stanford.edu/ssi2018/)
-   * Alumnus: Jay Chan (2017?)
+   * Alumnus: Chen-Hsun Chan, Yu-Heng Lin
 
 * [PISA School on Future Colliders](https://indico.cern.ch/event/669093/overview)
    * Alumnus: Meng-Ju Tsai (2018)
 
 * [CTEQ Summer school](https://www.physics.smu.edu/scalise/cteq/schools/summer18/)
-   * Alumnus: Yun-Ju Lu (?)
+   * Alumnus: Yun-Ju Lu 
 
 * [CERN-JINR European School of High-Energy Physics](http://physicschool.web.cern.ch/PhysicSchool/ESHEP/ESHEP2018/)
 
