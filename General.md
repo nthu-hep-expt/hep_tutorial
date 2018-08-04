@@ -40,7 +40,13 @@
 ## Resource
 ### Machine Learning in HEP:
 
-### Summer schools, CERN, DESY, CERN-Fermilab, ISTEP, IoPAS, PISA, ...
+### HEP Summer schools: PISA, ...
+#### Basic level
+* [The International Summer school on TeV Experimental Physics (ISTEP)](https://indico.ihep.ac.cn/event/7854/other-view?view=standard)
+   * Suitable for undergraduate
+   * Alumnus: Po-Shan Shih, Cheng-Hsin Han, Yu-Hsin Chan, Ya-Feng Lo, Meng-Ju Tsai (2015), Yu-Cheng Huang (2018)
+#### Advance level
+
 * [CERN Summer Program](https://home.cern/students-educators/summer-student-programme)
    * Highly recommend you to apply 
    * Aiming at undergraduate or graduate student
@@ -48,9 +54,9 @@
    * 90 CHF per day covering weekend
    * 6 weeks [lectures](https://indico.cern.ch/category/345/) covering all topics about experimental particle physics 
    * Participants will be assigned a project and cooperate with researchers in CERN
-   * alumnus: Meng-Ju Tsai (2016), Ya-Feng Lo (2018)
+   * Alumnus: Meng-Ju Tsai (2016), Ya-Feng Lo (2018)
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/) 
-   * alumnus: Meng-Ju Tsai (2018)
+   * Alumnus: Meng-Ju Tsai (2018)
 
 * [DESY Summer school](https://summerstudents.desy.de/)
 
@@ -58,7 +64,7 @@
    * Application deadline: May every year
    * Research project with researcher in IoPAS
    * You will be recommended to be work with Song-Ming Wang (ATLAS @ CERN)
-   * alumnus: Yu-Hsin Chan (2016), Meng-Ju Tsai (2017) (Both worked with Song-Ming Wang)
+   * Alumnus: Yu-Hsin Chan (2016), Meng-Ju Tsai (2017) (Both worked with Song-Ming Wang)
    
 
 
