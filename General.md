@@ -14,6 +14,11 @@
 ### Basic knowledge and resources for Experimental particle physics
 ### Topics: Detector, trigger, ... 
 
+### Weekly meeting 
+* [Summary for weekly meeting of HWW](http://metsai.web.cern.ch/metsai/meeting/index.html)
+
+
+
 ## Basic linux tutorial and resource
 ### Usage of .bashrc
 ### Some commands used in lxplus
