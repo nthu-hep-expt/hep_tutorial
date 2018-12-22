@@ -1,62 +1,36 @@
-# README - Content of hep_tutorial
+# [Start Bootstrap](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
+[![CDNJS](https://img.shields.io/cdnjs/v/startbootstrap-sb-admin-2.svg)](https://cdnjs.com/libraries/startbootstrap-sb-admin-2)
 
-This page will be updated and try to use the same format as [ATLAS Analysis Software Tutorial](https://atlassoftwaredocs.web.cern.ch/ABtutorial/)
-* Will try to build with Jekyll and Bootstrap
+[SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
+## Getting Started
 
-## [General.md](./General.md)
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git`
+* Fork the repo
 
-* Introduction to NTHU HEP group
+## Using the Source Files
 
-* Introduction to HEP
-  * Basic knowledge and resources for Experimental particle physics
-  * Topics: Detector, trigger, ... 
+After cloning the repo take a look at the `gulpfile.js` and check out the tasks available:
+* `gulp` The default task will compile the LESS and JS into the `dist` directory and minify the output, and it will copy all vendor libraries from `bower_components` into the `vendor` directory
+* `gulp dev` The dev task will serve up a local version of the template and will watch the LESS, JS, and HTML files for changes and reload the browser windo automatically
 
-* Basic linux tutorial and resource
-  * Usage of .bashrc
-  * Some commands used in lxplus
+To update dependencies, run `bower update` and then run `gulp copy` to copy the updated dependencies into the `vendor` directory
 
-* Cluster and service from CERN and NTHU
-  * Introduction to lxplus, NTHU cluster
-  * Subscribe working folder in the lxplus
-  * CERNBox
-  * BATCH & SLURM
+## Bugs and Issues
 
-* ATLAS Software tutorial and resources
-  * CERN Service status
-  * Git
-  * Derivation, Grid certificate, BigPanda, RUCIO
-  * AMI, PMG, Xsec info
-  * GRL, PRW
-  
-* From Geneva airport to CERN and lives @ CERN
-  * Cover travel information, maps in and near CERN, tpg, SBB
-  * Where to get CERN ID card
-  
-* Resource
-  * IML
-  * Summer schools, CERN, DESY, CERN-Fermilab, ISTEP, IoPAS, PISA, ...
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/).
 
-## [HWW_Analysis.md](./HWW_Analysis.md)
+## Creator
 
-* Introduction to HWW group and analysis framework
-  * Weekly meeting & workshops & analysis paper/notes
-  * Twiki and tutorial pages for HWW PxAOD and analysis framework
-  * Details and instructions about CAF and PxAOD
-  * From TQSampleFolder to beautiful plots with Python & ROOT
-  * Plotting tool working with QFramework or nTuple/TTree
-  * Efficiently generate slides containing large amount of plots with Python and Latex
-  * Tutorial to EventDisplay & BDT & Fitting
-  * Analysis details of HWW 
-  
-    * What is an event/data/mc/signal/background/weight/ScaleFactor/filter/phase space/
-    * The main bkg for our analysis
-    * Introduction to basic objects (lep/jet/MET)
-    * What is SR/CR, samples we used, the issues we faced
-    * What’s the limit for our analysis now
-    * What’s normalization factor/nominal/systematics/
-    * What we could contribute in the analysis team
-    
-## [monoHbb_Analysis.md](./monoHbb_Analysis.md)
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-* Introduction to monoHbb group and analysis framework
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/gh-pages/LICENSE) license.
