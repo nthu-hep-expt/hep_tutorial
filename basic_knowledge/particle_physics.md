@@ -3,6 +3,6 @@
 ## Hi hello
 
 ```text
-ssh -X metsai@lxplus.cern.ch
+ssh -X metsai@lxplus.cern.ch  xx
 ```
 
