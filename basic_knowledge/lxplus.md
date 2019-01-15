@@ -1,7 +1,3 @@
----
-description: This page describes the cluster used in CERN.
----
-
 # Lxplus
 
 ## Working in the lxplus <a id="working-in-the-lxplus"></a>
