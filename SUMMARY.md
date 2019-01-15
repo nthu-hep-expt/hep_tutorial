@@ -10,6 +10,8 @@
 * [Physics Analysis](physics-analysis/README.md)
   * [Higgs→WW Analysis](physics-analysis/higgs-ww-analysis/README.md)
     * [Introduction](physics-analysis/higgs-ww-analysis/introduction_hww.md)
+* [Resources](Resources/README.md)
+	* [Summer schools](Resources/SummerSchool.md)
 * [Temporary](temporary/README.md)
   * [General](temporary/general.md)
   * [HEP Analysis](temporary/hep_analysis.md)
