@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
 * [Basic Knowledge](basic_knowledge/README.md)
   * [Particle Physics](basic_knowledge/particle_physics.md)
   * [CERN bax](basic_knowledge/CERN_box.md)
