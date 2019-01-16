@@ -1,4 +1,4 @@
-# lxplus
+# Lxplus
 
 ## Working in the lxplus  <a id="working-in-the-lxplus"></a>
 
