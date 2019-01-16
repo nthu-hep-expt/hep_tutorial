@@ -7,6 +7,7 @@
   * [ATLAS](basic_knowledge/atlas.md)
 * [Connect to the Server](connect_to_the_server/README.md)
   * [Basic Linux](connect_to_the_server/linux.md)
+  * [lxplus](connect_to_the_server/lxplus.md)
 * [ROOT](root/README.md)
   * [MakeClass](root/makeclass.md)
 * [Work with Git](git/README.md)
