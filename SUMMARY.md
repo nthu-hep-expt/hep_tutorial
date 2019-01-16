@@ -6,7 +6,8 @@
   * [ATLAS](basic_knowledge/atlas.md)
 * [Connect to the Server](connect_to_the_server/README.md)
   * [Basic Linux](connect_to_the_server/linux.md)
-* [ROOT](root.md)
-* [Git](git/README.md)
+* [ROOT](root/README.md)
+  * [MakeClass](root/makeclass.md)
+* [Git](git.md)
 * [Physics Analysis](physics_analysis.md)
 
