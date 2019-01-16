@@ -1,4 +1,4 @@
-# Summer School and Lecture
+# Summer Schools and Lectures
 
 
 
