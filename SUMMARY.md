@@ -14,4 +14,6 @@
 * [Physics Analysis](physics_analysis/README.md)
   * [HWW](physics_analysis/hww/README.md)
     * [Introduction](physics_analysis/hww/introduction.md)
+  * [monoHbb](physics_analysis/monohbb.md)
+  * [HGTD](physics_analysis/hgtd.md)
 
