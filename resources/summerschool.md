@@ -1,4 +1,4 @@
-# Summer schools
+# Summer schools and lectures
 
 ## Basic level
 
@@ -17,9 +17,9 @@
   * Participants will be assigned a project and cooperate with researchers in CERN
   * Alumnus: Meng-Ju Tsai \(2016\), Ya-Feng Lo \(2018\)
 
-| Name | Projects | detector |
+| Name | Projects | Experiment |
 | :--- | :--- | :--- |
-| Meng-Ju | [Underlying Event measuremnt with Heavy Ion collisions](https://cds.cern.ch/record/2209146) | ALICE |
+| Meng-Ju | [Underlying Event measurement with Heavy Ion collisions](https://cds.cern.ch/record/2209146) | ALICE |
 | Ya-Feng | Open data with HWW analysis | ATLAS |
 
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/)
@@ -28,7 +28,7 @@
 * [IoPAS Summer school](http://www.phys.sinica.edu.tw/~summer/)
   * Application deadline: May every year
   * Research project with researcher in IoPAS
-  * Scholarship: $20000 NTD per month \(totaly 2 months\)
+  * Scholarship: $ 20000 NTD per month \(totaly 2 months\)
   * You will be recommended to be work with Song-Ming Wang \(ATLAS @ CERN\)
   * Alumnus: Yu-Hsin Chan \(2016\), Meng-Ju Tsai \(2017\) \(Both worked with Song-Ming Wang\)
 * [SLAC Summer school](https://conf.slac.stanford.edu/ssi2018/)

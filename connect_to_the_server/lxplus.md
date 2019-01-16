@@ -1,6 +1,6 @@
-# Lxplus
+# lxplus
 
-## Working in the lxplus <a id="working-in-the-lxplus"></a>
+## Working in the lxplus  <a id="working-in-the-lxplus"></a>
 
 Once you have CERN account, we can access the lxplus by the following commands:
 
@@ -33,8 +33,6 @@ setupATLAS
 * Check the quota in user or working directory 
 
 ```bash
-fs lq --human 
+fs lq --human
 ```
-
-
 
