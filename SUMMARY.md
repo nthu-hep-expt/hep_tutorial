@@ -20,4 +20,5 @@
     * [Intro to monoHbb](physics_analysis/monohbb/intro-to-monohbb.md)
   * [HGTD](physics_analysis/hgtd/README.md)
     * [Intro to HGTD](physics_analysis/hgtd/intro-to-hgtd.md)
-
+* [Resource](resource/README.md)
+  * [Summer School and Lecture](resource/summer_school_and_lecture.md)
