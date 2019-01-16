@@ -7,7 +7,7 @@
   * [Large Hadran Collider](basic_knowledge/large-hadran-collider.md)
   * [ATLAS](basic_knowledge/atlas.md)
 * [Connect to the Server](connect_to_the_server/README.md)
-  * [CERN bax](connect_to_the_server/cernbox.md)
+  * [CERNBox](connect_to_the_server/cernbox.md)
   * [Linux](connect_to_the_server/linux.md)
   * [NTHU Cluster](connect_to_the_server/nthu-cluster.md)
   * [lxplus](connect_to_the_server/lxplus.md)
