@@ -1,4 +1,4 @@
-# Summer schools and lectures
+# Summer Schools and Lectures
 
 ## Basic level
 

@@ -15,7 +15,7 @@
   * [Higgs→WW Analysis](physics-analysis/higgs-ww-analysis/README.md)
     * [Introduction](physics-analysis/higgs-ww-analysis/introduction_hww.md)
 * [Resources](resources/README.md)
-  * [Summer schools and lectures](resources/summerschool.md)
+  * [Summer Schools and Lectures](resources/summerschool.md)
 * [Temporary](temporary/README.md)
   * [General](temporary/general.md)
   * [HEP Analysis](temporary/hep_analysis.md)
