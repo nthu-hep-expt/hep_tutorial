@@ -1,4 +1,0 @@
-# Large Hadran Collider
-
-
-
