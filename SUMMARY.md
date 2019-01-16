@@ -2,6 +2,7 @@
 
 * [Initial page](README.md)
 * [Basic Knowledge](basic_knowledge/README.md)
+  * [Particle Physics](basic_knowledge/particle-physics.md)
   * [LHC](basic_knowledge/lhc.md)
   * [ATLAS](basic_knowledge/atlas.md)
 * [Connect to the Server](connect_to_the_server/README.md)
@@ -13,3 +14,4 @@
 * [Physics Analysis](physics_analysis/README.md)
   * [HWW](physics_analysis/hww/README.md)
     * [Introduction](physics_analysis/hww/introduction.md)
+
