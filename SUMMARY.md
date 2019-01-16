@@ -7,6 +7,6 @@
 * [Connect to the Server](connect_to_the_server/README.md)
   * [Basic Linux](connect_to_the_server/linux.md)
 * [ROOT](root.md)
-* [Git](git.md)
+* [Git](git/README.md)
 * [Physics Analysis](physics_analysis.md)
 
