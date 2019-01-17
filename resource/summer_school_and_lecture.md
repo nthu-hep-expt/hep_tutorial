@@ -1,4 +1,4 @@
-# Summer Schools and Lectures
+# Summer Schools for High Energy Physics
 
 ## Basic level
 
@@ -17,9 +17,9 @@
   * Participants will be assigned a project and cooperate with researchers in CERN
   * Alumnus: Meng-Ju Tsai \(2016\), Ya-Feng Lo \(2018\)
 
-| Name | Projects | detector |
+| Name | Projects | Experiment |
 | :--- | :--- | :--- |
-| Meng-Ju | Underlying Event measuremnt with Heavy Ion collisions | ALICE |
+| Meng-Ju | Underlying Event measurement with Heavy Ion collisions | ALICE |
 | Ya-Feng | Open data with HWW analysis | ATLAS |
 
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/)
