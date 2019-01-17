@@ -6,7 +6,5 @@ description: Introduction to NTHU High Energy Physics Experiment group
 
 ## Check our group website
 
-{% embed url="https://nthu-hep-expt.github.io/jennifer-group/" %}
-
-
+{% embed url="https://nthu-hep-expt.github.io/jennifer-group/" caption="" %}
 

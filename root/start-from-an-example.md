@@ -1,7 +1,3 @@
----
-description: Here we are going to show the way we draw a histogram from a simple root file.
----
-
 # Start from an Example
 
 ## Gitlab Playground <a id="gitlab-playground"></a>
