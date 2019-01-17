@@ -40,7 +40,7 @@ cd build
 asetup AnalysisBase,21.2.49
 cmake ../HWWAnalysisCode
 
-# 
+# setup the environment for the analysis framework
 source ../HWWAnalysisCode/setup/setupAnalysis.sh
 
 # compile 
