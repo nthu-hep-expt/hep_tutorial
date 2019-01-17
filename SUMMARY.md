@@ -13,6 +13,7 @@
   * [MakeClass](root/makeclass.md)
 * [Work with Git](git/README.md)
   * [Git Intro](git/git.md)
+  * [Basic Git Command](git/basic-git-command.md)
 * [Physics Analysis](physics_analysis/README.md)
   * [HWW](physics_analysis/hww/README.md)
     * [Introduction](physics_analysis/hww/introduction.md)
