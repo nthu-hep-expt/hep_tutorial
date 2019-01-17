@@ -50,3 +50,10 @@ make -j4
 
 ```
 
+After building your framework, we could first run the example analysis with the following steps. You can run in the **'share'** directory. For the prepare.py 
+
+```bash
+cd ../HWWAnalysisCode/share
+./prepare.py config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg
+```
+
