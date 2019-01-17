@@ -9,6 +9,7 @@
   * [Basic Linux](connect_to_the_server/linux.md)
   * [Lxplus](connect_to_the_server/lxplus.md)
 * [ROOT](root/README.md)
+  * [Start from an Example](root/start-from-an-example.md)
   * [MakeClass](root/makeclass.md)
 * [Work with Git](git/README.md)
   * [Git Intro](git/git.md)
