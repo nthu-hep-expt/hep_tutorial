@@ -25,9 +25,12 @@
       * [HWW Analysis Code](physics_analysis/hww/analysis-framework/hww-analysis-code.md)
       * [HWWPhysicsxAODMaker](physics_analysis/hww/analysis-framework/hwwphysicsxaodmaker.md)
   * [monoHbb](physics_analysis/monohbb/README.md)
-    * [Intro to monoHbb](physics_analysis/monohbb/intro-to-monohbb.md)
+    * [Intro to monoHbb](physics_analysis/monohbb/intro-to-monohbb/README.md)
+      * [XAMPP](physics_analysis/monohbb/intro-to-monohbb/xampp.md)
+      * [VR Track Jet](physics_analysis/monohbb/intro-to-monohbb/vr-track-jet.md)
   * [HGTD](physics_analysis/hgtd/README.md)
     * [Intro to HGTD](physics_analysis/hgtd/intro-to-hgtd.md)
+    * [Testbeam](physics_analysis/hgtd/testbeam.md)
 * [Resource](resource/README.md)
   * [Summer Schools for High Energy Physics](resource/summer_school_and_lecture.md)
 
