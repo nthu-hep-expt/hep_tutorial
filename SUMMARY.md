@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [NTHU HEP Group](README.md)
 * [Basic Knowledge](basic_knowledge/README.md)
   * [Particle Physics](basic_knowledge/particle-physics.md)
   * [LHC](basic_knowledge/lhc.md)
