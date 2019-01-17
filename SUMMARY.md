@@ -1,6 +1,6 @@
 # Table of contents
 
-* [NTHU HEP Group](README.md)
+* [NTHU HEP Group](Intro.md)
 * [Basic Knowledge](basic_knowledge/README.md)
   * [Particle Physics](basic_knowledge/particle-physics.md)
   * [Experimental HEP](basic_knowledge/experimental-hep.md)
