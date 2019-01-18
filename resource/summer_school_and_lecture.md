@@ -1,4 +1,4 @@
-# Summer Schools for High Energy Physics
+# Summer Schools and Lectures
 
 ## Basic level
 

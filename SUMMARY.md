@@ -34,5 +34,5 @@
     * [Intro to HGTD](physics_analysis/hgtd/intro-to-hgtd.md)
     * [Testbeam](physics_analysis/hgtd/testbeam.md)
 * [Resource](resource/README.md)
-  * [Summer Schools for High Energy Physics](resource/summer_school_and_lecture.md)
+  * [Summer Schools and Lectures](resource/summer_school_and_lecture.md)
 
