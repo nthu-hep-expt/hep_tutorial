@@ -3,8 +3,9 @@
 ## Basic level
 
 * [The International Summer school on TeV Experimental Physics \(ISTEP\)](https://indico.ihep.ac.cn/event/7854/other-view?view=standard)
-  * Suitable for undergraduate
-  * Alumnus: Po-Shan Shih, Cheng-Hsin Han, Yu-Hsin Chan, Ya-Feng Lo, Meng-Ju Tsai \(2015\), Yu-Cheng Huang \(2018\)
+* * Suitable for undergraduate
+  * Alumnus: Po-Shan Shih, Cheng-Hsin Han, Yu-Hsin Chan, Ya-Feng Lo, Meng-Ju Tsai \(2015\), Yu-Cheng Huang \(2018\) 
+* [HASCO Summer School](https://indico.cern.ch/event/704163/)
 
 ## Advanced level
 
@@ -38,4 +39,6 @@
 * [CTEQ Summer school](https://www.physics.smu.edu/scalise/cteq/schools/summer18/)
   * Alumnus: Yun-Ju Lu 
 * [CERN-JINR European School of High-Energy Physics](http://physicschool.web.cern.ch/PhysicSchool/ESHEP/ESHEP2018/)
+* [Tri-Institute Summer School on Elementary Particles](https://www.perimeterinstitute.ca/conference/tri-institute-summer-school-elementary-particles-2018)
+* [Queen Mary Summer School](https://www.qmul.ac.uk/summer-school/) 
 
