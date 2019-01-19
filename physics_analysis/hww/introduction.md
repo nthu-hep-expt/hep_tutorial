@@ -27,3 +27,15 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 * qframework-users@cern.ch \(for CAF related things\)
 * atlas-phys-higgs-hww-prod@cern.ch \(for PxAOD related things\)
 
+### Publications
+
+#### Run-1
+
+* HWW Run-1 paper 
+
+#### Run-2
+
+* HWW Run-2 CONF Note
+* HWW Run-2 Optimization Note
+* HWW Run-2 paper
+
