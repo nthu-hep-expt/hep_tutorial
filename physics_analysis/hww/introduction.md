@@ -20,5 +20,10 @@
 * [CAF & PxAOD Tutorial \(Dec 2018\)](https://indico.cern.ch/event/771763/timetable/?view=standard)
 * [Common Analysis Framework - CAF Tutorial \(May 2018\)](https://indico.cern.ch/event/719951/timetable/?view=standard)
 * 
->
+## E-groups
+
+Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do). For the HWW groups, we have two main mailing lists related to the analysis code and the production results. 
+
+* qframework-users@cern.ch \(for CAF related things\)
+* atlas-phys-higgs-hww-prod@cern.ch \(for PxAOD related things\)
 

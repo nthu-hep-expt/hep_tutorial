@@ -50,6 +50,8 @@ make -j4
 
 ```
 
+## Running the example analysis
+
 After building your framework, we could first run the example analysis with the following steps. You can run in the **'share'** directory. 
 
 ```bash
@@ -60,5 +62,16 @@ cd ../HWWAnalysisCode/share
 ./visualize.py config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg
 ```
 
-We have four 
+We have four steps shown below. Normally, we don't need to modify these four python files. Instead, we should change the **config files** to change the setups we would like to run. 
+
+* [prepare.py](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/share/prepare.py):  setup basic **SampleFolder** \(SF\) structure.
+* [initialize.py](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/share/initialize.py): discover samples and read Meta-Info \(sumOfWeights\).
+* [analyze.py](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/share/analyze.py): analyze individual events as well as book histograms  yields.
+* [visualize.py](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/share/visualize.py): Draw the histograms and cutflow tables.
+
+The following table summarizes the usage of these four steps. This table is from [Ralf's slides](https://indico.cern.ch/event/771763/contributions/3207844/attachments/1767899/2871281/caf_tutorial_concepts.pdf) in the CAF tutorial.
+
+![](../../../../.gitbook/assets/ying-mu-kuai-zhao-20190119-xia-wu-8.46.07.png)
+
+## The path to results
 
