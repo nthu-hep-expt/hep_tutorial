@@ -75,5 +75,88 @@ The following table summarizes the usage of these four steps. This table is from
 
 ## Physics with config files
 
+In this section, we will explain the setups in the config files in different steps. We used [configparser](https://docs.python.org/3/library/configparser.html) in the config file to interact with python files. 
 
+### Prepare
+
+The analysis starts with "**prepare**". We will explain the "**tag**" used in the config files. 
+
+{% code-tabs %}
+{% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
+```text
+# -*- mode: config -*-
+
+[prepare]
+
+# name of the output file
+outputFile:  sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
+
+# input DSIDs (whitelisted and and mapped)
+XsecFiles: config/samples/XSec/common/XS_13TeV.csv
+XsecWhitelist: config/samples/whitelists/ZjetsFF/ZjetsFakeFactor-whitelist.txt
+XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
+XsecUnit: nb
+
+
+
+# Book the map which will define your structure in the SampleFolder
+XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
+XsecUnit: nb
+
+# channels to run over
+# Since we have same flavor (ee, mm) and different flavor (em, me)
+# df means the em+me channels
+# channels: ee,mm,em,me,df
+
+channels: ee,mm
+channelPlaceholder: channel
+
+# energy and luminosity
+# For the Run-2 HWW analysis, we use 36.1 fb-1 data
+# Therefore, the luminosity here is 36074.56
+# For the full Run-2 analysis, we will have about 150 fb-1
+
+luminosity: 36074.56
+luminosityUnit: pb
+energy: 13
+#energyUnit: TeV
+
+# patch files to apply
+#patches: 
+
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title=undefined %}
+```
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+First, the **outputfile** is a tag for the config file. we could book what output file we would like to create. The name and the path we would like to create.
+
+{% code-tabs %}
+{% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
+```text
+outputFile:  sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+The **XsecFiles** \(XS\_13TeV.csv\) lists all the informations for the samples including the DSID, cross-sections, k-factors and MC generators.
+
+{% code-tabs %}
+{% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
+```text
+XsecFiles: config/samples/XSec/common/XS_13TeV.csv
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+The **XsecWhitelist** \(ZjetsFakeFactor-whitelist.txt\) is to determine which samples you would like to run. 
+
+```text
+XsecWhitelist: config/samples/whitelists/ZjetsFF/ZjetsFakeFactor-whitelist.txt
+```
 
