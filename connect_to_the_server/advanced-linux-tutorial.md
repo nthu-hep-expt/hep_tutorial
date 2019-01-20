@@ -2,6 +2,14 @@
 
 ## Useful commands
 
+### top
+
+top指令能查詢server的使用狀況，包含CPU、記憶體以及他人對於此server的使用情況。
+
+![&#x6B64;&#x5716;&#x4EE5;lxplus&#x70BA;&#x4F8B;](../.gitbook/assets/top.png)
+
+
+
 ### scp
 
 scp指令主要是用來上傳本地檔案到server或是下載server檔案到本地。
