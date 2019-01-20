@@ -10,11 +10,18 @@
 
 * [XQuartz](https://www.xquartz.org/)
 
-### windows
+### Windows
 
-mobaxterm
+使用Windows系統則需另外安裝以下SSH client端，此程式主要是利用SSH來連結server，當中有兩個較好用的軟體：
 
-putty
+* [MobaXterm](https://mobaxterm.mobatek.net/)
+* [PuTTY](https://www.putty.org/)
+
+MobaXterm的好處是內建FTP上傳下載的功能，因此並不需額外使用FTP的程式，也不需要自己用scp指令來下載檔案，並且MobaXterm的功能十分健全跟強大！
+
+另外，Windows系統中常用的X window軟體則為：
+
+* [Xming](http://www.straightrunning.com/XmingNotes/)
 
 ## pwd - 查看當前路徑
 
