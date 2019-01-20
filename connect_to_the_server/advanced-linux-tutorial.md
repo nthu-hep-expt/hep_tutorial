@@ -6,6 +6,8 @@
 
 top指令能查詢server的使用狀況，包含CPU、記憶體以及他人對於此server的使用情況。
 
+進入top查詢之後可以按q退出。
+
 ![&#x6B64;&#x5716;&#x4EE5;lxplus&#x70BA;&#x4F8B;](../.gitbook/assets/top.png)
 
 
