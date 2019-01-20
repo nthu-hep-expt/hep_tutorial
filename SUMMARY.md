@@ -9,6 +9,7 @@
   * [ATLAS](basic_knowledge/atlas.md)
 * [Connect to the Server](connect_to_the_server/README.md)
   * [Basic Linux](connect_to_the_server/linux.md)
+  * [Advanced Linux Tutorial](connect_to_the_server/advanced-linux-tutorial.md)
   * [Lxplus](connect_to_the_server/lxplus.md)
   * [NTHU Cluster](connect_to_the_server/nthu-cluster.md)
   * [CERNBox](connect_to_the_server/cernbox.md)
