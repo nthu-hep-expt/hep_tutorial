@@ -2,9 +2,13 @@
 
 ## 打開終端機（terminal）
 
-### mac
+### Mac
 
 用spotlight搜尋"terminal"就能找到終端機的app，直接點擊開即可
+
+如果希望顯示遠端的影像，則須額外安裝X window，而Mac常用的X window是：
+
+* [XQuartz](https://www.xquartz.org/)
 
 ### windows
 
