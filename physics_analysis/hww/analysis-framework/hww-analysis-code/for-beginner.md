@@ -128,19 +128,23 @@ energy: 13
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-First, the **outputfile** is a tag for the config file. we could book what output file we would like to create. 
+#### outputfile
+
+First, the outputfile is a tag for the config file. we could book what output file we would like to create. 
 
 ```text
 outputFile:  sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
 ```
 
-The **XsecFiles** list all the informations for the samples including the DSID, cross-sections, k-factors and MC generators. 
+#### XsecFiles
+
+The XsecFiles list all the informations for the samples including the DSID, cross-sections, k-factors and MC generators. 
 
 ```text
 XsecFiles: config/samples/XSec/common/XS_13TeV.csv
 ```
 
-The example of **XsecFiles** is shown below:
+The example of XsecFiles:
 
 ```text
 SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , process , simulation
@@ -153,7 +157,9 @@ SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , proce
 
 ```
 
-The **XsecWhitelist** is to determine which samples you would like to run. 
+#### XsecWhitelist
+
+The XsecWhitelist is to determine which samples you would like to run. 
 
 ```text
 XsecWhitelist: config/samples/whitelists/ZjetsFF/ZjetsFakeFactor-whitelist.txt
@@ -174,9 +180,27 @@ The example of whitelist provide the DSID which you would like to run.
 361703 $*_s*
 ```
 
-The **XsecMap** will define the structure in the SampleFolder
+#### XsecMap
+
+The XsecMap will define the structure in the SampleFolder
 
 ```text
 XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
 ```
+
+The example of map file:
+
+```text
+##Powheg Z+jets
+361106 /bkg/$(channel)/Zjets_Powheg/ee/
+361107 /bkg/$(channel)/Zjets_Powheg/mm/
+361108 /bkg/$(channel)/Zjets_Powheg/tt/
+
+##Alpgen Z+jets
+361700 /bkg/$(channel)/Zjets_Alpgen/ee/
+361701 /bkg/$(channel)/Zjets_Alpgen/ee/
+361702 /bkg/$(channel)/Zjets_Alpgen/ee/
+```
+
+
 
