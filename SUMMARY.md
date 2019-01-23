@@ -26,6 +26,7 @@
     * [Frameworks](physics_analysis/hww/analysis-framework/README.md)
       * [HWW Analysis Code](physics_analysis/hww/analysis-framework/hww-analysis-code/README.md)
         * [For Beginner](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner.md)
+        * [Additional Plotting Tool](physics_analysis/hww/analysis-framework/hww-analysis-code/additional-plotting-tool.md)
       * [HWWPhysicsxAODMaker](physics_analysis/hww/analysis-framework/hwwphysicsxaodmaker.md)
   * [monoHbb](physics_analysis/monohbb/README.md)
     * [Intro to monoHbb](physics_analysis/monohbb/intro-to-monohbb/README.md)
