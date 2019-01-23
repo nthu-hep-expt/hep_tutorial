@@ -1,10 +1,6 @@
 # Prepare
 
-In this section, we will explain the setups in the config files in different steps. We used [configparser](https://docs.python.org/3/library/configparser.html) in the config file to interact with python files. 
-
-### Prepare
-
-The analysis starts with "**prepare**". We will explain the "**tag**" used in the config files. 
+The analysis starts with **prepare** and the tags will be discussed later.
 
 {% code-tabs %}
 {% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
