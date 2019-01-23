@@ -97,12 +97,6 @@ XsecWhitelist: config/samples/whitelists/ZjetsFF/ZjetsFakeFactor-whitelist.txt
 XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
 XsecUnit: nb
 
-
-
-# Book the map which will define your structure in the SampleFolder
-XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
-XsecUnit: nb
-
 # channels to run over
 # Since we have same flavor (ee, mm) and different flavor (em, me)
 # df means the em+me channels
@@ -134,29 +128,55 @@ energy: 13
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-First, the **outputfile** is a tag for the config file. we could book what output file we would like to create. The name and the path we would like to create.
+First, the **outputfile** is a tag for the config file. we could book what output file we would like to create. 
 
-{% code-tabs %}
-{% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 outputFile:  sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-The **XsecFiles** \(XS\_13TeV.csv\) lists all the informations for the samples including the DSID, cross-sections, k-factors and MC generators.
+The **XsecFiles** list all the informations for the samples including the DSID, cross-sections, k-factors and MC generators. 
 
-{% code-tabs %}
-{% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 XsecFiles: config/samples/XSec/common/XS_13TeV.csv
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-The **XsecWhitelist** \(ZjetsFakeFactor-whitelist.txt\) is to determine which samples you would like to run. 
+The example of **XsecFiles** is shown below:
+
+```text
+SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , process , simulation
+
+# SM ggf
+341079, 0.0011020, 1.0, 4.9150E-01, --, 125,  Powheg+Pythia8+EvtGen, PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_WWlvlv_EF_15_5,  OFLCOND-RUN12-SDR-30
+## Not Added to the whitelist yet - issue with weights
+345324, 0.0011020, 1.0, 4.9318E-01, --, 125,  Powheg+Pythia8+EvtGen, PowhegPythia8EvtGen_NNLOPS_NN30_ggH125_WWlvlv_EF_15_5,  OFLCOND-RUN12-SDR-30
+345339, 0.0011020, 1.0, 2.1808E-01, --, 125,  MadGraph+Pythia8+EvtGen, MadGraphPythia8EvtGen_A14NNPDF23LO_ggfhwwlnulnuNp2,  OFLCOND-RUN12-SDR-30
+
+```
+
+The **XsecWhitelist** is to determine which samples you would like to run. 
 
 ```text
 XsecWhitelist: config/samples/whitelists/ZjetsFF/ZjetsFakeFactor-whitelist.txt
+```
+
+The example of whitelist provide the DSID which you would like to run.
+
+```text
+# Powheg Z
+361106 $*_s*
+361107 $*_s*
+361108 $*_s*
+
+#Alpgen Z
+361700 $*_s*
+361701 $*_s*
+361702 $*_s*
+361703 $*_s*
+```
+
+The **XsecMap** will define the structure in the SampleFolder
+
+```text
+XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
 ```
 
