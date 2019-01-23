@@ -75,6 +75,12 @@ git --oneline log
 git reset HEAD myfile
 ```
 
+{% hint style="info" %}
+**把檔案移出Staging Area 為什麼不是用 git rm？**
+
+git rm 的用途是把「在repository有過記錄（曾經commit過）」的檔案刪除。詳情請見下方範例XD
+{% endhint %}
+
 #### 我可以一次 git add 很多檔案嗎？
 
 ```bash
