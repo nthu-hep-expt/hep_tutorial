@@ -27,6 +27,7 @@
       * [HWW Analysis Code](physics_analysis/hww/analysis-framework/hww-analysis-code/README.md)
         * [Setups and Example Analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/README.md)
           * [Prepare](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/prepare.md)
+          * [Initialize](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/initialize.md)
         * [Additional Plotting Tool](physics_analysis/hww/analysis-framework/hww-analysis-code/additional-plotting-tool.md)
       * [HWWPhysicsxAODMaker](physics_analysis/hww/analysis-framework/hwwphysicsxaodmaker.md)
   * [monoHbb](physics_analysis/monohbb/README.md)
