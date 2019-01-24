@@ -60,3 +60,10 @@ An output file will be created after the initialize step.
 outputFile: sampleFolders/initialized/samples-initialized-ZjetsFakeFactor.root
 ```
 
+### dataFileList & dataFileListTreeName
+
+```text
+dataFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-dataFileList.txt
+dataFileListTreeName: CollectionTree
+```
+
