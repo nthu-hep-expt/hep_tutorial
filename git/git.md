@@ -84,10 +84,11 @@ git reset HEAD myfile
 {% hint style="info" %}
 **把檔案移出Staging Area 為什麼不是用 git rm？**
 
-git rm 的用途是把「在repository有過記錄（曾經commit過）但已經不在working space裡」的檔案從repository裡刪除。
+git rm 的用途是把「在repository有過記錄（曾經commit過）但已經不在working space裡」的檔案從repository裡刪除。  
+詳情請見下方例子。
 {% endhint %}
 
-* 舉個例子：
+## 舉個例子
 
 在 git 資料夾裡新建一個檔案 "file" 後，查看 git 狀態
 
