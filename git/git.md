@@ -130,9 +130,21 @@ git commit -m "create file"
 
 此時再次查看 git 狀態
 
-```text
+```bash
 git status
 ```
 
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.23.50.png)
 
+working space, staging area 和 repository 三處同步。  
+（file 在 working space 裡也在 staging area 裡也 commit 紀錄了。）
+
+把 file 刪除再查看 git 狀態
+
+```bash
+rm file
+git status
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.26.39.png)
 
