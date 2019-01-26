@@ -14,7 +14,7 @@ description: 利用一個簡單的比喻來解釋 git 在 local 的運作方式�
 選好要拍什麼東西之後，按下快門，就會拍下照片放入相簿。
 
 {% hint style="warning" %}
-為貼近生活經驗，比喻內容對於實際git的運作方式會有描述不夠精確的地方，重點是希望大家能藉此以理解基本概念囉～
+為貼近生活經驗，比喻內容對於實際git的運作方式會有描述不夠精確的地方，重點是希望大家能藉此以理解基本概念！
 {% endhint %}
 
 ## **對應到git指令/術語：**
@@ -69,6 +69,12 @@ git log
 git --oneline log
 ```
 
+#### 我可以一次 git add 很多檔案嗎？
+
+```bash
+git add file1 file2
+```
+
 #### 我剛剛git add myfile但我反悔了，可以把檔案移出Staging Area嗎？
 
 ```bash
@@ -78,12 +84,55 @@ git reset HEAD myfile
 {% hint style="info" %}
 **把檔案移出Staging Area 為什麼不是用 git rm？**
 
-git rm 的用途是把「在repository有過記錄（曾經commit過）」的檔案刪除。詳情請見下方範例XD
+git rm 的用途是把「在repository有過記錄（曾經commit過）但已經不在working space裡」的檔案從repository裡刪除。
 {% endhint %}
 
-#### 我可以一次 git add 很多檔案嗎？
+* 舉個例子：
+
+在 git 資料夾裡新建一個檔案 "file" 後，查看 git 狀態
 
 ```bash
-git add file1 file2
+git status
 ```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.13.43.png)
+
+此時 file 在 working space 裡但不在 staging area 裡。
+
+把 file 加入 staging area
+
+```bash
+git add file
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.14.02.png)
+
+此時 file 在 working space 裡也在 staging area 裡但還沒 commit。
+
+把 file 移出 staging area
+
+```bash
+git reset HEAD file
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.13.43.png)
+
+就回到 git add 前的狀態了。（file 在 working space 裡但不在 staging area 裡）
+
+把 file 再次加回 staging area 並 commit
+
+```bash
+git add file
+git commit -m "create file"
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.23.30.png)
+
+此時再次查看 git 狀態
+
+```text
+git status
+```
+
+
 
