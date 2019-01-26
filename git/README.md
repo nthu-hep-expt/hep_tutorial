@@ -25,10 +25,11 @@ GitHub是目前世界上最大的程式碼存放網站和開源社群。不過 C
 * 中央式系統：由中央權威管理檔案存取權限
 * 分散式系統：容許多個單位同時進行，包括同時更動同一檔案
 
+CERN 原本用的版控系統主要是 SVN（中央式），但目前改為使用 Git（分散式）作為版本控制系統。
+
 ## 延伸閱讀
 
 * [https://zh.wikipedia.org/wiki/Git](https://zh.wikipedia.org/wiki/Git)
-* [https://zh.wikipedia.org/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6](https://zh.wikipedia.org/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
 * [https://atlassoftwaredocs.web.cern.ch/gittutorial/](https://atlassoftwaredocs.web.cern.ch/gittutorial/)
 
 
