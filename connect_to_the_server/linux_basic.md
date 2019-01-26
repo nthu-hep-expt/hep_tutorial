@@ -1,4 +1,4 @@
-# Basic Linux
+# Linux \(Basic\)
 
 ## 打開終端機（terminal）
 

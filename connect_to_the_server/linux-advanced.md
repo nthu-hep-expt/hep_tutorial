@@ -1,4 +1,4 @@
-# Advanced Linux Tutorial
+# Linux \(Advanced\)
 
 ## Useful commands
 
