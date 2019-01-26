@@ -65,7 +65,7 @@ cd = Change Directory
 cd 後面可以加 絕對路徑 也可以加 相對路徑
 
 ```bash
-cd <欲前往的路徑>
+cd 欲前往的路徑
 ```
 
 #### 絕對路徑
@@ -107,13 +107,11 @@ Emacs：神之編輯器
 
 或是看點動畫檔可能會更好懂
 
-{% embed url="https://vimgifs.com/" %}
+[https://vimgifs.com/](https://vimgifs.com/)
 
 最後分享一個很棒的 vim 教學結束這回合！（Better, Stronger, Faster！）
 
-{% embed url="https://coolshell.cn/articles/5426.html" %}
-
-
+[https://coolshell.cn/articles/5426.html](https://coolshell.cn/articles/5426.html)
 
 
 
