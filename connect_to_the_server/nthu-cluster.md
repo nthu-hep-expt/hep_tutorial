@@ -30,17 +30,20 @@ If you are a new student in our group and you want to have an account, please fo
 **Step 2.** Check if the new account works
 
 * After receive your new ID \(i.e. you account name\) and PW \(password\), try to login
+
+```bash
+ssh yourAccount@140.114.94.172
+```
+
 * If any problems occur, contact Yun-Ju again
 
 **Step 3.** Change your password
 
-利用 passwd 指令變更密碼
+Change your password with command "passwd"
 
 ```bash
 passwd
 ```
-
-依照 console 上的指示依序輸入一次舊密碼及兩次新密碼即可。
 
 
 
