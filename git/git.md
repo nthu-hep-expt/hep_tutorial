@@ -97,9 +97,8 @@ git status
 
 ![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.13.43.png)
 
-此時 file 在 working space 裡但不在 staging area 裡。
-
-把 file 加入 staging area
+此時 file 在 working space 裡但不在 staging area 裡。  
+接下來把 file 加入 staging area
 
 ```bash
 git add file
@@ -107,8 +106,7 @@ git add file
 
 ![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.14.02.png)
 
-此時 file 在 working space 裡也在 staging area 裡但還沒 commit。
-
+此時 file 在 working space 裡也在 staging area 裡但還沒 commit。  
 把 file 移出 staging area
 
 ```bash
@@ -117,8 +115,7 @@ git reset HEAD file
 
 ![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.13.43.png)
 
-就回到 git add 前的狀態了。（file 在 working space 裡但不在 staging area 裡）
-
+就回到 git add 前的狀態了。（file 在 working space 裡但不在 staging area 裡）  
 把 file 再次加回 staging area 並 commit
 
 ```bash
@@ -137,8 +134,7 @@ git status
 ![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.23.50.png)
 
 working space, staging area 和 repository 三處同步。  
-（file 在 working space 裡也在 staging area 裡也 commit 紀錄了。）
-
+（file 在 working space 裡也在 staging area 裡也 commit 紀錄了。）  
 把 file 刪除再查看 git 狀態
 
 ```bash
@@ -147,4 +143,32 @@ git status
 ```
 
 ![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.26.39.png)
+
+file 在 working space 裡已經被刪除，但 staging area 裡還不知道「file 已被刪除」這項資訊。  
+此時就是使用 git rm 的時機啦！
+
+```bash
+git rm file
+git status
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.35.17.png)
+
+file 在 working space 裡被刪除，staging area 也知道了這項資訊，最後就是用 commit 紀錄下這個變更。
+
+```bash
+git commit -m "delete file"
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.38.12.png)
+
+再次查看狀態
+
+```bash
+git status
+```
+
+![](../.gitbook/assets/screen-shot-20190126-shang-wu-11.38.28.png)
+
+三處再次同步，小鎮又恢復了平靜，感謝飛天小女警的努力。
 
