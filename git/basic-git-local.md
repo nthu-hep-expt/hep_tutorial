@@ -1,4 +1,4 @@
-# Git Command \(Basic\)
+# Git Command \(Local\)
 
 ## git init：初始化 git repository <a id="git-status"></a>
 
@@ -33,4 +33,6 @@ git status -sb
 ## git log：查看過往的 Commit <a id="git-log"></a>
 
 ## git branch：分支 <a id="git-branch"></a>
+
+## git checkout
 
