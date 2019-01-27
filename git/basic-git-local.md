@@ -1,4 +1,4 @@
-# Basic Git Command
+# Git Command \(Basic\)
 
 ## git status：查看目前的檔案狀態 <a id="git-status"></a>
 
