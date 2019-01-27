@@ -10,7 +10,7 @@ git status
 * **Changes not staged for commit**：有追蹤，未加入 staging area
 * **Changes to be committed**：已加入 staging area，未 commit
 
-**可用參數**
+#### **其他可用參數**
 
 加上 -s 參數，僅顯示已修改的檔案名稱
 
@@ -24,11 +24,11 @@ git status -s
 git status -sb
 ```
 
-## git log <a id="git-log"></a>
+## git add：新增檔案於Staging Area <a id="git-add"></a>
 
-## git branch <a id="git-branch"></a>
+## git commit：提交紀錄 <a id="git-commit"></a>
 
-## git add <a id="git-add"></a>
+## git log：查看過往的Commit <a id="git-log"></a>
 
-## git commit <a id="git-commit"></a>
+## git branch：分支 <a id="git-branch"></a>
 
