@@ -2,6 +2,12 @@
 
 ## git init：初始化 git repository <a id="git-status"></a>
 
+```bash
+git init
+```
+
+在你想要當作 git 資料夾的位置執行這個指令，系統便會自動幫你創建一個 `.git` 資料夾，裡面將會記錄之後你在這個資料夾內的檔案變更
+
 ## git status：查看目前的檔案狀態 <a id="git-status"></a>
 
 ```bash
