@@ -31,6 +31,7 @@
           * [Prepare](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/prepare.md)
           * [Initialize](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/initialize.md)
         * [Advanced analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/README.md)
+          * [VBF analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis.md)
           * [Additional Plotting Tool](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/additional-plotting-tool.md)
       * [HWWPhysicsxAODMaker](physics_analysis/hww/analysis-framework/hwwphysicsxaodmaker.md)
   * [monoHbb](physics_analysis/monohbb/README.md)
