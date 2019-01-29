@@ -1,4 +1,4 @@
-# Setups and Example Analysis
+# Setups and Examples
 
 The [HWW Analysis Code](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) provides an example analysis on xAOD inputs. In the following sections, we will give detailed explanations for the steps to run the analysis.
 
