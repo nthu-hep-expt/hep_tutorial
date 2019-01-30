@@ -22,17 +22,23 @@ skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ]
 @CutVBFZttVeto_2jet_MVA: skim >> dump/mva_ntuple.root:HWW_$(channel)
 ```
 
-### Define the label for your nTuple
+### Define the labels for your nTuple
+
+We can create a file to include the labels which will allow us to define the variables to distinguish processes.
+
+```text
+config/patches/VBF/patch-VBF-MVA.txt
+```
 
 {% code-tabs %}
-{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+{% code-tabs-item title="config/patches/VBF/patch-VBF-MVA.txt" %}
 ```text
-<label="ggF"> @/sig/?/mh125/ggf;
-<label="VBF"> @/sig/?/mh125/vbf;
-<label="WW"> @/bkg/?/diboson/WW;
-<label="Zjetstt"> @/bkg/?/Zjets/?/?/tt;
-<label="Wt"> @/bkg/?/top/singletop/Wt;
-<label="ttbar"> @/bkg/?/top/ttbar;
+<ntupName = "ggf"> @/sig/?/mh125/ggf;
+<ntupName = "vbf"> @/sig/?/mh125/vbf;
+<ntupName = "WW"> @/bkg/?/diboson/WW;
+<ntupName = "Ztt"> @/bkg/?/Zjets/?/?/tt/;
+<ntupName = "ttbar"> @/bkg/?/top/ttbar;
+<ntupName = "Wt"> @/bkg/?/top/singletop/Wt;
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
