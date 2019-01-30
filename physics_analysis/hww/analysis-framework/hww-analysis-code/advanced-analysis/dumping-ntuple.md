@@ -82,6 +82,6 @@ config/jobLists/VBF/jobs-MVA.txt
 ### Submit to dump nTuple
 
 ```bash
-./submit.py config/master/VBF/analyze-VBF-Coupling-2018.cfg --jobs config/jobLists/VBF/jobs-MVA.txt --maxSampleSize 6000 --maxSampleCount 20 --identifier VBF_nTuple_dumping
+./submit.py config/master/VBF/analyze-VBF-Coupling-2018.cfg --jobs config/jobLists/VBF/jobs-MVA.txt --identifier VBF_nTuple_dumping
 ```
 
