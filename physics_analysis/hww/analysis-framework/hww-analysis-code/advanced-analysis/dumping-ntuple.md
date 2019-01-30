@@ -22,3 +22,28 @@ skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ]
 @CutVBFZttVeto_2jet_MVA: skim >> dump/mva_ntuple.root:HWW_$(channel)
 ```
 
+### Define the jobs to run parallel
+
+```text
+config/jobLists/VBF/jobs-MVA.txt
+```
+
+{% code-tabs %}
+{% code-tabs-item title="config/jobLists/VBF/jobs-MVA.txt" %}
+```text
+/sig/?/mh125/ggf/
+/sig/?/mh125/vbf/
+/bkg/?/diboson/WW/
+/bkg/?/Zjets/?/?/tt/
+/bkg/?/top/ttbar/
+/bkg/?/top/singletop/Wt
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+### Submit to dump nTuple
+
+```text
+
+```
+
