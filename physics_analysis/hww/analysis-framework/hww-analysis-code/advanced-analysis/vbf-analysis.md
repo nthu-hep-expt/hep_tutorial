@@ -27,6 +27,12 @@ Check the status of jobs
 condor_q
 ```
 
+Remove the jobs in the batch system
+
+```text
+condor_rm
+```
+
 You can check the missing samples with this option.
 
 ```text

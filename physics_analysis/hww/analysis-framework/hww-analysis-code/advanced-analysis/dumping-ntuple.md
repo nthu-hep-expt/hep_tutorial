@@ -8,19 +8,32 @@ We have an introduction [**slide**](https://indico.cern.ch/event/771763/contribu
 
 ### Booking nTuple
 
-We book the nTuple definition in the analyze config file.
+We should define the nTuple definition in the analyze config file. In practice, we add the following line:
 
+{% code-tabs %}
+{% code-tabs-item title="config/master/VBF/analyze-VBF-Coupling-2018.cfg" %}
 ```text
 ntuples: config/nTuples/VBF/mva_ntuple.txt
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
+Here we define the nTuple definition. We book a tree, called skim, and several branches for different variables. 
+
+{% code-tabs %}
+{% code-tabs-item title="config/nTuples/VBF/mva\_ntuple.txt" %}
 ```text
 # Define branches (make sure that this is a single line)
 skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ] , int isME << [ "$(channel)"=="me" ], float lep0_pt << $(lep0).pt(), float lep0_phi << $(lep0).phi(), float lep0_eta << $(lep0).eta();
 
 # Book at cuts
-@CutVBFZttVeto_2jet_MVA: skim >> dump/mva_ntuple.root:HWW_$(channel)
+# $(channel) is define in config/patches/common/default-patch.txt 
+# $(ntupName) is define in config/patches/VBF/patch-VBF-MVA.txt
+@CutVBFZttVeto_2jet_MVA: skim >> dump/$(ntupName).root:HWW_$(channel)
+
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ### Define the labels for your nTuple
 
