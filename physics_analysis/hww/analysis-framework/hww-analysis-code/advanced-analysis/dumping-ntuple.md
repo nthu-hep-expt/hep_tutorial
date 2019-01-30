@@ -22,6 +22,21 @@ skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ]
 @CutVBFZttVeto_2jet_MVA: skim >> dump/mva_ntuple.root:HWW_$(channel)
 ```
 
+### Define the label for your nTuple
+
+{% code-tabs %}
+{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+```text
+<label="ggF"> @/sig/?/mh125/ggf;
+<label="VBF"> @/sig/?/mh125/vbf;
+<label="WW"> @/bkg/?/diboson/WW;
+<label="Zjetstt"> @/bkg/?/Zjets/?/?/tt;
+<label="Wt"> @/bkg/?/top/singletop/Wt;
+<label="ttbar"> @/bkg/?/top/ttbar;
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ### Define the jobs to run parallel
 
 ```text
@@ -41,9 +56,13 @@ config/jobLists/VBF/jobs-MVA.txt
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-### Submit to dump nTuple
-
 ```text
 
+```
+
+### Submit to dump nTuple
+
+```bash
+./submit.py config/master/VBF/analyze-VBF-Coupling-2018.cfg --jobs config/jobLists/VBF/jobs-MVA.txt --maxSampleSize 6000 --maxSampleCount 20 --identifier VBF_nTuple_dumping
 ```
 
