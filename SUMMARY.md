@@ -30,6 +30,7 @@
         * [Setups and Examples](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/README.md)
           * [Prepare](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/prepare.md)
           * [Initialize](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/initialize.md)
+          * [Analyze](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/analyze.md)
         * [Advanced analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/README.md)
           * [VBF analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis.md)
           * [Dumping Ntuple and Eventlists](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/dumping-ntuple.md)
