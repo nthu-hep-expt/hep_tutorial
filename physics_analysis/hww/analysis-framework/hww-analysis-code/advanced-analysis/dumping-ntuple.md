@@ -6,7 +6,7 @@ We have an introduction [**slide**](https://indico.cern.ch/event/771763/contribu
 
 ![Description from Frank Sauerburger&apos;s slide ](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190130-xia-wu-4.20.15.png)
 
-### Booking nTuple
+## Booking nTuple
 
 We should define the nTuple definition in the analyze config file. In practice, we add the following line:
 
@@ -27,13 +27,17 @@ Here we define the nTuple definition. We book a tree, called skim, and several b
 skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ] , int isME << [ "$(channel)"=="me" ], float lep0_pt << $(lep0).pt(), float lep0_phi << $(lep0).phi(), float lep0_eta << $(lep0).eta();
 
 # Book at cuts
-# $(channel) is define in config/patches/common/default-patch.txt 
-# $(ntupName) is define in config/patches/VBF/patch-VBF-MVA.txt
-@CutVBFZttVeto_2jet_MVA: skim >> dump/$(ntupName).root:HWW_$(channel)
+# $(channel) is to define in config/patches/common/default-patch.txt 
+@CutVBF_2jet: skim >> dump/mva_ntuple.root:HWW_$(channel)
 
+# We can also separate the processes as different root files 
+# $(ntupName) is to define in config/patches/VBF/patch-VBF-MVA.txt
+@CutVBF_2jet: skim >> dump/$(ntupName).root:HWW_$(channel)
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## Dumping nTuple
 
 ### Define the labels for your nTuple
 
