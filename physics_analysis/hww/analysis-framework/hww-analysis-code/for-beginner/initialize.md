@@ -1,5 +1,9 @@
 # Initialize
 
+## Introduction
+
+The analysis continues with **initialize.**
+
 ```text
 # -*- mode: config -*-
 
