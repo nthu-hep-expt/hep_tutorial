@@ -85,7 +85,13 @@ config/jobLists/VBF/jobs-MVA.txt
 
 ### Submit to dump nTuple
 
+We can then use **submit.py** to run the analysis parallel.
+
 ```bash
 ./submit.py config/master/VBF/analyze-VBF-Coupling-2018.cfg --jobs config/jobLists/VBF/jobs-MVA.txt --identifier VBF_nTuple_dumping
 ```
+
+{% hint style="warning" %}
+Please note that we cannot use --maxSampleCount and --maxSampleSize here, since the jobs will be split. All the jobs may possibly overwrite the same nTuple files!
+{% endhint %}
 
