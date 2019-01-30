@@ -60,10 +60,26 @@ An output file will be created after the initialize step.
 outputFile: sampleFolders/initialized/samples-initialized-ZjetsFakeFactor.root
 ```
 
-### dataFileList & dataFileListTreeName
+### Run with samples
 
-```text
+We have several ways to run with our samples. We could run with the given lists or run with the samples inside some certain folders. Here we show two ways:
+
+* File list 
+
+We use the file list to pass the samples we would like to run.
+
+```
 dataFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-dataFileList.txt
 dataFileListTreeName: CollectionTree
+mcFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-mcFileList.txt
+mcFileListTreeName: CollectionTree
+```
+
+*   ```text
+  dataPaths
+  ```
+
+```text
+dataPaths: /eos/user/d/dshope/forCAFExample/xAOD_Example/data/:CollectionTree
 ```
 
