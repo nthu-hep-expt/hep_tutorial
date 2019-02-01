@@ -32,7 +32,6 @@ energy: 13
 
 # patch files to apply
 #patches: 
-
 ```
 {% endcode-tabs-item %}
 
