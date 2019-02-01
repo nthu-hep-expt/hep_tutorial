@@ -54,7 +54,7 @@ cuts: config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We define the cuts in the cut file shown below. The analysis starts with CutChannels stage after the PxAOD production. 
+We define the cuts in the cut file shown below. We can only have a look into this cut file. The analysis starts with CutChannels stage after the PxAOD production. We will describe the cut files more detailedly in the [section](../advanced-analysis/vbf-analysis/analyze-for-vbf/) for VBF.
 
 {% code-tabs %}
 {% code-tabs-item title="config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def" %}
@@ -131,5 +131,67 @@ We define the cuts in the cut file shown below. The analysis starts with CutChan
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We will describe the cut files more detailedly in the [section](../advanced-analysis/vbf-analysis/analyze-for-vbf.md) for VBF.
+### Observables
+
+The observables are the variables to measure the kinematic distributions for events. We book observables in this analyze config file. 
+
+{% code-tabs %}
+{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
+```text
+customObservables.directories: observables/common,observables/ZjetsFF
+customObservables.snippets: HWWweight, HWWLeptonIDObservable, PassWZVeto, HWWZBosonPairFakeIndex, HWWInvMass2L
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+We take an example observable snippet in the following. We can have an overview of how an observable snippet looks like. We will have a more complete description in the [observable](../advanced-analysis/vbf-analysis/analyze-for-vbf/observables.md) section.
+
+{% code-tabs %}
+{% code-tabs-item title="share/observables/ZjetsFF/HWWInvMass2L.py" %}
+```text
+from QFramework import TQObservable,INFO,ERROR,BREAK
+
+
+from HWWAnalysisCode import HWWInvMass2L
+
+def addObservables(config):
+
+  INFO("adding invariant mass observable")
+
+  invmass_l0l1 = HWWInvMass2L("invMassl0l1", 0, 1)
+  invmass_l0otherPart0= HWWInvMass2L("invMassl0otherPart0", 0, 2)
+  invmass_l1otherPart0= HWWInvMass2L("invMassl1otherPart0", 1, 2)
+
+  if not TQObservable.addObservable(invmass_l0l1):
+    INFO("failed to add invariant mass Observable")
+    return False
+  if not TQObservable.addObservable(invmass_l0otherPart0):
+    INFO("failed to add invariant mass Observable")
+    return False
+  if not TQObservable.addObservable(invmass_l1otherPart0):
+    INFO("failed to add invariant mass Observable")
+    return False
+
+  return True
+
+if __name__ == "__main__":
+  tags = TQTaggable()
+  if addObservables(tags):
+    print("Successfully added invariant mass observables")
+  else:
+    ERROR("Failed to add invariant mass observables")
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+### Histograms
+
+{% code-tabs %}
+{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
+```text
+histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 

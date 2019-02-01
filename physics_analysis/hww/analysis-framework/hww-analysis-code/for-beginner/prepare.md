@@ -2,7 +2,7 @@
 
 ## Introduction
 
-After building our framework, the analysis starts with **prepare** step. W
+After building our framework, the analysis starts with **prepare** step. 
 
 ```bash
 # Run in the share folder (../HWWAnalysisCode/share)
