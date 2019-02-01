@@ -2,6 +2,14 @@
 
 ## Useful commands
 
+### ls
+
+此指令提供我們計算這個folder裡面的所有檔案的數量
+
+```bash
+ls -1 | wc -l
+```
+
 ### top
 
 top指令能查詢server的使用狀況，包含CPU、記憶體以及他人對於此server的使用情況。
