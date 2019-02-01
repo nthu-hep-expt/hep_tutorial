@@ -54,7 +54,7 @@ cuts: config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We define the cuts in the cut file shown below
+We define the cuts in the cut file shown below. The analysis starts with CutChannels stage after the PxAOD production. 
 
 {% code-tabs %}
 {% code-tabs-item title="config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def" %}
@@ -130,4 +130,6 @@ We define the cuts in the cut file shown below
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+We will describe the cut files more detailedly in the [section](../advanced-analysis/vbf-analysis/analyze-for-vbf.md) for VBF.
 
