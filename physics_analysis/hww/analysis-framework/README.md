@@ -2,11 +2,13 @@
 
 ### Group Disks
 
-ATLAS HWW group have a group disk for the PxAOD samples. The samples are stored in the following link.
+ATLAS HWW group has a group disk for the PxAOD samples. The samples are stored in the following link.
 
 ```text
 /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/
 ```
+
+We have different versions of samples. 
 
 * R20 \(R20.7\) samples are for Run-2 36 /fb publication with 2015+2016 data. In the group disk, we don't store the R20 samples, but we have the samples in the following link.
 
@@ -26,5 +28,5 @@ We currently used the V18 samples. The samples in V18 are used 2015+2016 data an
 /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V18
 ```
 
- 
+### VeryLoose
 
