@@ -2,7 +2,14 @@
 
 ## Introduction
 
-The analysis starts with **prepare** and the tags in config file will be discussed later.
+After building our framework, the analysis starts with **prepare** step. W
+
+```bash
+# Run in the share folder (../HWWAnalysisCode/share)
+./prepare.py config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg
+```
+
+In this section, we will summarize the tags used in config file.
 
 {% code-tabs %}
 {% code-tabs-item title="config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg" %}
