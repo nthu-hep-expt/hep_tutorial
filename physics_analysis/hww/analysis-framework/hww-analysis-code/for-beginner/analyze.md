@@ -187,6 +187,8 @@ if __name__ == "__main__":
 
 ### Histograms
 
+We book the histograms with the histogram file.
+
 {% code-tabs %}
 {% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
@@ -194,4 +196,120 @@ histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+We shows an example for the histogram file. We will describe more detailedly in the [histogram](../advanced-analysis/vbf-analysis/analyze-for-vbf/histograms.md) section.
+
+{% code-tabs %}
+{% code-tabs-item title="share/config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt" %}
+```text
+#####################
+# Define histograms #
+
+TH1F('fakeElectronPt', '', 27, 15., 150.) << ( [$(elFakeAny_pt)]*0.001 : 'el fake p_{T} [GeV]');
+TH1F('fakeElectronEta', '', 20, -3.0, 3.0) << ([$(elFakeAny_eta)] : 'el fake \#eta');
+TH2F('FakeElecEtaVsPt', '', {15., 20., 25., 35., 1000.},            {0., 1.5, 2.5}) << ( [$(elFakeAny_pt)]/1000 : 'Fake candidate p_{T} [GeV]', abs([$(elFakeAny_eta)])  : 'Fake candidate |\#eta|' );
+
+TH1F('fakeMuonPt', '', 27, 15., 150.) << ( [$(elFakeAny_pt)]*0.001 : 'mu fake p_{T} [GeV]');
+TH1F('fakeMuonEta', '', 20, -3.0, 3.0) << ([$(elFakeAny_eta)] : 'mu fake \#eta');
+TH2F('FakeMuonEtaVsPt', '', {15., 20., 25., 1000.}, {0., 1.05, 2.5}) << ( [$(elFakeAny_pt)]/1000 : 'Fake candidate p_{T} [GeV]', abs([$(elFakeAny_eta)])  : 'Fake candidate |\#eta|' );
+
+TH1F('invMass', '', 40, 70., 110.) << ( $(invMassOptZTag)*0.001: 'm_{l,l}^{Z} [GeV]' );
+
+#################################################
+# and specify for which cut levels to fill them #
+
+
+### fake eta and pt
+
+# electron:
+@CutFakeEl/*: fakeElectronPt, fakeElectronEta;
+@CutFakeElecID: FakeElecEtaVsPt;
+@CutFakeElecAntiID: FakeElecEtaVsPt;
+# muon:
+@CutFakeMu/*: fakeMuonPt, fakeMuonEta;
+@CutFakeMuonID: FakeMuonEtaVsPt;
+@CutFakeMuonAntiID: FakeMuonEtaVsPt;
+
+### Invariant mass of Zcand pair
+
+@CutLeptonsPt: invMass;
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+### Alias
+
+We also need the alias file to define the variable to use in the histogram and cut files. 
+
+{% code-tabs %}
+{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
+```text
+include: config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+We will have an example for alias file. A more complicated description will be covered in the [alias](../advanced-analysis/vbf-analysis/analyze-for-vbf/alias.md) section. 
+
+{% code-tabs %}
+{% code-tabs-item title="share/config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg" %}
+```text
+[analyze]
+
+# CutChannels
+aliases.fitsChannel: @Event$(cand).size() > 0
+
+# CutVgammaVjet_overlap
+aliases.Truth_hasFSRPhotonDR01: [SGAuxCDec:EventInfo:truth_hasFSRPhotonDR01]
+
+# CutOtherLep
+aliases.nOtherElec: Event$(cand)[0].nOtherElectrons()
+aliases.nOtherMuon: Event$(cand)[0].nOtherMuons()
+aliases.lllFinalState: ($(nOtherElec) == 1 && $(nOtherMuon) == 0) || ($(nOtherElec) == 0 && $(nOtherMuon) == 1)
+
+# CutZMass
+
+# CutLeptonsPt
+aliases.lep0: 		Event$(cand)[0].part(0)
+aliases.lep1: 		Event$(cand)[0].part(1)
+aliases.otherPart0: Event$(cand)[0].otherPart(0)
+
+# CutWZVeto
+aliases.PassWZVeto: "([ZBosonPairFakeIndex]==3 ? [PassWZVetoThirdLep]: ( [ZBosonPairFakeIndex]==2 ? [PassWZVetoSubleadLep]: [PassWZVetoLeadLep] ) )"
+
+# CutFakeEl
+# CutFakeMu
+aliases.electron: 6
+aliases.muon: 8
+aliases.fakeAny_type: "([ZBosonPairFakeIndex]==3 ? [$(otherPart0).type()] : ( [ZBosonPairFakeIndex]==2 ? [$(lep1).type()]: [$(lep0).type()] ) )"
+
+# CutEtaFakeElec
+# CutEtaFakeMuon
+aliases.elFake0: Event$(cand)[0].otherElectron(0)
+aliases.muFake0: Event$(cand)[0].otherMuon(0)
+aliases.elFakeAny_eta: "([ZBosonPairFakeIndex]==3 ? [$(elFake0).eta()] : ( [ZBosonPairFakeIndex]==2 ? [$(lep1).eta()] : [$(lep0).eta()])) "
+aliases.muFakeAny_eta: "([ZBosonPairFakeIndex]==3 ? [$(muFake0).eta()] : ( [ZBosonPairFakeIndex]==2 ? [$(lep1).eta()] : [$(lep0).eta()])) "
+
+# CutFakeElecID
+# CutFakeMuonID
+aliases.fakeAny_id: "([ZBosonPairFakeIndex]==3 ? [otherLep0ID]: ( [ZBosonPairFakeIndex]==2 ? [subleadLepID]: [leadLepID] ) )"
+
+# CutFakeElecAntiID
+# CutFakeMuonAntiID
+aliases.fakeAny_antiid: "([ZBosonPairFakeIndex]==3 ? [otherLep0AntiID]: ( [ZBosonPairFakeIndex]==2 ? [subleadLepAntiID]: [leadLepAntiID] ) )"
+
+
+###
+### just For histograms
+###
+aliases.elFakeAny_pt: "([ZBosonPairFakeIndex]==3 ? [$(elFake0).pt()] : ( [ZBosonPairFakeIndex]==2 ? [$(lep1).pt()] : [$(lep0).pt()])) "
+aliases.muFakeAny_pt: "([ZBosonPairFakeIndex]==3 ? [$(muFake0).pt()] : ( [ZBosonPairFakeIndex]==2 ? [$(lep1).pt()] : [$(lep0).pt()])) "
+aliases.invMassOptZTag: "([ZBosonPairFakeIndex]==3 ? [invMassl0l1]: ( [ZBosonPairFakeIndex]==2 ? [invMassl0otherPart0]: [invMassl1otherPart0] ) )"
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
 

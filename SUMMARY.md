@@ -35,6 +35,8 @@
           * [VBF analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis/README.md)
             * [Analyze For VBF](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis/analyze-for-vbf/README.md)
               * [Observables](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis/analyze-for-vbf/observables.md)
+              * [Histograms](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis/analyze-for-vbf/histograms.md)
+              * [Alias](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/vbf-analysis/analyze-for-vbf/alias.md)
           * [Dumping Ntuple and Eventlists](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/dumping-ntuple.md)
           * [Plotting Tools](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/additional-plotting-tool.md)
       * [HWWPhysicsxAODMaker](physics_analysis/hww/analysis-framework/hwwphysicsxaodmaker.md)
