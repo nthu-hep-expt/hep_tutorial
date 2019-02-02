@@ -126,10 +126,9 @@ histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
 {% code-tabs %}
 {% code-tabs-item title="share/config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt" %}
 ```text
-TH1F('fakeElectronPt', '', 27, 15., 150.) << ( [$(elFakeAny_pt)]*0.001 : 'el fake p_{T} [GeV]');
 TH1F('fakeElectronEta', '', 20, -3.0, 3.0) << ([$(elFakeAny_eta)] : 'el fake \#eta');
 
-@CutFakeEl/*: fakeElectronPt, fakeElectronEta;
+@CutFakeEl/*: fakeElectronEta;
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
