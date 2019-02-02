@@ -1,4 +1,4 @@
-# Analyze \(advanced\)
+# Analyze
 
 ## Analyze with particular options
 

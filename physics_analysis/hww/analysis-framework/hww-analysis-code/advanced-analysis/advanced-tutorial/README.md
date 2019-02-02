@@ -1,4 +1,4 @@
-# VBF analysis
+# Advanced tutorial
 
 ## Analysis with VBF config files 
 

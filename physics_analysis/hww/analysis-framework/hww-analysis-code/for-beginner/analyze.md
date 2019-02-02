@@ -58,7 +58,7 @@ cuts: config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We define the cuts like the cut file shown below. The following lines show an example of the cut file. You can only have a quick look at it. We will describe the cut files more detailedly in the [section](../advanced-analysis/vbf-analysis/analyze-for-vbf/) for VBF.
+We define the cuts like the cut file shown below. The following lines show an example of the cut file. You can only have a quick look at it. We will describe the cut files more detailedly in the [section](../advanced-analysis/advanced-tutorial/analyze-adv/) for VBF.
 
 Here, the analysis starts with **CutChannels** stage after the PxAOD production. Then, a **CutVgammaVjet\_overlap** selection is applied after CutChannels stage.
 
@@ -88,7 +88,7 @@ customObservables.snippets: HWWweight, HWWLeptonIDObservable, PassWZVeto, HWWZBo
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We take an example observable snippet in the following. We can have an overview of how an observable snippet looks like. We will have a more complete description in the [observable](../advanced-analysis/vbf-analysis/analyze-for-vbf/observables.md) section.
+We take an example observable snippet in the following. We can have an overview of how an observable snippet looks like. We will have a more complete description in the [observable](../advanced-analysis/advanced-tutorial/analyze-adv/observables.md) section.
 
 {% code-tabs %}
 {% code-tabs-item title="share/observables/ZjetsFF/HWWInvMass2L.py" %}
@@ -138,7 +138,7 @@ TH1F('fakeElectronEta', '', 20, -3.0, 3.0) << ([$(elFakeAny_eta)] : 'el fake \#e
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We will describe more detailedly in the [histogram](../advanced-analysis/vbf-analysis/analyze-for-vbf/histograms.md) section later.
+We will describe more detailedly in the [histogram](../advanced-analysis/advanced-tutorial/analyze-adv/histograms.md) section later.
 
 ### Alias
 
@@ -164,5 +164,5 @@ aliases.elFakeAny_eta: "([ZBosonPairFakeIndex]==3 ? [$(elFake0).eta()] : ( [ZBos
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-A more complicated description will be covered in the [alias](../advanced-analysis/vbf-analysis/analyze-for-vbf/alias.md) section.
+A more complicated description will be covered in the [alias](../advanced-analysis/advanced-tutorial/analyze-adv/alias.md) section.
 
