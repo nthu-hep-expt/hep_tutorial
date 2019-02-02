@@ -36,7 +36,15 @@ The following command provides us an example to run with submit step. We have se
 ./submit.py config/master/VBF/analyze-VBF-Coupling-2018.cfg --jobs config/jobLists/VBF/jobs-noFake.txt --maxSampleSize 6000 --maxSampleCount 20 --identifier 20190129_VBF_baseline
 ```
 
-#### 
+We will discuss the options used for submit step. First, you can also type the following command to show the options we could use. 
+
+```text
+./submit.py --help
+```
+
+Moreover, we can also look into submit.py to understand more detailedly. 
+
+#### --jobs
 
 Define the jobs you want
 
