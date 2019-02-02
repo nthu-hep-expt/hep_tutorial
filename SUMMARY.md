@@ -36,7 +36,7 @@
           * [Advanced tutorial](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/README.md)
             * [Prepare](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/prepare.md)
             * [Initialize](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/initialize.md)
-            * [Analyze](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/README.md)
+            * [Analyze \(Submit\)](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/README.md)
               * [Observables](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/observables.md)
               * [Histograms](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/histograms.md)
               * [Alias](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/alias.md)
