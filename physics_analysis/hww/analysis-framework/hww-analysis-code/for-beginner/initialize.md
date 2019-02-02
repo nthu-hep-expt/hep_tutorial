@@ -1,8 +1,15 @@
-# Initialize
+# Initialize \(Basic\)
 
 ## Introduction
 
 The analysis continues with **initialize.**
+
+```text
+# Run in the share folder (../HWWAnalysisCode/share)
+./initialize.py config/master/ZjetsFF/initialize-ZjetsFakeFactor-Coupling-2018.cfg
+```
+
+Here we will discuss the config file the the initialize step.
 
 ```text
 # -*- mode: config -*-

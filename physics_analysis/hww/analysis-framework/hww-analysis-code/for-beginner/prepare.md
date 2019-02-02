@@ -1,4 +1,4 @@
-# Prepare
+# Prepare \(Basic\)
 
 ## Introduction
 

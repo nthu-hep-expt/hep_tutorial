@@ -1,12 +1,17 @@
-# Analyze
+# Analyze \(Basic\)
 
-After the **initialize** step, We will now run the **analyze** step with the initialized samples.
+After the **initialize** step, we will now run the **analyze** step with the initialized samples.
+
+```text
+# Run in the share folder (../HWWAnalysisCode/share)
+./analyze.py config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg# -*- mode: config -*-
+```
+
+The analyze config file is shown below.
 
 {% code-tabs %}
 {% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
-# -*- mode: config -*-
-
 [analyze]
 
 # name of the input file
@@ -37,7 +42,6 @@ histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
 # include aliases
 [config]
 include: config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg
-
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -58,15 +62,18 @@ We define the cuts like the cut file shown below. The following lines show an ex
 
 Here, the analysis starts with **CutChannels** stage after the PxAOD production. Then, a **CutVgammaVjet\_overlap** selection is applied after CutChannels stage.
 
+{% code-tabs %}
+{% code-tabs-item title="config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def" %}
 ```
 +CutChannels {
-# to use the per-event event weights poperly, use "Weight" as .weightExpression here
     <.cutExpression = "$(fitsChannel)", .weightExpression = "Weight_$(weightname):$(cand)", .title="Channel Selection">
     +CutVgammaVjet_overlap {
         <.cutExpression = "{ $(isVjets) ? $(Truth_hasFSRPhotonDR01)==0 : 1 }",  .title="Overlap: Vgamma/Vjets">
-         } #End: CutVgammaVjet_overlap
-} #End: CutChannels
+         } 
+}
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ### Observables
 
@@ -90,7 +97,6 @@ from QFramework import TQObservable,INFO,ERROR,BREAK
 from HWWAnalysisCode import HWWInvMass2L
 
 def addObservables(config):
-
   INFO("adding invariant mass observable")
   invmass_l0l1 = HWWInvMass2L("invMassl0l1", 0, 1)
   if not TQObservable.addObservable(invmass_l0l1):
@@ -104,7 +110,6 @@ if __name__ == "__main__":
     print("Successfully added invariant mass observables")
   else:
     ERROR("Failed to add invariant mass observables")
-
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

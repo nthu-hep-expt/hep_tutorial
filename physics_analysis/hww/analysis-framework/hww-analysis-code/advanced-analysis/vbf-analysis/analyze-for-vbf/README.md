@@ -1,4 +1,4 @@
-# Analyze For VBF
+# Analyze \(advanced\)
 
 ## Analyze with particular options
 
