@@ -1,4 +1,4 @@
-# Initialize \(Basic\)
+# Initialize  \(Basic\)
 
 ## Introduction
 

@@ -29,7 +29,7 @@
       * [HWW Analysis Code](physics_analysis/hww/analysis-framework/hww-analysis-code/README.md)
         * [Setups and Examples](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/README.md)
           * [Prepare \(Basic\)](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/prepare.md)
-          * [Initialize \(Basic\)](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/initialize.md)
+          * [Initialize  \(Basic\)](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/initialize.md)
           * [Analyze \(Basic\)](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/analyze.md)
           * [Visualize \(Basic\)](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/visualize.md)
         * [Advanced analysis](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/README.md)
