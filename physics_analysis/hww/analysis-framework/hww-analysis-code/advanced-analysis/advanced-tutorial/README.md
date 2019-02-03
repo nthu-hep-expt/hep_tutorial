@@ -18,6 +18,8 @@ The four steps to produce the VBF results:
 ./visualize.py config/master/VBF/visualize-VBF-Coupling-2018.cfg
 ```
 
+We will discuss the options for analyze in another [section](analyze-adv/).
+
 {% hint style="warning" %}
 ### Warning!
 
@@ -209,9 +211,14 @@ where **-o** means the name of output file. Moreover, we merge all the files in 
 batchOutput/unmerged_20190129_VBF_baseline/*.root
 ```
 
-Where the **\*** means **all** the files with the same suffix \(.root\).
+Where "\*.root" means **all** the files with the same suffix \(.root\).
 
+## 建議！
+
+1. 每次要submit之前，請先試跑一遍analyze，確定看，如此，你可以快速知道你的設置有沒有bugs。更詳細的步驟會在[Analyze](analyze-adv/)
+2. 3. 
 ## FAQ
 
 If you find all the jobs are always failed. -&gt; check the code first
 
+1. 
