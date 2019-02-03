@@ -215,8 +215,8 @@ Where "\*.root" means **all** the files with the same suffix \(.root\).
 
 ## 建議！
 
-1. 每次要submit之前，請先試跑一遍analyze，確定看，如此，你可以快速知道你的設置有沒有bugs。更詳細的步驟會在[Analyze](analyze-adv/)
-2. 3. 
+1. 每次要submit之前，請先試跑一遍analyze，不需要跑完，而是跑到確定event已經可以在不同的cut stage算出該有的值即可，如此，你可以快速知道你的設置有沒有bugs。更詳細的步驟會在[Analyze](analyze-adv/)中介紹。
+
 ## FAQ
 
 If you find all the jobs are always failed. -&gt; check the code first
