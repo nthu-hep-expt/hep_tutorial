@@ -23,6 +23,19 @@ MobaXterm的好處是內建FTP上傳下載的功能，因此並不需額外使�
 
 * [Xming](http://www.straightrunning.com/XmingNotes/)
 
+## 進入terminal後，實際你正在使用shell
+
+進入terminal後，一般預設會使用bash shell，也有人會改用zsh shell，而以下所介紹的指令們，**就是bash shell中的指令**！
+
+進入terminal的身份分為**一般使用者**跟**superuser** \(用來管理系統所使用的帳號\)。而root是superuser常見的帳號 \(這裡不是CERN所用的軟體ROOT喔！\)，一般server會關閉以root身份登入server，如果要使用root，一般會要求使用者先用自己的帳號登入，再透過指令轉換成root身份。
+
+而可以使用的指令一般會儲存在以下兩個資料夾底下
+
+* user為主的指令一般會儲存在`/usr/bin`底下
+* root所擁有的指令一般會儲存在`/bin`底下
+
+另外我們可以透過這些選項的權限來知道使用者有哪些指令可以使用。詳情請見以下ls的介紹。
+
 ## pwd - 查看當前路徑
 
 pwd = Print Working Directory
@@ -30,6 +43,13 @@ pwd = Print Working Directory
 ```bash
 pwd
 ```
+
+而pwd所顯示的**絕對路徑**，而路徑\(path\)有分為什麼種類呢？
+
+而路徑分為兩種，有**絕對路徑**及**相對路徑**。[\[1\]](https://dotblogs.com.tw/im_sqz777/2017/07/26/220713)
+
+* **絕對路徑** \(Absolute path\)：絕對路徑是一個絕對位置，他不會隨著檔案位置的變換而改變他的路徑。
+* **相對路徑** \(Relative path\)**：**是相對於現在目錄的路徑表示，也就是你現在這個檔案在哪裡，這個目錄的路徑起始點就在哪裡，所以每個檔案的相對路徑起始點都可能會不同。
 
 ## ls - 列出檔案資訊
 
@@ -113,9 +133,23 @@ Emacs：神之編輯器
 
 [https://coolshell.cn/articles/5426.html](https://coolshell.cn/articles/5426.html)
 
+## 建議！
+
+### 每個指令都看起來這麼長，怎麼辦？
+
+在Bash中打指令的時候，我們有一個很實用的建議，也就是可以透過鍵盤上的Tab鍵，Tab鍵有什麼用處呢？
+
+例如，你現在有一個檔案儲存在以下的位置中`share/config/samples/XSec/common/XS_13TeV.csv`
+
+而你待在share這個資料夾當中
 
 
 
+
+
+## Reference
+
+\[1\] [https://dotblogs.com.tw/im\_sqz777/2017/07/26/220713](https://dotblogs.com.tw/im_sqz777/2017/07/26/220713)
 
 
 

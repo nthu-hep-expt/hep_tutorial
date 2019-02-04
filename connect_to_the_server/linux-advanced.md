@@ -2,6 +2,12 @@
 
 ## Useful commands
 
+### sudo & su
+
+我們可以透過以下指令進入root身份，
+
+
+
 ### ls
 
 此指令提供我們計算這個folder裡面的所有檔案的數量
