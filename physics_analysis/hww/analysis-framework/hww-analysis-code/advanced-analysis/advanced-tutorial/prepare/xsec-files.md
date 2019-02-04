@@ -28,7 +28,7 @@ SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , proce
 
 ### SampleID \(DSID\)
 
-The DSID is the ID number for the sample. This will also be used in the map and whitelist files. 
+The DataSetIDentifier \(DSID\) is the ID number for the sample. This will also be used in the map and whitelist files. 
 
 ### Xsection
 
