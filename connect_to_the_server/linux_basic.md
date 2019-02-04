@@ -157,7 +157,7 @@ Emacs：神之編輯器
 
 1. 先打出vim，然後再打出路徑的前幾個字
 
-
+![](../.gitbook/assets/tab.gif)
 
 ### Option要怎麼用？
 
