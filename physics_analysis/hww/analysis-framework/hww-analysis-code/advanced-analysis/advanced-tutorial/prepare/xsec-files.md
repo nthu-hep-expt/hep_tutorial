@@ -28,7 +28,7 @@ SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , proce
 
 ### SampleID \(DSID\)
 
-The DSID is the ID number for the sample. 
+The DSID is the ID number for the sample. This will also be used in the map and whitelist files. 
 
 ### Xsection
 
@@ -43,4 +43,34 @@ In particle physics, the ratio of a next-to-leading-order \(NLO\) cross-section 
 Filter is used to select events with specific kinematic phase space. For example, in the VBF analysis, we have a filter for $$Z\rightarrow\tau\tau$$ processes. 
 
 The **filter efficiency** is the efficiency to select the event in the preferred kinematic phase space. 
+
+### Generator
+
+The MC generator is also listed in the Xsec files. We have several different MC generators. 
+
+We have some common MC generators
+
+* Pythia
+* Powheg
+* EvtGen
+* MadGraph \(aMC@NLO\)
+* Sherpa
+* ...
+
+### Process
+
+The processes, which listed in the XSec file, summarize the whole information for how we produce these MC samples. 
+
+The informations included are:
+
+* MC generators
+* Parton distribution function \(PDF\) used in the samples
+* Underlying event
+* Showering
+* Hadronization
+* Filter information
+* Final states
+* ...
+
+
 

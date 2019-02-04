@@ -12,11 +12,23 @@ An event is collected by the detector after the collision between two proton bea
 
 #### Filter efficiency
 
+## MC generators
+
 ## Jargons
 
 ### Kinematics 
 
 ### Phase space
+
+### MC generators
+
+### Parton distribution function \(PDF\)
+
+### Underlying event
+
+### Showering
+
+### Hadronization.
 
 ## Reference
 
