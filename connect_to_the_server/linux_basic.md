@@ -78,6 +78,8 @@ ls -l
 ls -al
 ```
 
+我們可以遞迴地\(recursively\)看底下資料夾的資訊
+
 ```text
 ls -R
 ```
@@ -157,7 +159,15 @@ Emacs：神之編輯器
 
 
 
+### Option要怎麼用？
 
+Option有兩種，如果option只有一個
+
+可以被綜合的使用，例如：
+
+```text
+ls -R -al
+```
 
 ## Reference
 
