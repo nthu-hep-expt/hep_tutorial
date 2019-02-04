@@ -10,10 +10,27 @@
 
 ### ls
 
+#### 計算檔案數量
+
 此指令提供我們計算這個folder裡面的所有檔案的數量
 
 ```bash
 ls -1 | wc -l
+```
+
+#### 了解list出來的資訊
+
+我們在Linux \(Basic\)的章節討論過`ls -al`這些options，而我們要怎麼去看這些顯示出來的結果呢？
+
+```bash
+[metsai@lxplus070 ~]$ ls -al
+總計 1164
+drw-r--r--.  3 metsai zp     2048 2018-03-18 17:59 test
+drwxr-xr-x.  3 metsai zp     2048 2017-07-10 11:51 tutorial
+drwxr-xr-x.  6 metsai zp     2048 2016-11-29 15:51 tutorial_hww2016
+-rw-r--r--.  1 metsai zp     4257 2018-10-01 07:24 UEHEBMeetings.html
+-rwxrwxrwx.  1 metsai zp     3317 2018-04-20 10:44 usercert.pem
+-rwxrwxrwx.  1 metsai zp     1958 2018-04-20 10:44 userkey.pem
 ```
 
 ### top
