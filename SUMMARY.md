@@ -13,6 +13,7 @@
   * [Lxplus](connect_to_the_server/lxplus.md)
   * [NTHU Cluster](connect_to_the_server/nthu-cluster.md)
   * [CERNBox](connect_to_the_server/cernbox.md)
+  * [Grid](connect_to_the_server/grid.md)
 * [ROOT](root/README.md)
   * [Start from an Example](root/start-from-an-example.md)
   * [MakeClass](root/makeclass.md)

@@ -1,5 +1,7 @@
 # Xsec Files
 
+## Xsec file used in the HWW analysis
+
 In the full Run-2 VBF analysis, we used the cross section files for 13 TeV. In this file, we include the informations for the Monte Carlo \(MC\) simulated samples. In this file, we have informations about both signals and background samples. 
 
 {% code-tabs %}
@@ -23,4 +25,22 @@ SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , proce
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+### SampleID \(DSID\)
+
+The DSID is the ID number for the sample. 
+
+### Xsection
+
+The cross section is the probability for the production of different process. 
+
+### K-factor
+
+In particle physics, the ratio of a next-to-leading-order \(NLO\) cross-section calculation to a leading-order \(LO\) equivalent is called the k- or K-factor. It is dependent on the process type, the existence or otherwise of kinematic phase-space cuts, and scale choices in both the LO and NLO calculations. \(from [wikipedia](https://en.wikipedia.org/wiki/K-factor)\)
+
+### Filter efficiency
+
+Filter is used to select events with specific kinematic phase space. For example, in the VBF analysis, we have a filter for $$Z\rightarrow\tau\tau$$ processes. 
+
+The **filter efficiency** is the efficiency to select the event in the preferred kinematic phase space. 
 
