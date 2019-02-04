@@ -1,6 +1,6 @@
 # Xsec Map
 
-## Introduction
+## Introduction to xsec map
 
 The map file is used to define our TQSampleFolder for our output file. The description and introduction for the usage is shown in the [gitlab page](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/samples/maps/common). 
 
@@ -22,5 +22,5 @@ The following file shows the map file which we used in the VBF analysis.
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Here shows 
+The numbers shown here are the DSIDs. The following paths are the paths to define the structure of sample folders.
 
