@@ -147,27 +147,30 @@ Emacs：神之編輯器
 
 在Bash中打指令的時候，我們有一個很實用的建議，也就是可以透過鍵盤上的Tab鍵，Tab鍵有什麼用處呢？
 
-例如，你現在有一個檔案儲存在以下的位置中`share/config/samples/XSec/common/XS_13TeV.csv`
+先說個例子，底下有兩個檔案，一個叫apple，另一個叫application，如果我們只打appl就按了Tab鍵，那他正常就會沒辦法判斷你是想要輸入哪一個，因此可以按兩下Tab鍵來顯示有什麼東西是一樣由app為開頭的字，這時如果我們希望輸入的是application，那我們只需要再多按一個"i鍵"，接下來再按Tab鍵，我們就會得到application了。
 
-而你待在share這個資料夾當中，如果你剛好想要使用剛學到的vim指令更改這個檔案，沒有伴隨著Tab鍵的使用，你就必須要把完整路徑記下來並且一個字一個字的打！
+以下提供一個真實的例子，當我們在用HWW analysis code的時候，因為各種設定檔案放在不同資料夾當中，並且會有很多層，因此Tab鍵的功能就會變得很重要。
 
-然而使用Tab鍵的話，我們可以很快的把指令完整打上去。
-
-使用步驟如下，
-
-1. 先打出vim，然後再打出路徑的前幾個字
-
-![](../.gitbook/assets/tab.gif)
-
-### Option要怎麼用？
-
-Option有兩種，如果option只有一個
-
-可以被綜合的使用，例如：
+例如，你現在有一個檔案儲存在以下的位置中
 
 ```text
-ls -R -al
+share/config/samples/XSec/common/XS_13TeV.csv
 ```
+
+而你待在share這個資料夾當中，如果你剛好想要使用剛學到的vim指令修改這個檔案，沒有伴隨著Tab鍵的使用，你就必須要把完整路徑記下來並且一個字一個字的打！**然而使用Tab鍵的話，我們可以很快的把指令完整打上去。**
+
+而使用的方法跟規則如下，
+
+我們首先先打頭幾個字元，如果沒有相同開頭的字，按Tab之後，後面的就會出現。如果有相同開頭的字，就會跳出選項給你看。Tab鍵不只在檔案跟路徑可以用，連Bash的指令也是可以用的喔！  
+例如你想要打source這個指令，你打sou再按一下Tab鍵，就會跑出source囉！
+
+以下是我們實際的例子，怎麼快速地打出
+
+```bash
+vim share/config/samples/XSec/common/XS_13TeV.csv
+```
+
+![](../.gitbook/assets/tab.gif)
 
 ## Reference
 
