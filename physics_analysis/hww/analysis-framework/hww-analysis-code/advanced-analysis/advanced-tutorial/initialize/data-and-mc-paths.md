@@ -64,3 +64,15 @@ In this file list, we could easily add the paths for different root files.
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Run without fake estimation
+
+We can remove the lines for the W+jets \(fake\) tags. Instead, we add the following line to close the fake estimation.
+
+{% code-tabs %}
+{% code-tabs-item title="share/config/master/VBF/initialize-VBF-Coupling-2018.cfg" %}
+```text
+doDDfakes: False
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+

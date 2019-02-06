@@ -42,6 +42,7 @@
               * [Xsec Whitelist](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/prepare/xsec-whitelist.md)
             * [Initialize](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/initialize/README.md)
               * [Data and MC Paths](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/initialize/data-and-mc-paths.md)
+              * [Patches](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/initialize/patches.md)
             * [Analyze \(Submit\)](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/README.md)
               * [Observables](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/observables.md)
               * [Histograms](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-analysis/advanced-tutorial/analyze-adv/histograms.md)
