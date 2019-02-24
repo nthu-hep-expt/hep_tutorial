@@ -142,7 +142,7 @@ The following is the patch file used in the HWW analysis.
 
 ## Syntax 
 
-Here, we can define the variables \(tags\) we can used in the analysis. For example, we define the **channel** to select the lepton flaovr
+Here, we can define the variables \(tags\) we can used in the analysis. For example, we define the **channel** to select the lepton flavors.
 
 {% code-tabs %}
 {% code-tabs-item title="config/patches/common/default-patch.txt" %}
@@ -154,4 +154,21 @@ Here, we can define the variables \(tags\) we can used in the analysis. For exam
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+With this definition, we can use $\(channel\) as a variable to select the lepton flavors. 
+
+## Pool
+
+The pool will allow us to define where to produce the plots. 
+
+{% code-tabs %}
+{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+```text
+<.aj.pool.histograms = true> @/sig/?/?/ggf/?;
+<.aj.pool.histograms = true> @/sig/?/?/vbf/?;
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+With the pool shown, the plots will generate at the levels of those folder instead of generating plots in a more innermost level. 
 

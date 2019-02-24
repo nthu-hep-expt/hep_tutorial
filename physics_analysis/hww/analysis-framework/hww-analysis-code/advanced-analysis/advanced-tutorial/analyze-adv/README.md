@@ -1,4 +1,4 @@
-# Analyze \(Submit\)
+# Analyze and Submit
 
 ## Analyze with particular options
 
