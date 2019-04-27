@@ -1,10 +1,16 @@
+---
+description: Important training opportunity to be familiar with HEP-ex
+---
+
 # CERN Summer School
 
 ## Introduction
 
 CERN annually provides a very good summer program with 6-week lectures and a suitable training project. This program aims at undergraduate and graduate students. This program will provide you enough money to fly to CERN, stay at CERN and also travel around Swiss. Therefore, you don't need to worry about the money for living expense.  
 
-The application to this program is somehow competitive, so it will be good to write a clearer introduction for yourself. Here we have some [examples](https://drive.google.com/drive/folders/1NINmFAcOZOmUf5Klqm9iQmINsWVGbwpa?usp=sharing) for the material required for applications. The examples are from the alumnus from this program! Moreover, you will be required to have two reference letters, therefore, it's important to have some research experiences and get the letter from them. 
+The application to this program is somehow competitive, so you're required to write a clear self introduction and a Curriculum Vitae \(CV\). Moreover, it will really help if you do some \(basic\) undergraduate researches before application. Here we have some [examples](https://drive.google.com/drive/folders/1NINmFAcOZOmUf5Klqm9iQmINsWVGbwpa?usp=sharing) for the material required for applications. The examples are from the alumnus participating this program before! 
+
+Moreover, since you will be required to have two reference letters, you should find who your prospective referrers are as soon as possible. Doing undergraduate researches can increase the probability to get the recommendation letters from the professors!
 
 ### Informations of the Alumnus
 
@@ -16,5 +22,7 @@ The application to this program is somehow competitive, so it will be good to wr
 
 ### 潤稿
 
-For the CV and the self-introduction, I can help 
+I can help you to make the self-introduction and CV clearer and more appealing. If you need helps, please contact the following email.
+
+* Meng-Ju Tsai: meng-ju.tsai@cern.ch
 
