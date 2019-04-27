@@ -16,6 +16,15 @@ We've our group website below.
 
 ### Members
 
+| Name | Position | Contacts |
+| :--- | :--- | :--- |
+| Yun-Ju Lu | Postdoc & collaborator | yunju@cern.ch |
+| Ya-Feng Lo | 2nd year master | celialuo123@gmail.com |
+| Yu-Hsin Chan | 2nd year master | yu-hsin.chan@cern.ch |
+| Yu-Cheng Huang | 2nd year master | s966176ch@gmail.com |
+| Yu-Heng Yu | Undergraduate | ue88ue88ue88@gmail.com |
+| Cheng-Hsin Cheng | Undergraduate | mikech126@gmail.com |
+
 ### Alumnus & Collaborations
 
 | Name | Current position | Yr | Contacts |
