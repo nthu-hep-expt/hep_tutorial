@@ -3,7 +3,7 @@
 ## Basic level
 
 * [The International Summer school on TeV Experimental Physics \(ISTEP\)](https://indico.ihep.ac.cn/event/7854/other-view?view=standard)
-* * Suitable for undergraduate
+  * Suitable for undergraduate
   * Alumnus: Po-Shan Shih, Cheng-Hsin Han, Yu-Hsin Chan, Ya-Feng Lo, Meng-Ju Tsai \(2015\), Yu-Cheng Huang \(2018\) 
 * [HASCO Summer School](https://indico.cern.ch/event/704163/)
 
@@ -17,15 +17,11 @@
   * 6 weeks [lectures](https://indico.cern.ch/category/345/) covering all topics about experimental particle physics 
   * Participants will be assigned a project and cooperate with researchers in CERN
   * Alumnus: Meng-Ju Tsai \(2016\), Ya-Feng Lo \(2018\)
-
-| Name | Projects | Experiment |
-| :--- | :--- | :--- |
-| Meng-Ju | Underlying Event measurement with Heavy Ion collisions | ALICE |
-| Ya-Feng | Open data with HWW analysis | ATLAS |
-
+  * The links at the bottom provides details and resources for the applications to the CERN Summer school
 * [CERN-Fermilab Summer school](http://hcpss.web.cern.ch/hcpss/)
   * Alumnus: Meng-Ju Tsai \(2018\)
 * [DESY Summer school](https://summerstudents.desy.de/)
+  * Accepted but not participated: Ya-Feng Lo \(2018\)
 * [IoPAS Summer school](http://www.phys.sinica.edu.tw/~summer/)
   * Application deadline: May every year
   * Research project with researcher in IoPAS
@@ -41,4 +37,8 @@
 * [CERN-JINR European School of High-Energy Physics](http://physicschool.web.cern.ch/PhysicSchool/ESHEP/ESHEP2018/)
 * [Tri-Institute Summer School on Elementary Particles](https://www.perimeterinstitute.ca/conference/tri-institute-summer-school-elementary-particles-2018)
 * [Queen Mary Summer School](https://www.qmul.ac.uk/summer-school/) 
+
+Here are more details and experience sharing for different programs.
+
+{% page-ref page="cern-summer-school.md" %}
 

@@ -59,5 +59,6 @@
     * [Intro to HGTD](physics_analysis/hgtd/intro-to-hgtd.md)
     * [Testbeam](physics_analysis/hgtd/testbeam.md)
 * [Resource](resource/README.md)
-  * [Summer Schools and Lectures](resource/summer_school_and_lecture.md)
+  * [Summer Schools and Lectures](resource/summer_school_and_lecture/README.md)
+    * [CERN Summer School](resource/summer_school_and_lecture/cern-summer-school.md)
 
