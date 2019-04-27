@@ -14,3 +14,18 @@ We've our group website below.
 
 {% embed url="https://nthu-hep-expt.github.io/jennifer-group/" caption="" %}
 
+### Members
+
+### Alumnus & Collaborations
+
+| Name | Current position | Yr | Contacts |
+| :--- | :--- | :--- | :--- |
+| Yuan-Tang Chou | Physics PhD @ University of Massachusetts Amherst | 2017 | yuan-tang.chou@cern.ch |
+| Jay Chan | Physics PhD @ University of Wisconsin, Madison | 2017 |  |
+| Hao Hsu | CS MS @ National Taiwan University | 2018 | paul82720@hotmail.com |
+| Po-Shan Shih |  | 2019 | po-shan.shih@cern.ch |
+| Cheng-Hsin Han |  | 2019 | gsjh80317cla@gmail.com |
+| Meng-Ju Tsai | Physics PhD @ University of Michigan, Ann Arbor | 2019 | meng-ju.tsai@cern.ch |
+
+
+
