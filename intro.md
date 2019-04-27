@@ -24,6 +24,7 @@ We've our group website below.
 | Yu-Cheng Huang | 2nd year master | s966176ch@gmail.com |
 | Yu-Heng Yu | Undergraduate | ue88ue88ue88@gmail.com |
 | Cheng-Hsin Cheng | Undergraduate | mikech126@gmail.com |
+| Hui-Chi Lin | Undergraduate |  |
 
 ### Alumnus & Collaborations
 
