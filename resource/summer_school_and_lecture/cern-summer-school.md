@@ -8,9 +8,11 @@ description: Important training opportunity to be familiar with HEP-ex
 
 CERN annually provides a very good summer program with 6-week lectures and a suitable training project. This program aims at undergraduate and graduate students. This program will provide you enough money to fly to CERN, stay at CERN and also travel around Swiss. Therefore, you don't need to worry about the money for living expense.  
 
-The application to this program is somehow competitive, so you're required to write a clear self introduction and a Curriculum Vitae \(CV\). Moreover, it will really help if you do some \(basic\) undergraduate researches before application. Here we have some [examples](https://drive.google.com/drive/folders/1NINmFAcOZOmUf5Klqm9iQmINsWVGbwpa?usp=sharing) for the material required for applications. The examples are from the alumnus participating this program before! 
+The application to this program is somehow competitive, so you're required to write a clear self introduction and a Curriculum Vitae \(CV\). Moreover, it will really help if you do some \(basic\) undergraduate researches before application. Moreover, since you will be required to have two reference letters, you should find who your prospective referrers are as soon as possible. Doing undergraduate researches can increase the probability to get the recommendation letters from the professors!
 
-Moreover, since you will be required to have two reference letters, you should find who your prospective referrers are as soon as possible. Doing undergraduate researches can increase the probability to get the recommendation letters from the professors!
+### Application materials
+
+Here we have some [examples](https://drive.google.com/drive/folders/1NINmFAcOZOmUf5Klqm9iQmINsWVGbwpa?usp=sharing) of the application materials required for applications. The examples are from the alumnus participating this program in 2016, 2018 and 2019.
 
 ### Informations of the Alumnus
 
