@@ -14,6 +14,8 @@ The application to this program is somehow competitive, so you're required to wr
 
 Here we have some [examples](https://drive.google.com/drive/folders/1NINmFAcOZOmUf5Klqm9iQmINsWVGbwpa?usp=sharing) of the application materials required for applications. The examples are from the alumnus participating this program in 2016, 2018 and 2019.
 
+For the CV, we also have many CV examples from NTHU alumnus which are used to apply different summer programs or PhD programs. Those CV can be found in [here](https://drive.google.com/drive/folders/1CM1tq13hyZ6OyYlPIme2sc0aRm37xZ7m?usp=sharing).
+
 ### Informations of the Alumnus
 
 | Name | Year | Projects & Final reports | Experiment |
