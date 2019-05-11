@@ -16,15 +16,15 @@ Here we have some [examples](https://drive.google.com/drive/folders/1NINmFAcOZOm
 
 ### Informations of the Alumnus
 
-| Name | Year | Projects | Experiment |
+| Name | Year | Projects & Final reports | Experiment |
 | :--- | :---: | :---: | :---: |
 | Meng-Ju | 2016 | [Underlying event measurement with Heavy Ion collisions](https://cds.cern.ch/record/2209146) | ALICE |
 | Ya-Feng | 2018 | [Open data with HWW analysis](http://cds.cern.ch/record/2655357?ln=zh_TW) | ATLAS |
 | Yu-Heng Yu | 2019 |  |  |
 
-#### Presentation 
+#### Oral Presentation 
 
-This [presentation](https://indico.cern.ch/event/747825/contributions/3093126/attachments/1698152/2734756/CERN_SummerStudent_presentation_0808.pdf) is talked by Ya-feng in 2018. The recording 
+This [presentation](https://indico.cern.ch/event/747825/contributions/3093126/attachments/1698152/2734756/CERN_SummerStudent_presentation_0808.pdf) was talked by Ya-feng in 2018. 
 
 ### 潤稿
 
