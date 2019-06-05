@@ -113,21 +113,13 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 
 ![\[Step 1\] Key in the terms hww and qframework.  ](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-7.39.24.png)
 
-![\[Step 2\] Click the ](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.02.55.png)
+![\[Step 2\] Click the subscribe button ](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.02.55.png)
 
 ### Join the [HWW weekly meeting](https://indico.cern.ch/category/6420/) in every Tuesday
 
 Normally, the HWW conveners will announce the HWW weekly meetings in the _ATLAS Higgs WW general mailing list_ every week. So, please subscribe it and keep track of the meeting information. 
 
-We use [**vidyo**](http://information-technology.web.cern.ch/services/fe/vidyo) to connect HWW weekly meeting online. It provides services on different platforms including MAC OS, Windows, linux and IOS. 
 
-To log in, you should key the following string in the blank shown below, and then your CERN account and its password. 
-
-```text
-https://vidyoportal.cern.ch
-```
-
-![](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.48.02.png)
 
 ### 
 
