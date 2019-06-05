@@ -17,9 +17,15 @@ We have two important frameworks, one for physics analysis and the other one is 
 * [HWWAnalysisCode](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) is the **analysis code** for the HWW subgroup based on the Common Analysis Framework \(CAF\).
 * [HWWPhysicsxAODMaker](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWPhysicsxAODMaker) is the **production code** for the HWW subgroup based on the ASG AthAnalysis release.
 
-### HWW conveners 
+### HWW conveners \(會議召集人\)
 
-* 
+#### Current conveners
+
+* **Jonas Strandberg**
+  * jonas.strandberg@cern.ch
+* **Kristin Lohwasser**
+  * kristin.lohwasser@cern.ch
+
 ### Meetings
 
 We have several meetings related to the HWW. Feel free to join the meetings interesting to you. All HWW meetings are summarized [here](https://indico.cern.ch/category/6144/). 
@@ -95,7 +101,7 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 
 ## Hand-on sessions
 
-#### Subscribe HWW e-groups
+### Subscribe HWW e-groups
 
 * Subscribe following three e-groups and follow the announcement and discussion in the emails. 
   * atlas-phys-higgs-hww@cern.ch
@@ -109,13 +115,13 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 
 ![\[Step 2\] Click the ](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.02.55.png)
 
-#### Join the [HWW weekly meeting](https://indico.cern.ch/category/6420/) in every Tuesday
+### Join the [HWW weekly meeting](https://indico.cern.ch/category/6420/) in every Tuesday
 
-Normally, the HWW conveners \(Jonas and Kristin\) will 
+Normally, the HWW conveners will announce the HWW weekly meetings in the _ATLAS Higgs WW general mailing list_ every week. So, please subscribe it and keep track of the meeting information. 
 
-We use [**vidyo**](http://information-technology.web.cern.ch/services/fe/vidyo) to connect HWW weekly meeting online. It provides the services on different platform including MAC OS, Windows, linux and IOS. 
+We use [**vidyo**](http://information-technology.web.cern.ch/services/fe/vidyo) to connect HWW weekly meeting online. It provides services on different platforms including MAC OS, Windows, linux and IOS. 
 
-To log in, you should key the following string in the blank shown below. Then your CERN account and its password. 
+To log in, you should key the following string in the blank shown below, and then your CERN account and its password. 
 
 ```text
 https://vidyoportal.cern.ch
@@ -123,5 +129,5 @@ https://vidyoportal.cern.ch
 
 ![](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.48.02.png)
 
-#### 
+### 
 
