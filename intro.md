@@ -20,8 +20,6 @@ We were also involved in the **searches of the dark matter** produced in associa
 | :--- | :--- | :--- |
 | Pai-hsien Jennifer Hsu | Professor | pjhsu@phys.nthu.edu.tw |
 | Yun-Ju Lu | Postdoc & collaborator | yunju@cern.ch |
-| Ya-Feng Lo | 2nd year master | celialuo123@gmail.com |
-| Yu-Hsin Chan | 2nd year master | yu-hsin.chan@cern.ch |
 | Yu-Cheng Huang | 2nd year master | s966176ch@gmail.com |
 | Yu-Heng Yu | Undergraduate | ue88ue88ue88@gmail.com |
 | Cheng-Hsin Cheng | Undergraduate | mikech126@gmail.com |
@@ -29,15 +27,16 @@ We were also involved in the **searches of the dark matter** produced in associa
 
 ### Alumnus & Collaborations
 
-| Name | Current position | Yr | Contacts |
+| Name | Current position | Grad Yr | Contacts |
 | :--- | :--- | :--- | :--- |
 | Yuan-Tang Chou | Phys PhD @ UMass, Amherst | 2017 | yuan-tang.chou@cern.ch |
 | Jay Chan | Phys PhD @ UW-Madison | 2017 |  |
 | Hao Hsu | CS PhD @ NTU | 2018 | paul82720@hotmail.com |
 | Po-Shan Shih |  | 2019 | po-shan.shih@cern.ch |
 | Cheng-Hsin Han |  | 2019 | gsjh80317cla@gmail.com |
-| Meng-Ju Tsai | Phys PhD @ UMic | 2019 | meng-ju.tsai@cern.ch |
-|  |  |  |  |
+| Meng-Ju Tsai | Phys PhD @ UMich | 2019 | meng-ju.tsai@cern.ch |
+| Ya-Feng Lo | Phys PhD @ UCLA | 2019 | celialuo123@gmail.com |
+| Yu-Hsin Chan | TSMC | 2019 | amyjan0572@gmail.com |
 
 
 
