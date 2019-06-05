@@ -2,7 +2,7 @@
 
 ## Introduction
 
-With the HWW analysis, We would like to measure several properties of the Higgs boson including the cross section of the Higgs production, mainly on gluon fusion and vector boson fusion, and the Higgs coupling to W gauge bosons. We compare the data and the Monte Carlo \(MC\) simulated samples to find whether all the things are consistent with the Standard Model.  
+We measure several properties of the Higgs boson by HWW analysis including the cross section of the Higgs production, mainly on gluon fusion and vector boson fusion, and the Higgs coupling to W gauge bosons. We compare the data and the Monte Carlo \(MC\) simulated samples to find whether all the things are consistent with the Standard Model.  
 
 In this page, many useful resources are summarized below. You can start with the Run-1 paper to have basic knowledge and begin to work on the analysis with the HWW framework. 
 
@@ -12,21 +12,18 @@ In this page, many useful resources are summarized below. You can start with the
 
 We have two important frameworks, one for physics analysis and the other one is for the production of the samples we used in the analysis framework. 
 
-[HWWAnalysisCode](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) is the **analysis code** for the HWW subgroup based on the Common Analysis Framework \(CAF\).
-
-[HWWPhysicsxAODMaker](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWPhysicsxAODMaker) is the **production code** for the HWW subgroup based on the ASG AthAnalysis release.
+* [HWWAnalysisCode](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) is the **analysis code** for the HWW subgroup based on the Common Analysis Framework \(CAF\).
+* [HWWPhysicsxAODMaker](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWPhysicsxAODMaker) is the **production code** for the HWW subgroup based on the ASG AthAnalysis release.
 
 ### Meetings
 
-The ongoing results will always be discussed in the [**HWW weekly meeting**](https://indico.cern.ch/category/6420/) which will be hold online via 
-
-_\*\*\*\*_
+The ongoing results will always be discussed in the [**HWW weekly meeting**](https://indico.cern.ch/category/6420/)**.** Moreover, there are also meeting for [production and software meeting](https://indico.cern.ch/category/8790/) focusing on the CAF and PxAOD production. 
 
 #### Weekly meetings
 
 * _\*\*\*\*_[_**HWW weekly meeting**_](https://indico.cern.ch/category/6420/)_\*\*\*\*_
-* _\*\*\*\*_[Production and software meeting \(CAF and PxAOD\)](https://indico.cern.ch/category/8790/)
-* [ggF+VBF analysis meeting \(for Run-2 publication 36 fb-1\)](https://indico.cern.ch/category/8242/)
+* _\*\*\*\*_[Production and software meeting](https://indico.cern.ch/category/8790/)
+* [ggF+VBF analysis meeting \(for Run-2 publication ](https://indico.cern.ch/category/8242/)[HIGG-2016-07](http://metsai.web.cern.ch/metsai/meetings/distributions/HIGG-2016-07-EB-Meetings.html)[\)](https://indico.cern.ch/category/8242/)
 
 **HWW workshops**
 
