@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We measure several properties of the Higgs boson by HWW analysis including the cross section of the Higgs production, mainly on gluon fusion and vector boson fusion, and the Higgs coupling to W gauge bosons. We compare the data and the Monte Carlo \(MC\) simulated samples to find whether all the things are consistent with the Standard Model.  
+We measure several properties of the Higgs boson by HWW analysis including the cross section of the Higgs production, mainly on gluon fusion and vector boson fusion, and the Higgs coupling to W gauge bosons. We compare the data and the Monte Carlo \(MC\) simulated samples to find whether all the things are consistent with the Standard Model.  In NTHU HEP group, we focus on the ggF and VBF Higgs boson coupling measurement. 
 
 In this page, many useful resources are summarized below. You can start with the Run-1 paper to have basic knowledge and begin to work on the analysis with the HWW framework. 
 
@@ -17,13 +17,17 @@ We have two important frameworks, one for physics analysis and the other one is 
 
 ### Meetings
 
-The ongoing results will always be discussed in the [**HWW weekly meeting**](https://indico.cern.ch/category/6420/)**.** Moreover, there are also meeting for [production and software meeting](https://indico.cern.ch/category/8790/) focusing on the CAF and PxAOD production. 
+We have several meetings related to the HWW. Feel free to join the meetings interesting to you. All HWW meetings are summarized [here](https://indico.cern.ch/category/6144/). 
+
+![https://indico.cern.ch/category/6144/](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-7.09.43.png)
+
+The ongoing results will always be discussed in the [**HWW weekly meeting**](https://indico.cern.ch/category/6420/). This is ****the main place we discussed for the all HWW studies. Moreover, there are also meeting for [production and software meeting](https://indico.cern.ch/category/8790/) focusing on the CAF and PxAOD production. 
 
 #### Weekly meetings
 
 * _\*\*\*\*_[_**HWW weekly meeting**_](https://indico.cern.ch/category/6420/)_\*\*\*\*_
 * _\*\*\*\*_[Production and software meeting](https://indico.cern.ch/category/8790/)
-* [ggF+VBF analysis meeting \(for Run-2 publication ](https://indico.cern.ch/category/8242/)[HIGG-2016-07](http://metsai.web.cern.ch/metsai/meetings/distributions/HIGG-2016-07-EB-Meetings.html)[\)](https://indico.cern.ch/category/8242/)
+* [HWW ggF+VBF analysis meeting \(HIGG-2016-07\)](https://indico.cern.ch/category/8242/)
 
 **HWW workshops**
 
@@ -41,6 +45,8 @@ The ongoing results will always be discussed in the [**HWW weekly meeting**](htt
 * [HIGG-2016-07](http://metsai.web.cern.ch/metsai/meeting/hww/HIGG-2016-07-EB/HIGG-2016-07-EB-Meetings.html)
 
 ### Websites and useful links
+
+#### Twiki
 
 * [Higgs to WW](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HiggsWW)
 * [HWW Framework](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWWAnalysisFramework)
