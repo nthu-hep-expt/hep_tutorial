@@ -48,33 +48,20 @@ The ongoing results will always be discussed in the [**HWW weekly meeting**](htt
 
 #### Twiki
 
-* [Higgs to WW](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HiggsWW)
+The following pages will have several overlap information same in this page. 
+
+* [HiggsWW](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWW)
 * [HWW Framework](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWWAnalysisFramework)
 
-### 
+### Documentation and Results
 
-### Results in Run-2
+Several papers and notes are summarized in the twiki pages. Several previous papers can be easily accessible in the following pages. 
 
-* [Sharepoint for publication in Run-2](https://espace.cern.ch/atlas-phys-higgs-hww-run2/_layouts/15/start.aspx#/SitePages/Home.aspx)
+* [Documentation for final Run 1 papers](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWW#Documentation_for_final_Run_1_pa)
+* [Documentation for Run-2 analyses on partial dataset](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWW#Documentation_for_Run_2_analyses)
+* [Documentation for Run-2 analyses on full dataset](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWW#NEW_Documentation_for_Run_2_anal)
 
-### 
-
-### 
-
-### 
-
-
-
-## 
-
-## E-groups
-
-Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do). For the HWW groups, we have two main mailing lists related to the analysis code and the production results. 
-
-* qframework-users@cern.ch \(for CAF related things\)
-* atlas-phys-higgs-hww-prod@cern.ch \(for PxAOD related things\)
-
-## Publications
+Here shows some of the quick links to Run 1 and Run 2 papers and CONF notes. 
 
 #### Run-1
 
@@ -88,6 +75,17 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 * [HWW Run-2 Supporting Note](https://cds.cern.ch/record/2276143/files/ATL-COM-PHYS-2017-1094.pdf?)
 * [HWW Run-2 paper](https://arxiv.org/abs/1808.09054)
 * [SVN for Run-2 analysis note](https://svnweb.cern.ch/trac/atlasphys-hsg3/browser/Physics/Higgs/HSG3/HWWRunII/NotesPapers/SupportingNotes/ggFVBF2017/AnalysisNote/trunk?order=name)
+
+There are some scattered slides stored in the [sharepoint](https://espace.cern.ch/atlas-phys-higgs-hww-run2/_layouts/15/start.aspx#/SitePages/Home.aspx). 
+
+## E-groups
+
+Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do). For the HWW groups, we have two main mailing lists related to the analysis code and the production results. 
+
+* qframework-users@cern.ch \(for CAF related things\)
+* atlas-phys-higgs-hww-prod@cern.ch \(for PxAOD related things\)
+
+#### 
 
 
 
