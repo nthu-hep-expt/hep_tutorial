@@ -82,10 +82,24 @@ There are some scattered slides stored in the [sharepoint](https://espace.cern.c
 
 Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do). For the HWW groups, we have two main mailing lists related to the analysis code and the production results. 
 
-* qframework-users@cern.ch \(for CAF related things\)
-* atlas-phys-higgs-hww-prod@cern.ch \(for PxAOD related things\)
+**ATLAS Higgs WW general mailing list**	
 
-#### 
+* atlas-phys-higgs-hww@cern.ch
 
+**Announcements and QA for users of QFramework and CAF**	
 
+* qframework-users@cern.ch
+
+**Production e-group for Higgs H-WW subgroup \(HSG3\)**	
+
+* atlas-phys-higgs-hww-prod@cern.ch
+
+## Summary and what to do!
+
+1. Subscribe following three e-groups and follow the announcement and discussion in the emails.   **Important** **HWW e-groups:** 
+   * atlas-phys-higgs-hww@cern.ch
+   * qframework-users@cern.ch
+   * atlas-phys-higgs-hww-prod@cern.ch
+
+![](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-7.39.24.png)
 
