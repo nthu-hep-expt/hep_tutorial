@@ -2,6 +2,14 @@
 
 ## Introduction
 
+To start becoming a researcher in the ATLAS experiment, 
+
+### Hand-on session
+
+Meetings 
+
+#### Vidyo
+
 Here I listed some basic but very useful links for introduction. Many _jargons_ are explained in the following links. 
 
 * \*\*\*\*[**The ATLAS Physics Analysis Workbook**](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/PhysicsAnalysisWorkBook)

@@ -10,6 +10,22 @@ We're working on the experimental high energy physics \(HEP-ex\) with the ATLAS 
 
 We were also involved in the **searches of the dark matter** produced in association with a Higgs boson decaying to two bottom quarks \(Mono-Hbb\). Moreover, we also contributed to the **implementation of High-Granularity Timing Detector for the ATLAS phase-II upgrade**. The upgrade projects are still ongoing!  
 
+### Meetings @ NTHU
+
+* [NTHU Group Meeting](https://indico.cern.ch/category/9447/)
+
+### Contributions from group member
+
+#### HWW
+
+* [Contributions from Meng-Ju](http://metsai.web.cern.ch/metsai/meeting/Meng-Ju-Contributions.html)
+* Contributions from Ya-Feng
+* Contributions from Yu-Cheng
+
+#### HGTD
+
+* Contributions from Yu-Hsin
+
 ### Website of NTHU HEP group
 
 {% embed url="https://nthu-hep-expt.github.io/jennifer-group/" caption="" %}

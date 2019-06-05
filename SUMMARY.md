@@ -25,7 +25,6 @@
   * [Git Command \(Advanced\)](git/git-command-advanced.md)
 * [Physics Analysis](physics_analysis/README.md)
   * [HWW](physics_analysis/hww/README.md)
-    * [Introduction](physics_analysis/hww/introduction.md)
     * [Frameworks](physics_analysis/hww/analysis-framework/README.md)
       * [HWW Analysis Code](physics_analysis/hww/analysis-framework/hww-analysis-code/README.md)
         * [Setups and Examples](physics_analysis/hww/analysis-framework/hww-analysis-code/for-beginner/README.md)
