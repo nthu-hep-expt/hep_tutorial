@@ -1,6 +1,6 @@
 # Introduction
 
-#### Any questions or comments about this gitbook are welcome!
+#### Any questions or comments about this tutorial are welcome!
 
 Please contact us:
 

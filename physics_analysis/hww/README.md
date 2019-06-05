@@ -6,6 +6,8 @@ We measure several properties of the Higgs boson by HWW analysis including the c
 
 In this page, many useful resources are summarized below. You can start with the Run-1 paper to have basic knowledge and begin to work on the analysis with the HWW framework. 
 
+_**In the end of this page, there will have a hand-on session for you to follow what you can do to start you research!**_
+
 ## Resources of ATLAS HWW group 
 
 ### Frameworks
@@ -15,6 +17,9 @@ We have two important frameworks, one for physics analysis and the other one is 
 * [HWWAnalysisCode](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) is the **analysis code** for the HWW subgroup based on the Common Analysis Framework \(CAF\).
 * [HWWPhysicsxAODMaker](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWPhysicsxAODMaker) is the **production code** for the HWW subgroup based on the ASG AthAnalysis release.
 
+### HWW conveners 
+
+* 
 ### Meetings
 
 We have several meetings related to the HWW. Feel free to join the meetings interesting to you. All HWW meetings are summarized [here](https://indico.cern.ch/category/6144/). 
@@ -40,17 +45,11 @@ The ongoing results will always be discussed in the [**HWW weekly meeting**](htt
 * _\*\*\*\*_[_**CAF & PxAOD Tutorial \(Dec 2018\)**_](https://indico.cern.ch/event/771763/timetable/?view=standard)_\*\*\*\*_
 * _\*\*\*\*_[Common Analysis Framework - CAF Tutorial \(May 2018\)](https://indico.cern.ch/event/719951/timetable/?view=standard)
 
-#### Editorial Board \(EB\) for Run-2 publication
-
-* [HIGG-2016-07](http://metsai.web.cern.ch/metsai/meeting/hww/HIGG-2016-07-EB/HIGG-2016-07-EB-Meetings.html)
-
 ### Websites and useful links
 
-#### Twiki
+#### Official websites for HWW in twiki
 
-The following pages will have several overlap information same in this page. 
-
-* [HiggsWW](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWW)
+* [Higgs WW](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWW)
 * [HWW Framework](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HiggsWWAnalysisFramework)
 
 ### Documentation and Results
@@ -94,12 +93,35 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 
 * atlas-phys-higgs-hww-prod@cern.ch
 
-## Summary and what to do!
+## Hand-on sessions
 
-1. Subscribe following three e-groups and follow the announcement and discussion in the emails.   **Important** **HWW e-groups:** 
-   * atlas-phys-higgs-hww@cern.ch
-   * qframework-users@cern.ch
-   * atlas-phys-higgs-hww-prod@cern.ch
+#### Subscribe HWW e-groups
 
-![](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-7.39.24.png)
+* Subscribe following three e-groups and follow the announcement and discussion in the emails. 
+  * atlas-phys-higgs-hww@cern.ch
+  * qframework-users@cern.ch
+  * atlas-phys-higgs-hww-prod@cern.ch
+
+1. Open the [e-group website](https://e-groups.cern.ch/e-groups/EgroupsSearch.do) and search the terms **hww** and **qframework.** 
+2. Click the _**subscribe**_ button in the Actions. 
+
+![\[Step 1\] Key in the terms hww and qframework.  ](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-7.39.24.png)
+
+![\[Step 2\] Click the ](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.02.55.png)
+
+#### Join the [HWW weekly meeting](https://indico.cern.ch/category/6420/) in every Tuesday
+
+Normally, the HWW conveners \(Jonas and Kristin\) will 
+
+We use [**vidyo**](http://information-technology.web.cern.ch/services/fe/vidyo) to connect HWW weekly meeting online. It provides the services on different platform including MAC OS, Windows, linux and IOS. 
+
+To log in, you should key the following string in the blank shown below. Then your CERN account and its password. 
+
+```text
+https://vidyoportal.cern.ch
+```
+
+![](../../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.48.02.png)
+
+#### 
 
