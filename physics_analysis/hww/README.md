@@ -117,9 +117,7 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 
 ### Join the [HWW weekly meeting](https://indico.cern.ch/category/6420/) in every Tuesday
 
-Normally, the HWW conveners will announce the HWW weekly meetings in the _ATLAS Higgs WW general mailing list_ every week. So, please subscribe it and keep track of the meeting information. 
+Normally, the HWW conveners will announce the HWW weekly meetings in the _ATLAS Higgs WW general mailing list_ every week. So, please subscribe it and keep track of the information of meeting.
 
 
-
-### 
 
