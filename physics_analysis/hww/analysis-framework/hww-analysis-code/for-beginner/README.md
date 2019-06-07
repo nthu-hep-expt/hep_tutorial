@@ -4,16 +4,9 @@ The [HWW Analysis Code](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalys
 
 ## Cloning the analysis framework
 
-Since PxAOD samples are normally stored in the EOS space, we should use the lxplus to analyze samples. After login the lxplus, we could follow the steps below to run with the example analysis.
-
-{% hint style="warning" %}
-The following steps may be out of date. So, please also check the steps shown in this [README.md](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/README.md) for the correct setups.
-{% endhint %}
-
-The first step to run with the analysis is to setup the ATLAS environment and make a new directory for your analysis codes. Then clone \(download!\) the repository with **git clone.** 
+Since PxAOD samples are normally stored in the EOS space, we should use the Lxplus to analyze samples. After log in the Lxplus, we could follow the steps in the README.md to setup the analysis framework.
 
 ```bash
-# setup the ATLAS environment
 setupATLAS
 
 # setup the git 

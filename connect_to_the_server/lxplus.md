@@ -1,24 +1,38 @@
 # Lxplus
 
-## Working in the lxplus   <a id="working-in-the-lxplus"></a>
+## Introduction 
 
-Once you have CERN account, we can access the lxplus by the following commands:
+[Lxplus](https://lxplusdoc.web.cern.ch/lxplusdoc/) \(Linux Public Login User Service\) is the interactive logon service to Linux for all CERN users. We normally work with Lxplus since the environments in the Lxplus are finely set with the ATLAS experiment. It could interact to the eos system and CERNBox, which are used to stored dataset. 
 
-* Login a random computer in the cluster
+### Working in the Lxplus  
+
+Once you have CERN account, we can access the Lxplus by the following commands:
+
+#### Log in Lxplus with different systems
+
+Log in Lxplus with CentOS CERN 7 \(CC7\)
 
 ```bash
 ssh yourAccount@lxplus.cern.ch​
 ```
 
-* Login the specific computer in the cluster \(001-138\)
+Log in Lxplus with Scientific Linux 6 \(SLC 6\) 
 
 ```bash
-ssh yourAccount@lxplus001.cern.ch
+ssh yourAccount@lxplus6.cern.ch
 ```
 
-## Commands in the lxplus
+#### Log in specific node of Lxplus 
 
-### Set up for the ATLAS environment
+For example, you can log in some specific node \(lxplus616\) by `ssh`
+
+```
+ssh yourAccount@lxplus616.cern.ch​
+```
+
+### Commands in the Lxplus
+
+#### Set up for the ATLAS environment
 
 You should initialize with the following command when you login every time
 
@@ -28,11 +42,23 @@ setupATLAS
 
 ![&quot;setupATLAS&quot; initializes for the ATLAS environment](../.gitbook/assets/ying-mu-kuai-zhao-20190116-shang-wu-4.43.46.png)
 
-### Tips and useful commands in the lxplus
+### Useful commands in the Lxplus
 
 * Check the quota in user or working directory 
 
 ```bash
 fs lq --human
 ```
+
+## Hand-on sessions
+
+### Log in the Lxplus
+
+
+
+```bash
+ssh yourAccount@lxplus.cern.ch​
+```
+
+
 
