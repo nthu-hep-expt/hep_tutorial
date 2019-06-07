@@ -10,13 +10,13 @@ Once you have CERN account, we can access the Lxplus by the following commands:
 
 #### Log in Lxplus with different systems
 
-Log in Lxplus with CentOS CERN 7 \(CC7\)
+Log in Lxplus with CentOS CERN 7 \(CC7\) system
 
 ```bash
 ssh yourAccount@lxplus.cern.ch​
 ```
 
-Log in Lxplus with Scientific Linux 6 \(SLC 6\) 
+Log in Lxplus with Scientific Linux 6 \(SLC 6\) system
 
 ```bash
 ssh yourAccount@lxplus6.cern.ch
@@ -54,11 +54,39 @@ fs lq --human
 
 ### Log in the Lxplus
 
+We use `ssh` to log in the Lxplus. 
 
-
-```bash
+```
 ssh yourAccount@lxplus.cern.ch​
 ```
 
+Note that when you key in your password, _**your password will not be shown on your screen**_. 
 
+![](../.gitbook/assets/ying-mu-kuai-zhao-20190608-shang-wu-3.47.48.png)
+
+### Setup the ATLAS environment
+
+```text
+setupATLAS
+```
+
+#### Setup ROOT
+
+We could use `lsetup` to setup ROOT
+
+```text
+lsetup root
+```
+
+However, currently we were required to use a specific version of ROOT. Therefore, here I use the recommended version of ROOT.
+
+```bash
+lsetup "root 6.14.04-x86_64-slc6-gcc62-opt" 
+```
+
+Then we can open ROOT by 
+
+```text
+root
+```
 

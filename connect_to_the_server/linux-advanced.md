@@ -41,7 +41,9 @@ top指令能查詢server的使用狀況，包含CPU、記憶體以及他人對�
 
 ![&#x6B64;&#x5716;&#x4EE5;lxplus&#x70BA;&#x4F8B;](../.gitbook/assets/top.png)
 
+### ssh
 
+\*\*\*\*[**Secure Shell**](https://zh.wikipedia.org/wiki/Secure_Shell)（安全外殼協定，簡稱**SSH**）是一種加密的[網路傳輸協定](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)，可在不安全的網路中為網路服務提供安全的傳輸環境
 
 ### scp
 
