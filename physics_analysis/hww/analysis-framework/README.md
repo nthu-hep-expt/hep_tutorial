@@ -1,5 +1,12 @@
 # Frameworks
 
+## Introduction 
+
+As mentioned previously, We have two framework frequently used in the HWW group. 
+
+* [HWWAnalysisCode](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) is the **analysis code** for the HWW subgroup based on the Common Analysis Framework \(CAF\).
+* [HWWPhysicsxAODMaker](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWPhysicsxAODMaker) is the **production code** for the HWW subgroup based on the ASG AthAnalysis release.
+
 ### Group Disks
 
 ATLAS HWW group has a group disk for the PxAOD samples. The samples are stored in the following link.
@@ -28,5 +35,5 @@ We currently used the V18 samples. The samples in V18 are used 2015+2016 data an
 /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V18
 ```
 
-### VeryLoose
+### 
 

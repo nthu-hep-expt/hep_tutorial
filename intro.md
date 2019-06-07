@@ -56,7 +56,7 @@ We were also involved in the **searches of the dark matter** produced in associa
 
 ### Theses
 
-Here lists the theses from NTHU master students. 
+I listed the theses from NTHU master students. 
 
 * Meng-Ju Tsai \(2019\)
   * [Estimation of the WW background in the Vector Boson Fusion H→WW\* Analysis with the ATLAS Detector](https://hdl.handle.net/11296/9eu89a)
@@ -66,8 +66,4 @@ Here lists the theses from NTHU master students.
   * [The Estimation of the Background of the Z Boson in the MonoHbb Analysis](https://hdl.handle.net/11296/tq78w9)
 * Hsu, Hao \(2017\)
   * [Drell-Yan Background estimation in the H → WW\* → lvlv channel with the ATLAS detector](https://hdl.handle.net/11296/9u8t89)
-
-
-
-
 

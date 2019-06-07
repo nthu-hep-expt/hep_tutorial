@@ -23,7 +23,7 @@
   * [Git Command \(Local\)](git/basic-git-local.md)
   * [Git Command \(Remote\)](git/git-command-remote.md)
   * [Git Command \(Advanced\)](git/git-command-advanced.md)
-  * [Q & A](git/q-and-a.md)
+  * [Git application and Q&A](git/q-and-a.md)
 * [Physics Analysis](physics_analysis/README.md)
   * [Jargons](physics_analysis/jargons.md)
   * [HWW](physics_analysis/hww/README.md)
