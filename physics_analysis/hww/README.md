@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We measure several properties of the Higgs boson by HWW analysis including the cross section of the Higgs production, mainly on gluon fusion and vector boson fusion, and the Higgs coupling to W gauge bosons. We compare the data and the Monte Carlo \(MC\) simulated samples to find whether all the things are consistent with the Standard Model.  In NTHU HEP group, we focus on the ggF and VBF Higgs boson coupling measurement. 
+We measure several properties of the Higgs boson by HWW analysis including the cross section of the Higgs production, mainly on gluon fusion and vector boson fusion, and the Higgs coupling to W gauge bosons. We compare the data and the Monte Carlo \(MC\) simulated samples to find whether all the things are consistent with the Standard Model. In NTHU HEP group, we focus on the ggF and VBF Higgs boson coupling measurement. 
 
 In this page, many useful resources are summarized below. You can start with the Run-1 paper to have basic knowledge and begin to work on the analysis with the HWW framework. 
 
