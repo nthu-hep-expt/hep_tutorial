@@ -61,7 +61,7 @@ source bin/thisroot.sh
 root
 ```
 
-
+Then you have your own ROOT in your laptop!
 
 
 
