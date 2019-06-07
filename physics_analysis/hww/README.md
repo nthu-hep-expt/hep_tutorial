@@ -119,5 +119,22 @@ Please subscribe the mailing lists from [here](https://e-groups.cern.ch/e-groups
 
 Normally, the HWW conveners will announce the HWW weekly meetings in the _ATLAS Higgs WW general mailing list_ every week. So, please subscribe it and keep track of the information of meeting.
 
+### Be prepare!
 
+You can understand basic knowledge and keep up with the current status of the HWW analysis by reading the following documents and meetings:
+
+#### Run 1 and Run 2 documents
+
+* [HWW Run-1 paper ](https://arxiv.org/abs/1412.2641)
+* [HWW Run-2 Optimization Note](https://cds.cern.ch/record/2276101/files/ATL-COM-PHYS-2017-1089_2.pdf?)
+* [HWW Run-2 Supporting Note](https://cds.cern.ch/record/2276143/files/ATL-COM-PHYS-2017-1094.pdf?)
+* [HWW Run-2 paper](https://arxiv.org/abs/1808.09054)
+
+#### Tutorials for analysis and production
+
+* _\*\*\*\*_[_**CAF & PxAOD Tutorial \(Dec 2018\)**_](https://indico.cern.ch/event/771763/timetable/?view=standard)_\*\*\*\*_
+
+**Workshops with discussion of prospective studies for legacy paper**
+
+* \*\*\*\*[HWW workshop in 2018](https://indico.cern.ch/event/714538/timetable/?view=standard)
 

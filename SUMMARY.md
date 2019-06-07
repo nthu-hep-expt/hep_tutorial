@@ -24,6 +24,7 @@
   * [Git Command \(Remote\)](git/git-command-remote.md)
   * [Git Command \(Advanced\)](git/git-command-advanced.md)
 * [Physics Analysis](physics_analysis/README.md)
+  * [Jargons](physics_analysis/jargons.md)
   * [HWW](physics_analysis/hww/README.md)
     * [Frameworks](physics_analysis/hww/analysis-framework/README.md)
       * [HWW Analysis Code](physics_analysis/hww/analysis-framework/hww-analysis-code/README.md)
@@ -58,6 +59,7 @@
     * [Intro to HGTD](physics_analysis/hgtd/intro-to-hgtd.md)
     * [Testbeam](physics_analysis/hgtd/testbeam.md)
 * [Resource](resource/README.md)
+  * [Documents](resource/documents.md)
   * [Summer Schools and Lectures](resource/summer_school_and_lecture/README.md)
     * [CERN Summer School](resource/summer_school_and_lecture/cern-summer-school.md)
 
