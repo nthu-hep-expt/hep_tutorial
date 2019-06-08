@@ -42,7 +42,7 @@ setupATLAS
 
 ![&quot;setupATLAS&quot; initializes for the ATLAS environment](../.gitbook/assets/ying-mu-kuai-zhao-20190116-shang-wu-4.43.46.png)
 
-### Useful commands in the Lxplus
+#### Useful commands
 
 * Check the quota in user or working directory 
 
@@ -89,4 +89,14 @@ Then we can open ROOT by
 ```text
 root
 ```
+
+#### Displaying issue
+
+When you open root, it will show an opening animation and this require you to connect the server with X windows, what we've discussed in the [previous section](linux_basic.md#da-duan-terminal). Please follow the hand-on session to [install X windows](linux_basic.md#install-x-windows). Then we should connect the Lxplus with the following command
+
+```text
+ssh yourAccount@lxplus.cern.ch​
+```
+
+
 

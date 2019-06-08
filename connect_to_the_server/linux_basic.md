@@ -172,6 +172,12 @@ vim share/config/samples/XSec/common/XS_13TeV.csv
 
 ![](../.gitbook/assets/tab.gif)
 
+## Hand-on sessions
+
+### Install X windows
+
+
+
 ## Reference
 
 \[1\] [https://dotblogs.com.tw/im\_sqz777/2017/07/26/220713](https://dotblogs.com.tw/im_sqz777/2017/07/26/220713)
