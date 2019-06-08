@@ -30,7 +30,7 @@ For example, you can log in some specific node \(lxplus616\) by `ssh`
 ssh yourAccount@lxplus616.cern.ch​
 ```
 
-### Home and working directories
+### Quota in the Lxplus
 
 #### Home directory
 
@@ -48,11 +48,33 @@ For example, if you account is _metsai_, the path will be  
 
 #### Working directory
 
-https://resources.web.cern.ch/resources/Help/?kbid=067040
+You can subscribe an additional working directory with 100 GB quota. The instruction is described [here](https://resources.web.cern.ch/resources/Help/?kbid=067040).  
+
+```text
+/afs/cern.ch/work/<first letter of your account>/<account>
+```
+
+For example, if you account is _metsai_, the path will be  
+
+```bash
+/afs/cern.ch/work/m/metsai
+```
+
+#### EOS space
+
+We will have an EOS space with 1 TB quota, which is mainly used as a space to store samples. The path to EOS space is 
+
+```
+/eos/user/<first letter of your account>/<account>
+```
+
+Moreover, the EOS space is integrated with [CERNBox](https://cernbox.cern.ch/). More information about CERNBox are listed [here](cernbox.md). 
+
+
 
 ### Commands in the Lxplus
 
-#### Set up for the ATLAS environment
+#### Setup for the ATLAS environment
 
 You should initialize with the following command when you login every time
 
@@ -61,6 +83,18 @@ setupATLAS
 ```
 
 ![&quot;setupATLAS&quot; initializes for the ATLAS environment](../.gitbook/assets/ying-mu-kuai-zhao-20190116-shang-wu-4.43.46.png)
+
+To interact with GitHub or GitLab, we should initialize your git environment by
+
+```bash
+lsetup git
+```
+
+If you would like to use the grid system, we should setup the local panda client by
+
+```text
+localSetupPandaClient
+```
 
 #### Useful commands
 

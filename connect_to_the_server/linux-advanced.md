@@ -65,3 +65,7 @@ scp /Users/ploww/ploww/a.txt youraccount@lxplus.cern.ch:/afs/cern.ch/work/m/mets
 scp youraccount@lxplus.cern.ch:/afs/cern.ch/work/m/metsai/a.txt /Users/ploww/ploww 
 ```
 
+## Hand-on sessions
+
+### 
+
