@@ -30,6 +30,26 @@ For example, you can log in some specific node \(lxplus616\) by `ssh`
 ssh yourAccount@lxplus616.cern.ch​
 ```
 
+### Home and working directories
+
+#### Home directory
+
+We have a **user** directory as your home directory in the Lxplus. For user directory, you only have 10 GB quota. The path of the **home directory** is 
+
+```bash
+/afs/cern.ch/user/<first letter of your account>/<account>
+```
+
+For example, if you account is _metsai_, the path will be  
+
+```bash
+/afs/cern.ch/user/m/metsai
+```
+
+#### Working directory
+
+https://resources.web.cern.ch/resources/Help/?kbid=067040
+
 ### Commands in the Lxplus
 
 #### Set up for the ATLAS environment
@@ -109,4 +129,6 @@ which `-X` and `-Y` are used to enable X11 forwarding. You can look into details
 ```bash
 man ssh
 ```
+
+### Subscribe working directory
 
