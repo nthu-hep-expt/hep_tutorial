@@ -72,7 +72,7 @@ setupATLAS
 
 #### Setup ROOT
 
-We could use `lsetup` to setup ROOT
+In the Lxplus, we could use the ROOT in the ALTAS environment without installation which is discussed in the [ROOT section](../root/#root-installation). We can just use `lsetup` to setup ROOT
 
 ```text
 lsetup root
@@ -86,17 +86,27 @@ lsetup "root 6.14.04-x86_64-slc6-gcc62-opt"
 
 Then we can open ROOT by 
 
-```text
+```bash
 root
 ```
 
 #### Displaying issue
 
-When you open root, it will show an opening animation and this require you to connect the server with X windows, what we've discussed in the [previous section](linux_basic.md#da-duan-terminal). Please follow the hand-on session to [install X windows](linux_basic.md#install-x-windows). Then we should connect the Lxplus with the following command
+When you open root, it will show an opening animation and this requires you to connect the server with X windows, what we've discussed in the [previous section](linux_basic.md#da-duan-terminal). If you didn't have X windows or you didn't connect the server with it, then you will get the following warning and not be able to used the windowing system.
 
 ```text
-ssh yourAccount@lxplus.cern.ch​
+*** DISPLAY not set, setting it to 220-129-27-11.dynamic-ip.hinet.net:0.0
 ```
 
+Please follow the hand-on session to [install X windows](linux_basic.md#install-x-windows). Then we should connect the Lxplus with the following command
 
+```bash
+ssh -X -Y yourAccount@lxplus.cern.ch​
+```
+
+which `-X` and `-Y` are used to enable X11 forwarding. You can look into details about these options by 
+
+```bash
+man ssh
+```
 
