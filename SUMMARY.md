@@ -61,4 +61,5 @@
   * [Documents](resource/documents.md)
   * [Schools and Lectures](resource/summer_school_and_lecture/README.md)
     * [CERN Summer School](resource/summer_school_and_lecture/cern-summer-school.md)
+* [Todo list for new features](to-do-list.md)
 
