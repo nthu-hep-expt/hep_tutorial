@@ -2,14 +2,6 @@
 
 ## Introduction
 
-To start becoming a researcher in the ATLAS experiment, 
-
-### Hand-on session
-
-Meetings 
-
-#### 
-
 Here I listed some basic but very useful links for introduction. Many _jargons_ are explained in the following links. 
 
 * \*\*\*\*[**The ATLAS Physics Analysis Workbook**](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/PhysicsAnalysisWorkBook)
@@ -33,9 +25,9 @@ Here I listed some basic but very useful links for introduction. Many _jargons_ 
 
 ### Join meetings by vidyo
 
-We use [**vidyo**](http://information-technology.web.cern.ch/services/fe/vidyo) to connect meetings online. It provides services on different platforms including Mac OS, Windows, Linux and ios. 
+We use [**vidyo**](http://information-technology.web.cern.ch/services/fe/vidyo) to connect online meetings. It provides services on different platforms including Mac OS, Windows, Linux and IOS. 
 
-To log in, you should key the following string in the blank shown below, and then your CERN account and its password. 
+To log in, you should key the following string in the _**VidyoPortal**_ blank shown below, and then login with your CERN account and its password. 
 
 ```text
 https://vidyoportal.cern.ch
@@ -44,6 +36,8 @@ https://vidyoportal.cern.ch
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-8.48.02.png)
 
 #### Share your slides
+
+如果是用Mac系統，記得不要把vidyo變成全螢幕的，要把vidyo跟你想要放的投影片放在_桌面_，如此才能找到你的投影片並分享。
 
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20190605-xia-wu-11.42.30.png)
 

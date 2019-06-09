@@ -7,7 +7,7 @@ As mentioned previously, we have two framework frequently used in the HWW group.
 * [HWWAnalysisCode](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode) is the **analysis code** for the HWW subgroup based on the Common Analysis Framework \(CAF\).
 * [HWWPhysicsxAODMaker](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWPhysicsxAODMaker) is the **production code** for the HWW subgroup based on the ASG AthAnalysis release.
 
-With HWWPhysicsxAODMaker, we can derivate the DxAOD samples to PxAOD, which we use in the HWWAnalysisCode. Then we could produce the results presented by histograms and cutflows. 
+With _HWWPhysicsxAODMaker_, we can derivate the DxAOD samples to PxAOD, which we use in the _HWWAnalysisCode_. Then we could produce the results presented by histograms and cutflows. 
 
 ### Group Disks
 
@@ -24,4 +24,8 @@ R21 samples are updated with new technical recommendations and will contain the 
 ```text
 /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21
 ```
+
+#### EMTopo and PFlow
+
+We use EMTopo method to define our jets in the ATLAS experiment before, now we would like to migrate from EMTopo to Particle Flow \(PFlow\) algorithm, which was also used in the CMS experiment, in the HWW analysis. Therefore, we've two kind of R21 samples with different methods currently.
 
