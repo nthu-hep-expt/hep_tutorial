@@ -40,5 +40,27 @@ git status -sb
 
 ## git branch：分支 <a id="git-branch"></a>
 
-## git checkout
+## git checkout \(切換分支\)
+
+#### Switch to an other commit \(version\)
+
+```text
+git checkout <other commit>
+```
+
+where `<other commit>` means a string of the commit, for example, something like `fddaae9`.
+
+#### Switch back to the master version
+
+```text
+git checkout master
+```
+
+#### Switch between two branches
+
+We can also change between the temporary versions we just switch to \(just like `cd -`\)
+
+```text
+git checkout -
+```
 

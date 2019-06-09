@@ -29,25 +29,31 @@ As a start of the analysis, we should start setup the HWW analysis code. The ins
 
 Since this analysis framework is contributed by anyone in this group, although it requires merge requests for new updates, it may still possibly fail to build or run the analysis code. 
 
-Once you found some issues, you can **ask about the issues in the group emails or persons who push the latest commits**. Moreover, if you are urgent or reluctant to ask about them, you could just try to `checkout`  an older version in the commits. 
+Once you found some issues, you can **ask about the issues in the group emails or persons who push the latest commits**. Moreover, if you are urgent or reluctant to ask about them, you could just try to [`checkout`](../../../../git/basic-git-local.md#git-checkout-qie-fen-zhi)  an older version in the commits, which work normally without problems.
 
-Move to an older commit \(version\) of the framework
-
-```text
-git checkout <olderversion>
-```
-
-Move back to the master version
+We can switch to an older commit \(version\) of the framework
 
 ```text
-git checkout master
+git checkout <older commit>
 ```
 
-Moreover, we can also change between the temporary versions we just switch to \(just like `cd -`\)
+where `<older commit>` means a string of the commit, for example, something like `fddaae9`. 
 
-```text
-git checkout -
+After switching to an older commit, you can follow the instruction to setup again. Notice that you _should redo all the steps_ in the instruction which means you should **delete the build folder, and create a new build folder and recompile again!**
+
+### Run the example analysis
+
+After building your framework, we could first run the example analysis with the following steps. You can run in the **'share'** directory. 
+
+```bash
+cd ../HWWAnalysisCode/share
+./prepare.py config/master/ZjetsFF/prepare-ZjetsFakeFactor-Coupling-2018.cfg
+./initialize.py config/master/ZjetsFF/initialize-ZjetsFakeFactor-Coupling-2018.cfg
+./analyze.py config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg
+./visualize.py config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg
 ```
 
-#### Options
+
+
+#### 
 

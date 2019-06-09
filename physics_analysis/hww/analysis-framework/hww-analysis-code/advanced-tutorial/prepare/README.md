@@ -9,7 +9,7 @@ We use the config file for VBF HWW coupling analysis for discussion.
 ./prepare.py config/master/VBF/prepare-VBF-Coupling-2018.cfg
 ```
 
-In general, the setup is similar as the [example](../../for-beginner/prepare.md).
+In general, the setup is similar as the [example](../../prepare.md).
 
 {% code-tabs %}
 {% code-tabs-item title="share/config/master/VBF/prepare-VBF-Coupling-2018.cfg" %}
