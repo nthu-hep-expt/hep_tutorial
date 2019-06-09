@@ -13,5 +13,7 @@ $$
 \text{Cut efficiency} = \frac{\text{number of events after cut}}{\text{number of events before cut}}
 $$
 
+### English
 
+* **w/** and **w/o** mean _with_ and _without_
 
