@@ -43,7 +43,7 @@ After switching to an older commit, you can follow the instruction to setup agai
 
 ### Run the example analysis
 
-After building your framework, we could first run the example analysis with the following steps. You can run in the **'share'** directory. 
+After building your framework, we could first run the example analysis with the following steps. 
 
 ```bash
 cd ../HWWAnalysisCode/share
@@ -53,7 +53,15 @@ cd ../HWWAnalysisCode/share
 ./visualize.py config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg
 ```
 
+#### Check your first results!
 
+Once you have the histograms and cutflows, it will be convenient to review all your results in your laptops since it will be very slow to use Lxplus to open and view your histograms. Therefore, you should download the results from Lxplus to your local laptops. 
+
+Here we could follow the tutorial for [scp](../../../../connect_to_the_server/linux-advanced.md#scp) and [ftp](../../../../connect_to_the_server/linux-advanced.md#ftp-service) and download our results to your laptops. 
+
+```text
+
+```
 
 #### 
 
