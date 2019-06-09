@@ -22,15 +22,7 @@ If you don't have [cmake](https://cmake.org/download/) in the your laptop, you s
 PATH="/<your path>/CMake.app/Contents/bin":"$PATH"
 ```
 
-in your files
-
-* For Linux:
-
-  `~/.bashrc`
-
-* For Mac: `~/.bash_profile`
-
-With this, you can set up for the cmake command. 
+in the file `~/.bashrc` for Linux or `~/.bash_profile` for Mac. Then, you can run with `cmake` command. 
 
 #### Building ROOT
 
