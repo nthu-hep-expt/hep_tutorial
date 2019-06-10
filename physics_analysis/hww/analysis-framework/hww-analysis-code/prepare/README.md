@@ -111,6 +111,8 @@ With the full Run-2 dataset collected from 2015 to 2018, we have several campaig
 | data17 | mc16d |
 | data18 | mc16e |
 
+The `campaignsConfig` and `campaigns` determine the campaigns we will run in the analysis.
+
 ```text
 #import options specific to different campaigns and announce the ones that should be processed
 campaignsConfig: config/master/common/campaigns.cfg
@@ -175,6 +177,4 @@ XsecWhitelist: config/samples/whitelists/VBF/VBF-only-whitelist.txt
 ```
 
 Now, the whole analysis will run over only the sample with DSID 345948.
-
-
 
