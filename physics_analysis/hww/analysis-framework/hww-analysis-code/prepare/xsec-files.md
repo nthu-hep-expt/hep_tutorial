@@ -1,8 +1,10 @@
-# Xsec Files
+# XsecFiles
 
-## Xsec file used in the HWW analysis
+## Introduction 
 
-In the full Run-2 VBF analysis, we used the cross section files for 13 TeV. In this file, we include the informations for the Monte Carlo \(MC\) simulated samples. In this file, we have informations about both signals and background samples. 
+In the full Run-2 VBF analysis, we used data collided at 13 TeV. Therefore, we include the Xsec files with 13 TeV. 
+
+In the `XS_13TeV.csv` files, it includes the informations of the MC simulated samples including both signals and background samples. The following is part of the `XS_13TeV.csv` file.
 
 {% code-tabs %}
 {% code-tabs-item title="share/config/samples/XSec/common/XS\_13TeV.csv" %}
@@ -26,29 +28,28 @@ SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , proce
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Informations
+
 ### SampleID \(DSID\)
 
-The DataSetIDentifier \(DSID\) is the ID number for the sample. This will also be used in the map and whitelist files. 
+The DataSetIDentifier \(DSID\) is the ID number for the sample. This will also be used in the `map` and `whitelist` files. 
 
 ### Xsection
 
-The cross section is the probability for the production of different process. 
+The cross sections, which represent the probabilities of the productions of different process, are calculated by their related theories. We include the numbers as inputs which will be normalized in the analysis.
 
 ### K-factor
 
 In particle physics, the ratio of a next-to-leading-order \(NLO\) cross-section calculation to a leading-order \(LO\) equivalent is called the k- or K-factor. It is dependent on the process type, the existence or otherwise of kinematic phase-space cuts, and scale choices in both the LO and NLO calculations. \(from [wikipedia](https://en.wikipedia.org/wiki/K-factor)\)
 
-### Filter efficiency
+### Filter and its efficiency
 
-Filter is used to select events with specific kinematic phase space. For example, in the VBF analysis, we have a filter for $$Z\rightarrow\tau\tau$$ processes. 
+* **Filter** is used to select events with specific kinematic phase space. For example, in the VBF analysis, we have filters for $$\text{Z}\rightarrow\tau\tau$$ processes since we don't have enough MC statistics for such DY background in the high mjj region.
+* **Filter efficiency** is the efficiency to select the event in the preferred kinematic phase space. 
 
-The **filter efficiency** is the efficiency to select the event in the preferred kinematic phase space. 
+### MC generators
 
-### Generator
-
-The MC generator is also listed in the Xsec files. We have several different MC generators. 
-
-We have some common MC generators
+**MC generators** are also listed in the Xsec files. We have several different MC generators. We list some common MC generators below
 
 * Pythia
 * Powheg
@@ -59,9 +60,7 @@ We have some common MC generators
 
 ### Process
 
-The processes, which listed in the XSec file, summarize the whole information for how we produce these MC samples. 
-
-The informations included are:
+The **process** summarizes the whole information about how we produced these MC samples including
 
 * MC generators
 * Parton distribution function \(PDF\) used in the samples
