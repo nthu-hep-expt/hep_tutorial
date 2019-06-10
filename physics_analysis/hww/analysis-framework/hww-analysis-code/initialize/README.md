@@ -2,25 +2,29 @@
 
 ## Introduction
 
-The analysis continues with **initialize.**
+![](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.13.10.png)
+
+After `prepare`, the analysis continues with `initialize`**.**
+
+### Tages
+
+#### inputFile
+
+We use the output file from `prepare` as the input file in the `initialize` step. Hence, we pass the input file by the tag `inputFile`.
 
 ```text
-# Run in the share folder (../HWWAnalysisCode/share)
-./initialize.py config/master/ZjetsFF/initialize-ZjetsFakeFactor-Coupling-2018.cfg
+inputFile: sampleFolders/prepared/samples-prepared-VBF-default.root
 ```
 
-Here we will discuss the config file the the initialize step.
+#### outputFile
+
+Same as prepare step, we will output a root file from `initialize` step, which will be used in the next step `analyze`.
 
 ```text
-# -*- mode: config -*-
+outputFile: sampleFolders/initialized/samples-initialized-VBF-default.root
+```
 
-[initialize]
-
-# name of the input file
-inputFile: sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
-
-# name of the output file
-outputFile: sampleFolders/initialized/samples-initialized-ZjetsFakeFactor.root
+```text
 
 # paths and names of the input data files
 dataFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-dataFileList.txt
@@ -53,22 +57,6 @@ preInit_patches: config/patches/ZjetsFF/ZjetsFakeFactor-default-patch.txt
 # postInit patch files to apply
 #postInit_patches: 
 
-```
-
-### inputFile
-
-We use the output root file from prepare step as our input sample.
-
-```text
-inputFile: sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
-```
-
-### outputFile
-
-An output file will be created after the initialize step. 
-
-```text
-outputFile: sampleFolders/initialized/samples-initialized-ZjetsFakeFactor.root
 ```
 
 ### Run with samples

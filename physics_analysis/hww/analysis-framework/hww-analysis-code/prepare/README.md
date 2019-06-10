@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.13.00.png)
+
 `Prepare` is the first step to run the analysis. We take the PxAOD samples as inputs, and then `prepare` them to become samples stored in the `SampleFolder`.
 
 In the following, I will briefly introduce the tags we frequently used in the `prepare` configuration file. 

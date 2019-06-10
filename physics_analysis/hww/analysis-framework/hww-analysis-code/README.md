@@ -43,7 +43,9 @@ After switching to an older commit, you can follow the instruction to setup agai
 
 ### Run the example analysis
 
-After building your framework, we could first run the example analysis with the following steps. 
+After building your framework, we could first run the example analysis with the following steps. We have four step to get results from the PxAOD samples shown as below. 
+
+![](../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.07.59.png)
 
 ```bash
 cd ../HWWAnalysisCode/share

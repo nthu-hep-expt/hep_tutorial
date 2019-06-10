@@ -18,7 +18,7 @@ The four steps to produce the VBF results:
 ./visualize.py config/master/VBF/visualize-VBF-Coupling-2018.cfg
 ```
 
-We will discuss the options for analyze in another [section](analyze-adv/).
+We will discuss the options for analyze in another [section](analyze/analyze-adv.md).
 
 {% hint style="warning" %}
 ### Warning!
@@ -215,7 +215,7 @@ Where "\*.root" means **all** the files with the same suffix \(.root\).
 
 ## 建議！
 
-1. 每次要submit之前，請先試跑一遍analyze，不需要跑完，而是跑到確定event已經可以在不同的cut stage算出該有的值即可，如此，你可以快速知道你的設置有沒有bugs。更詳細的步驟會在[Analyze](analyze-adv/)中介紹。
+1. 每次要submit之前，請先試跑一遍analyze，不需要跑完，而是跑到確定event已經可以在不同的cut stage算出該有的值即可，如此，你可以快速知道你的設置有沒有bugs。更詳細的步驟會在[Analyze](analyze/analyze-adv.md)中介紹。
 
 ## FAQ
 
