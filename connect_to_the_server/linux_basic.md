@@ -17,11 +17,11 @@ MobaXterm的好處是內建FTP上傳下載的功能，因此並不需額外使�
 
 ### **X Window System**
 
-如果希望顯示遠端的影像則須額外安裝X window，Mac常用的X window是[XQuartz](https://www.xquartz.org/) 。而Windows系統中常用的X window軟體則為[Xming](http://www.straightrunning.com/XmingNotes/)
+如果希望顯示遠端的影像則須額外安裝X window，Mac常用的X window是[XQuartz](https://www.xquartz.org/)，而Windows系統中常用的X window軟體則為[Xming](http://www.straightrunning.com/XmingNotes/)。如果沒有安裝X window，則無法顯示，並可能會出現`DISPLAY is not set`相關的錯誤訊息。
 
 ## 進入terminal後，實際你正在使用shell
 
-進入terminal後，一般預設會使用bash shell，也有人會改用zsh shell，而以下所介紹的指令們，**就是bash shell中的指令**！
+進入terminal後，一般預設會使用bash shell，也有人會改用zsh shell，而以下所介紹的指令們，**也就是bash shell中的指令**！
 
 進入terminal的身份分為**一般使用者**跟**superuser** \(用來管理系統所使用的帳號\)。而root是superuser常見的帳號 \(這裡不是CERN所用的軟體ROOT喔！\)，一般server會關閉以root身份登入server，如果要使用root，一般會要求使用者先用自己的帳號登入，再透過指令轉換成root身份。
 
@@ -137,7 +137,7 @@ Emacs：神之編輯器
 
 [https://coolshell.cn/articles/5426.html](https://coolshell.cn/articles/5426.html)
 
-## 建議！
+## Q&A
 
 ### 每個指令都看起來這麼長，怎麼辦？
 
@@ -169,10 +169,6 @@ vim share/config/samples/XSec/common/XS_13TeV.csv
 ![](../.gitbook/assets/tab.gif)
 
 ## Hand-on sessions
-
-### Install X windows
-
-
 
 ## Reference
 
