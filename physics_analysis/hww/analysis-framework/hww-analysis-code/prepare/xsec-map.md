@@ -1,8 +1,8 @@
 # Xsec Map
 
-## Introduction to xsec map
+## Introduction
 
-The map file is used to define our TQSampleFolder for our output file. The description and introduction for the usage is shown in the [gitlab page](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/samples/maps/common). 
+The `map` file is used to define our `TQSampleFolder` of output files. The description and introduction for the usage is shown in the [gitlab](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/samples/maps/common). 
 
 Here we used `run2-mc15.map`. However, I believe that we will use the `run2-mc16.map` instead in the future. Moreover, it seems there is no difference between these two maps. 
 

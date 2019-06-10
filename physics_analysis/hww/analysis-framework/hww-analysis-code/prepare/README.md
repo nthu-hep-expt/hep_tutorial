@@ -2,11 +2,15 @@
 
 ## Introduction
 
+`Prepare` is the first step to run the analysis. We take the PxAOD samples as inputs, and then `prepare` them to become samples stored in the `SampleFolder`.
+
+In the following, I will briefly introduce the tags we frequently used in the `prepare` configuration file. 
+
 ### Tags
 
 #### outputfile
 
-Designate your path and name of output folder.
+Designate your path and name of output sample folder.
 
 ```text
 outputFile:  sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
@@ -20,15 +24,15 @@ The `XsecFiles` list the informations of Monte-Carlo \(MC\) simulated samples in
 XsecFiles: config/samples/XSec/common/XS_13TeV.csv
 ```
 
-### XsecWhitelist
+#### XsecWhitelist
 
-The XsecWhitelist will determine the samples you would like to run. 
+The `XsecWhitelist` will determine what samples you would like to analyze in the analysis. 
 
 ```text
 XsecWhitelist: config/samples/whitelists/ZjetsFF/ZjetsFakeFactor-whitelist.txt
 ```
 
-The example of whitelist provides the DSID which you would like to run. Therefore, if you add the only the following DSID, you can only use the following samples in the further steps. 
+In the `whitelist` file, it mainly contains the DSIDs of samples. The format of `whitelist` file are introduced in the [official repository](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/share/config/samples/whitelists/common/README.md). 
 
 ```text
 # Powheg Z
@@ -43,9 +47,9 @@ The example of whitelist provides the DSID which you would like to run. Therefor
 361703 $*_s*
 ```
 
-### XsecMap
+#### XsecMap
 
-The XsecMap will define the structure in the SampleFolder. 
+The `XsecMap` will define the structure in the `SampleFolder`. 
 
 ```text
 XsecMap: config/samples/maps/ZjetsFF/ZjetsFakeFactor.map
@@ -92,4 +96,27 @@ energy: 13
 ```
 
 ### VeryLoose
+
+## Hand-on sessions
+
+#### Run with only VBF sample
+
+If you only want to run the VBF sample with DSID `345948`, then what we could do is to use a `whitelist` file with only this DSID.
+
+So, we could create a new `whitelist` file called, whatever you like, 
+
+```text
+config/samples/whitelists/VBF/VBF-only-whitelist.txt
+```
+
+Then in this `VBF-only-whitelist.txt`, we should include only VBF DSID as the following
+
+```text
+## SM VBF HWW
+345948 $*_s*
+```
+
+Now, the whole analysis will run over only the sample with DSID 345948.
+
+
 

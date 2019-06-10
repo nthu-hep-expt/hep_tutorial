@@ -1,4 +1,4 @@
-# XsecFiles
+# Xsec Files
 
 ## Introduction 
 
@@ -70,6 +70,4 @@ The **process** summarizes the whole information about how we produced these MC 
 * Filter information
 * Final states
 * ...
-
-
 
