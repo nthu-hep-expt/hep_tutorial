@@ -4,11 +4,7 @@
 
 ### Mac
 
-用spotlight搜尋"terminal"就能找到終端機的app，直接點擊開即可
-
-如果希望顯示遠端的影像，則須額外安裝X window，而Mac常用的X window是：
-
-* [XQuartz](https://www.xquartz.org/)
+用spotlight搜尋"terminal"就能找到終端機的app，直接點擊開即可。
 
 ### Windows
 
@@ -19,9 +15,9 @@
 
 MobaXterm的好處是內建FTP上傳下載的功能，因此並不需額外使用FTP的程式，也不需要自己用scp指令來下載檔案，並且MobaXterm的功能十分健全跟強大！
 
-另外，Windows系統中常用的X window軟體則為：
+### **X Window System**
 
-* [Xming](http://www.straightrunning.com/XmingNotes/)
+如果希望顯示遠端的影像則須額外安裝X window，Mac常用的X window是[XQuartz](https://www.xquartz.org/) 。而Windows系統中常用的X window軟體則為[Xming](http://www.straightrunning.com/XmingNotes/)
 
 ## 進入terminal後，實際你正在使用shell
 
