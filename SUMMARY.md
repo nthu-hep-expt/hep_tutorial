@@ -59,6 +59,7 @@
     * [Testbeam](physics_analysis/hgtd/testbeam.md)
 * [Resources](resource/README.md)
   * [Documents](resource/documents.md)
+  * [Conference @ Taiwan](resource/conference-taiwan.md)
   * [Schools and Lectures](resource/summer_school_and_lecture/README.md)
     * [CERN Summer School](resource/summer_school_and_lecture/cern-summer-school.md)
 * [Todo list for new features](to-do-list.md)
