@@ -61,9 +61,11 @@ Once you have the histograms and cutflows, it will be convenient to review all y
 
 Here we could follow the tutorial for [scp](../../../../connect_to_the_server/linux-advanced.md#scp) and [ftp](../../../../connect_to_the_server/linux-advanced.md#ftp-service) and download our results to your laptops. 
 
-```text
-
+```bash
+scp -r youraccount@cern.ch:/<path to your results>/<your results>
 ```
+
+Here the option `-r` is to recursively download your folder. If the folder contains many files, you could consider to [collect them into a tarball](../../../../connect_to_the_server/linux-advanced.md#tar-da-bao). 
 
 #### 
 
