@@ -1,26 +1,27 @@
 # Xsec Map
 
-## Introduction
+## Sample Mapping \(from [gitlab](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/samples/maps/common)\)
 
-The `map` file is used to define our `TQSampleFolder` of output files. The description and introduction for the usage is shown in the [gitlab](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/samples/maps/common). 
+These files define the mapping of a DataSetIDentifier \(DSID\) to a \(usually more intuitive\) path in a SampleFolder.
 
-Here we used `run2-mc15.map`. However, I believe that we will use the `run2-mc16.map` instead in the future. Moreover, it seems there is no difference between these two maps. 
+###  Usage
 
-The following file shows the map file which we used in the VBF analysis.
+Mapping files are simple tab/whitespace separated columns of DSIDs and corresponding SampleFolder paths, e.g.:
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/samples/maps/common/run2-mc15.map" %}
 ```text
-341079 /sig/$(channel)/mh125/ggf/
-341080 /sig/$(channel)/mh125/vbf/
-345323 /sig/$(channel)/mh125/vbf/
-343393 /sig/$(channel)/mh125/ggf/
-345324 /sig/$(channel)/mh125/ggf/
-341122 /sig/$(channel)/mh125/htt/ggf/
-341155 /sig/$(channel)/mh125/htt/vbf/
+361106 /bkg/$(channel)/Zjets_Powheg/ee/
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-The numbers shown here are the DSIDs. The following paths are the paths to define the structure of sample folders.
+The first column lists the DSID, the second the desired location in the SampleFolder structure under which a handle \(one or more instances of TQSample\) for samples \(input files=nTuples or xAODs\) belonging to this DSID will be stored. The `$(channel)` part is a placeholder which will be replaced with the name of the respective channel. If, or example, an analysis defines two channels 'em' and 'me', one would end up with two TQSamples for each input file belonging to the DSID in question located under
+
+```text
+/bkg/em/Zjets_Powheg/ee/
+/bkg/me/Zjets_Powheg/ee/
+```
+
+Each pair of DSID and path is to be listed in one line \(empty lines and commentary lines can be used as well\).
+
+###  Advanced
+
+The DSID is not strictly required to be numerical but is technically used to select input files \(nTuples or xAODs\) from a \(large\) set of input files where the DSID needs to be contained in the file path/name of the files to be matched.
 
