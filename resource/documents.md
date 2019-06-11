@@ -57,6 +57,10 @@ To present the results, you could try to
 * * Add kinematics of physical objects, including jets, leptons and MET, in the backup or other slides as references. 
 * Always put the commits or version of the analysis
 
+## Communication via emails
+
+We always send the results and slides via emails. Please be noticed that if your slides are very large like 15 MB, you are suggested to **upload your slides** on the online drive like [CERNBox](../connect_to_the_server/cernbox.md) and send the link to them. This will save the storage for others' inbox. 
+
 ## Posters
 
 #### TPS 2019
