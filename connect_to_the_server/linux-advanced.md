@@ -2,6 +2,28 @@
 
 ## Useful commands
 
+### Initialize your environment
+
+You could add some commands to initialize the environment in the `~/.bashrc` for Linux system or `~/.bash_profile` for MAC system.
+
+例如，我們可以使用alias來縮短我們的指令，並且把alias的指令加在`~/.bashrc`，如此我們就可以在每次登入terminal或是cluster時，都可以馬上使用此指令。
+
+例如，我們可以把長長的[`ssh`](linux-advanced.md#ssh)指令縮短成一個字母！我們只需要在`~/.bashrc`加上：
+
+```text
+alias m='ssh -X youraccount@lxplus.cern.ch'
+```
+
+透過這個`alias`，我們以後只需要用在bash shell裡打上`m`，就等同於打上`ssh -X youraccount@lxplus.cern.ch`這個指令了！
+
+順帶一題，更改完`~/.bashrc`檔案時，如果要馬上看到效果，那需要先用[`source`](http://linux.vbird.org/linux_basic/0320bash/csh/no3-8-03.html) 來執行一遍，讓新的環境擁有這個新的指令。
+
+```text
+source ~/.bashrc
+```
+
+如果你沒有`source` 也沒關係，下次登入terminal時，電腦將會自動做`source ~/.bashrc`的步驟。
+
 ### sudo & su
 
 這裡有詳細的[介紹](https://blog.gtwang.org/linux/sudo-su-command-tutorial-examples/)可以參考，以下我們提供幾個很常見的指令：
@@ -111,6 +133,8 @@ sftp://lxplus.cern.ch
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-3.07.37.png)
 
 你如果要下載或上傳東西，就只需要把你要的檔案往左\(或右\)拉來下載\(上傳\)！
+
+### 縮短你的指令
 
 ## Reference
 

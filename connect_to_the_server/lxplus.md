@@ -70,8 +70,6 @@ We will have an EOS space with 1 TB quota, which is mainly used as a space to st
 
 Moreover, the EOS space is integrated with [CERNBox](https://cernbox.cern.ch/). More information about CERNBox are listed [here](cernbox.md). 
 
-
-
 ### Commands in the Lxplus
 
 #### Setup for the ATLAS environment
