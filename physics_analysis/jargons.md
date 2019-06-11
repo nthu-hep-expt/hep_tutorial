@@ -2,15 +2,16 @@
 
 ## Introduction
 
+### General
+
 * **Legacy paper** means the publication with full dataset. 
-* [Good Run lists](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2)
 * 
 ### Analysis
 
-* **Signal region \(SR\)** is the region where the signal populate
-* **Control Region \(CR\)** is the region dominated by some specific background and the CR is then used to constraint MC simulated samples with data
+* **Signal region \(SR\)** is the region where the signals populate
+* **Control Region \(CR\)** is the region dominated by some specific background and the CR is then used to **constraint MC simulated samples with data**
   * A control region should be **pure** and **with enough statistics**
-  * A control region should be close to SR but orthogonal to SR
+  * A control region should be **close** but **orthogonal** to SR
 * **Cut efficiency** is the efficiency of the cut selection
 
 $$
@@ -33,8 +34,8 @@ $$
 \text{NF} = \frac{\text{data in CR}-\text{MC}_\text{non-WW}\text{ in CR}}{\text{MC}_\text{WW}\text{ in SR}}
 $$
 
-
-
+* [Good Run lists](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2)
+* 
 $$
 \text{B}^{\text{est}}_{\text{SR}} = \text{B}_{\text{SR}} \dot
 $$
