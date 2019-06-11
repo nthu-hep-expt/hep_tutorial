@@ -30,38 +30,11 @@ sudo ls ~
 sudo su -
 ```
 
-### ls
-
-#### 計算檔案數量
-
-此指令提供我們計算這個folder裡面的所有檔案的數量
-
-```bash
-ls -1 | wc -l
-```
-
-#### 了解list出來的資訊
-
-我們在Linux \(Basic\)的章節討論過`ls -al`這些options，而我們要怎麼去看這些顯示出來的結果呢？
-
-```bash
-[metsai@lxplus070 ~]$ ls -al
-總計 1164
-drw-r--r--.  3 metsai zp     2048 2018-03-18 17:59 test
-drwxr-xr-x.  3 metsai zp     2048 2017-07-10 11:51 tutorial
-drwxr-xr-x.  6 metsai zp     2048 2016-11-29 15:51 tutorial_hww2016
--rw-r--r--.  1 metsai zp     4257 2018-10-01 07:24 UEHEBMeetings.html
--rwxrwxrwx.  1 metsai zp     3317 2018-04-20 10:44 usercert.pem
--rwxrwxrwx.  1 metsai zp     1958 2018-04-20 10:44 userkey.pem
-```
-
 ### top
 
-top指令能查詢server的使用狀況，包含CPU、記憶體以及他人對於此server的使用情況。
+top指令能查詢server的使用狀況，包含CPU、記憶體以及他人對於此server的使用情況，進入top查詢之後可以按q退出。
 
-進入top查詢之後可以按q退出。
-
-![&#x6B64;&#x5716;&#x4EE5;lxplus&#x70BA;&#x4F8B;](../.gitbook/assets/top.png)
+![&#x6B64;&#x5716;&#x4EE5;Lxplus SLC6&#x70BA;&#x4F8B;](../.gitbook/assets/top.png)
 
 ### tar （打包\)
 
@@ -117,9 +90,29 @@ tar cvf FileName.tar DirName
 scp youraccount@lxplus.cern.ch:/afs/cern.ch/work/m/metsai/FileName.tar ~
 ```
 
-### ftp service
+### FTP service 
+
+FTP就是File Transfer Protocol \(client and server\)，它是一種獲得網際網路世界普遍採用的通訊協定之一，我們可以透過FTP服務，來完成和`scp`一樣的事情，我們常用的FTP檔案傳輸軟體是[FileZilla](https://filezilla-project.org/)。
+
+[FileZilla](https://filezilla-project.org/) 的好處就是可以提供圖形化介面讓你較容易的把你想要下載或上傳的東西用游標即可以完成，如此就不用想下載東西就需要打長長一串的`scp`指令。
 
 ## Hand-on sessions
 
-### 
+### 用FileZilla下載東西
+
+用FileZilla登入Lxplus，我們要在主機那個空格輸入
+
+```text
+sftp://lxplus.cern.ch
+```
+
+後面則打上你的CERN帳號跟密碼，如此就能登入進去Lxplus了，你就可以開始使用FTP服務囉，enjoy!
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-3.07.37.png)
+
+你如果要下載或上傳東西，就只需要把你要的檔案往左\(或右\)拉來下載\(上傳\)！
+
+## Reference
+
+\[1\] [http://www.raidenftpd.com/tw/ftp.html](http://www.raidenftpd.com/tw/ftp.html)
 
