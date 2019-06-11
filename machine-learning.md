@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Here I used the [NTHU cluster](connect_to_the_server/nthu-cluster.md) to setup the environment for the machine learning \(ML\) packages with Python. 
+Here I used Mac OS to setup the environment for the machine learning \(ML\) packages with Python. 
 
 ### Install Python3
 
@@ -10,16 +10,18 @@ Mostly ML packages work with Python3. We have several ways to install Python3. W
 
 In this tutorial, I use Python 3.6.8.
 
-### Install Keras
-
-```text
-pip3 install keras
-```
-
 ### Install Tensorflow
 
 ```text
 pip3 install tensorflow
+```
+
+### Install Keras
+
+For python3
+
+```text
+pip3 install keras
 ```
 
 ### Pandas
@@ -76,5 +78,7 @@ export PYTHONPATH=path-to-xgboost/xgboost/python-package
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Troubleshooting
 
+#### 
 
