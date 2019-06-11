@@ -4,9 +4,31 @@
 
 ### sudo & su
 
-我們可以透過以下指令進入root身份，
+這裡有詳細的[介紹](https://blog.gtwang.org/linux/sudo-su-command-tutorial-examples/)可以參考，以下我們提供幾個很常見的指令：
 
+我們可以透過以下指令進入`root`身份
 
+```text
+su -
+```
+
+另外，當你要暫時以`root`身份來使用某些指令時，可以在前面加上`sudo`
+
+```text
+sudo <some commands>
+```
+
+例如以下指令，就會顯示`root`身份的家目錄：
+
+```text
+sudo ls ~
+```
+
+許多人會習慣拿 `sudo` 與 `su` 放在一起使用，這樣藉由 `su` 取得一個新的 shell，而且也不用輸入 `root` 的密碼，通常在 Ubuntu Linux 中很常用：\(from [介紹](https://blog.gtwang.org/linux/sudo-su-command-tutorial-examples/)\)
+
+```text
+sudo su -
+```
 
 ### ls
 

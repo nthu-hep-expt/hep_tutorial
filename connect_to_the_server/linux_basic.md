@@ -19,6 +19,13 @@ MobaXterm的好處是內建FTP上傳下載的功能，因此並不需額外使�
 
 如果希望顯示遠端的影像則須額外安裝X window，Mac常用的X window是[XQuartz](https://www.xquartz.org/)，而Windows系統中常用的X window軟體則為[Xming](http://www.straightrunning.com/XmingNotes/)。如果沒有安裝X window，則無法顯示，並可能會出現`DISPLAY is not set`相關的錯誤訊息。
 
+## Unix/Linux教學網頁
+
+以下列了兩個可以參考的教學網頁，可以照著裡面的資訊學習Linux指令，當然也可以照著下面的教學來學習。
+
+* [鳥哥的 Linux 私房菜](http://linux.vbird.org/linux_basic_train/)
+* [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+
 ## 進入terminal後，實際你正在使用shell
 
 進入terminal後，一般預設會使用bash shell，也有人會改用zsh shell，而以下所介紹的指令們，**也就是bash shell中的指令**！
@@ -74,10 +81,41 @@ ls -l
 ls -al
 ```
 
-我們可以遞迴地\(recursively\)看底下資料夾的資訊
+以下是我們會出現的詳細資訊，那我們要怎麼去看這些顯示出來的結果呢？
+
+```bash
+[metsai@lxplus070 ~]$ ls -al
+總計 1164
+drw-r--r--.  3 metsai zp     2048 2018-03-18 17:59 test
+drwxr-xr-x.  3 metsai zp     2048 2017-07-10 11:51 tutorial
+drwxr-xr-x.  6 metsai zp     2048 2016-11-29 15:51 tutorial_hww2016
+-rw-r--r--.  1 metsai zp     4257 2018-10-01 07:24 UEHEBMeetings.html
+-rwxrwxrwx.  1 metsai zp     3317 2018-04-20 10:44 usercert.pem
+-rwxrwxrwx.  1 metsai zp     1958 2018-04-20 10:44 userkey.pem
+```
+
+最主要需要學習的是整列最前面的資訊，這幾個字`drw-r--r--`主要列的是檔案或是資料夾，以及此物品的權限，更詳細可以參照[此連結](http://linux.vbird.org/linux_basic/0210filepermission.php)：
+
+```text
+drw-r--r--
+```
+
+第一個字如果是`d`，那就代表此為一個資料夾，但如果是`-`那就代表是一個檔案。那後面九個字呢？這九個字分成三組，每三個字即代表著不同使用者會看到的權限，`r`代表著可讀取，`w`代表著可編輯，`x`代表著可執行。以下圖更詳細的列出整段的資訊：
+
+![From &#x9CE5;&#x54E5;](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-2.49.38.png)
+
+另外，我們可以遞迴地\(recursively\)看底下資料夾的資訊
 
 ```text
 ls -R
+```
+
+#### 計算檔案數量
+
+此指令提供我們計算這個folder裡面的所有檔案的數量
+
+```bash
+ls -1 | wc -l
 ```
 
 ## cd - 切換資料夾/前往路徑
@@ -123,8 +161,6 @@ Emacs：神之編輯器
 * 按 :w 可以儲存
 * 按 :q 可以離開vim編輯器
 
-
-
 欲知更多可以看下面這張圖（希望大家不要看了圖之後就拒絕使用vim）
 
 ![&#x4F86;&#x6E90;&#xFF1A;http://blog.faq-book.com/?p=3029](../.gitbook/assets/vim.jpg)
@@ -137,7 +173,7 @@ Emacs：神之編輯器
 
 [https://coolshell.cn/articles/5426.html](https://coolshell.cn/articles/5426.html)
 
-## Q&A
+## Hand-on sessions
 
 ### 每個指令都看起來這麼長，怎麼辦？
 
