@@ -164,3 +164,5 @@ man ssh
 
 ### Subscribe working directory
 
+Please follow the [instruction](https://resources.web.cern.ch/resources/Help/?kbid=067040) to subscribe working directory since normally the accumulated output root and histogram files will be large.
+

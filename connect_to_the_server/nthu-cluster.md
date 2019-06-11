@@ -1,5 +1,7 @@
 # NTHU Cluster
 
+## Introduction
+
 The IP of our cluster is **140.114.94.172.** We have 4 computers which located in 綜二.
 
 Once you have account in our cluster, you can access it by the following commands:  
@@ -45,7 +47,34 @@ Change your password with command "passwd"
 passwd
 ```
 
-## Setup environment for ATLAS
+## Hand-on sessions
 
+### Setup ATLAS environment 
 
+You can setup the ATLAS environment automatically or manually, depending on whatever you like. 
+
+To automatically setup the ATLAS environment, you can add the following lines in the `~/.bashrc`.
+
+{% code-tabs %}
+{% code-tabs-item title="~/.bashrc" %}
+```bash
+export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
+alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
+setupATLAS
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+If you don't want to run this when login every time, you should still add the following line but run the `setupATLAS` when you want to use the ATLAS resources.
+
+{% code-tabs %}
+{% code-tabs-item title="~/.bashrc" %}
+```bash
+export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
+alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
