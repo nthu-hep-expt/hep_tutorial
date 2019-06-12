@@ -118,7 +118,7 @@ FTP就是File Transfer Protocol \(client and server\)，它是一種獲得網際
 
 [FileZilla](https://filezilla-project.org/) 的好處就是可以提供圖形化介面讓你較容易的把你想要下載或上傳的東西用游標即可以完成，如此就不用想下載東西就需要打長長一串的`scp`指令。
 
-## Hand-on sessions
+## Hands-on sessions
 
 ### 用FileZilla下載東西
 
@@ -133,10 +133,6 @@ sftp://lxplus.cern.ch
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-3.07.37.png)
 
 你如果要下載或上傳東西，就只需要把你要的檔案往左\(或右\)拉來下載\(上傳\)！
-
-### 縮短你的指令
-
-
 
 ## Reference
 

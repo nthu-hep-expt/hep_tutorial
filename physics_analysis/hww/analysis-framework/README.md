@@ -10,10 +10,11 @@ As mentioned previously, we have two framework frequently used in the HWW group.
 With _HWWPhysicsxAODMaker_, we can derivate the DxAOD samples to PxAOD, which we use in the _HWWAnalysisCode_. Then we could produce the results presented by histograms and cutflows. 
 
 * \*\*\*\*[**HSG3AnalysisCode**](https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/HiggsPhys/HSG3/HSG3AnalysisCode?order=name) is the old version of the analysis code.
+* \*\*\*\*[**HWWxAODCode**](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HWWxAODCode) ****is the old production code.
 
 ### Group Disks
 
-ATLAS HWW group has a group disk for the PxAOD samples. The samples are stored in the following link.
+ATLAS HWW group has a group disk for the PxAOD samples. The samples are stored in the following link. 
 
 ```text
 /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/
@@ -27,7 +28,5 @@ R21 samples are updated with new technical recommendations and will contain the 
 /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21
 ```
 
-#### EMTopo and PFlow
-
-We use EMTopo method to define our jets in the ATLAS experiment before, now we would like to migrate from EMTopo to Particle Flow \(PFlow\) algorithm, which was also used in the CMS experiment, in the HWW analysis. Therefore, we've two kind of R21 samples with different methods currently.
+We now have V19 PxAOD productions on the [ATLAS Panda](https://bigpanda.cern.ch/tasks/?taskname=group.phys-higgs.*_13TeV.HWW*.*PAOD_2L*.V19*&display_limit=1000&days=200). There are more details about the V19 productions on the [twiki](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HiggsWW#NEW_PxAOD_V19_production).
 

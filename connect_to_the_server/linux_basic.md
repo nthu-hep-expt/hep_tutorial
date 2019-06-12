@@ -173,7 +173,7 @@ Emacs：神之編輯器
 
 [https://coolshell.cn/articles/5426.html](https://coolshell.cn/articles/5426.html)
 
-## Hand-on sessions
+## Hands-on sessions
 
 ### 每個指令都看起來這麼長，怎麼辦？
 
