@@ -1,32 +1,14 @@
-# Analyze \(Basic\)
+# Analyze
 
-After the **initialize** step, we will now run the **analyze** step with the initialized samples.
+## Introduction
 
-```text
-# Run in the share folder (../HWWAnalysisCode/share)
-./analyze.py config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg# -*- mode: config -*-
-```
+![](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.13.21.png)
+
+The `analyze` step is followed by the `initialize` ****step.
 
 The analyze config file is shown below.
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
-[analyze]
-
-# name of the input file
-inputFile: sampleFolders/initialized/samples-initialized-ZjetsFakeFactor.root
-
-# name of the output file
-outputFile: sampleFolders/analyzed/samples-analyzed-ZjetsFakeFactor.root
-
-# channels to run over
-channels: ee,mm
-
-useMultiChannelVisitor: true
-
-purgeRemainder: true
-
 # define the cuts
 cuts: config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def
 
@@ -43,37 +25,26 @@ histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
 [config]
 include: config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-### Cuts
+#### inputFile and outputFile
 
-In this analyze step, we should define our cuts to select events. 
+These are same as the [tags](../initialize/#inputfile) introduced before. 
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
+#### channels
+
+We have four options for the channels including same-flavor final states, `ee` and `μμ`, as well as different flavor final states, `eμ` and `μe`.
+
+#### cuts
+
+In this `analyze` step, we include the cut files, which are used to define cuts to select events, in the configuration file. More details are introduced in the [subsection](cuts.md). 
+
 ```text
-cuts: config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def
+cuts: config/cuts/common/default-couplings.def, config/cuts/VBF/VBF.def
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-We define the cuts like the cut file shown below. The following lines show an example of the cut file. You can only have a quick look at it. We will describe the cut files more detailedly in the [section](analyze-adv.md) for VBF.
 
-Here, the analysis starts with **CutChannels** stage after the PxAOD production. Then, a **CutVgammaVjet\_overlap** selection is applied after CutChannels stage.
 
-{% code-tabs %}
-{% code-tabs-item title="config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def" %}
-```
-+CutChannels {
-    <.cutExpression = "$(fitsChannel)", .weightExpression = "Weight_$(weightname):$(cand)", .title="Channel Selection">
-    +CutVgammaVjet_overlap {
-        <.cutExpression = "{ $(isVjets) ? $(Truth_hasFSRPhotonDR01)==0 : 1 }",  .title="Overlap: Vgamma/Vjets">
-         } 
-}
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+
 
 ### Observables
 
