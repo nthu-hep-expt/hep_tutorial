@@ -14,4 +14,6 @@
 | [Server](connect_to_the_server/) | [Lxplus](connect_to_the_server/lxplus.md) | 85% | rucio \(combine with [grid](connect_to_the_server/grid.md)\) |
 | [Server](connect_to_the_server/) | [NTHU Cluster](connect_to_the_server/nthu-cluster.md) | 75% | Add event display \(VP1\)  |
 | [ROOT](root/) |  | 30% | Plotting \(SWAN\) |
+| [Git](git/git.md) |  | 30% | Remote, adv |
+|  |  |  |  |
 
