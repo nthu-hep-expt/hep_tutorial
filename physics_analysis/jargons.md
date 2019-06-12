@@ -1,4 +1,4 @@
-# Jargons
+# Jargon
 
 ## Introduction
 
