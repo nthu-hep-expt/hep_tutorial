@@ -12,7 +12,7 @@
   * [Linux \(Advanced\)](connect_to_the_server/linux-advanced.md)
   * [Lxplus](connect_to_the_server/lxplus.md)
   * [NTHU Cluster](connect_to_the_server/nthu-cluster.md)
-  * [CERNBox](connect_to_the_server/cernbox.md)
+  * [CERNBox and EOS](connect_to_the_server/cernbox.md)
   * [Grid](connect_to_the_server/grid.md)
 * [Machine Learning](machine-learning.md)
 * [ROOT](root/README.md)
@@ -61,4 +61,5 @@
   * [Schools and Lectures](resource/summer_school_and_lecture/README.md)
     * [CERN Summer School](resource/summer_school_and_lecture/cern-summer-school.md)
 * [Todo list for new features](to-do-list.md)
+* [Maintainer](maintainer.md)
 

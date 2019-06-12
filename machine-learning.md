@@ -1,6 +1,10 @@
 # Machine Learning
 
-## Introduction
+## ML with ROOT packages
+
+### TMVA
+
+## ML with Python packages
 
 Here I used Mac OS to setup the environment for the machine learning \(ML\) packages with Python. 
 

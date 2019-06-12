@@ -1,4 +1,4 @@
-# CERNBox
+# CERNBox and EOS
 
 ## Introduction 
 
@@ -6,9 +6,12 @@
 
 ### Sharing
 
-Since we may possible download the samples in our EOS space or share the slides with others, we should understand how to share the files in the CERNBox.
+It's not available to change the authorities of the files by `chmod` in the EOS space, instead, to share with others, we should **share** them with others by CERNBox. 
 
-To share with others, we normally should key in the full name of who you would like to share. It's because sometimes CERNBox cannot find people with only a part of the name.
+The followings are the instructions about sharing in the CERNBox. 
+
+* We normally key in the full name of who you would like to share. It's because sometimes CERNBox cannot find people with only a part of the name.
+* We can also share with e-groups.
 
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-4.56.59.png)
 
