@@ -11,7 +11,7 @@ Physics analysis in the ATLAS experiment covers a wide range of topics and requi
 
 ### Programming
 
-Here I listed some basic but very useful links for introduction. Many _jargons_ are explained in the following links. 
+Here I listed some basic but very useful links for introduction. Many _jargon_ are explained in the following links. 
 
 #### Twiki
 
@@ -28,20 +28,33 @@ Here I listed some basic but very useful links for introduction. Many _jargons_ 
 
 #### Meetings and talks
 
-* [ATLAS weekly meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-weekly-meetings.html)
-* [ATLAS talks \(seminar\)](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/PublicSeminars)
-* [ATLAS Conference talks](http://atlas-speakers-committee.web.cern.ch/atlas-speakers-committee/)
+* **General**
+  * \*\*\*\*[**ATLAS weekly meetings**](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-weekly-meetings.html)\*\*\*\*
+  * \*\*\*\*[ATLAS talks \(seminar\)](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/PublicSeminars)
+  * [ATLAS Conference talks](http://atlas-speakers-committee.web.cern.ch/atlas-speakers-committee/)
+  * \*\*\*\*[**ATLAS Physics and Performance \(P&P\) meetings**](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-physics-performance-meetings.html)\*\*\*\*
+  * \*\*\*\*[ATLAS Physics Coordinate meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-physics-coordination-meetings.html)
+* **Combined Performance \(CP\)**
+  * \*\*\*\*[**ATLAS PMG meetings**](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-PMG-meetings.html)\*\*\*\*
+  * [ATLAS Flavour Tagging meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Flavour-tagging-meetings.html)
+  * [ATLAS Trigger meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Trigger-meetings.html)
+  * \*\*\*\*[ATLAS Muon CP meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Muon-CP-meetings.html)
+  * [ATLAS Tau CP meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Tau-CP-meetings.html)
+  * [ATLAS Tracking CP meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Tracking-CP-meetings.html)
+  * [ATLAS Egamma CP meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Egamma-CP-meetings.html)
+  * [ATLAS JetEtMiss CP meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-JetEtMiss-CP-meetings.html)
+* **Physics analysis**
+  * \*\*\*\*[**ALTAS Higgs WG meetings**](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Higgs-WG-meetings.html)\*\*\*\*
+  * \*\*\*\*[ALTAS Exotics meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Exotics-meetings.html)
+  * [ATLAS SUSY meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-SUSY-meetings.html)
+  * \*\*\*\*[ATLAS Statistics and ML meetings](http://metsai.web.cern.ch/metsai/meetings/distributions/ATLAS-Statistics-ML-meetings.html)
 
 #### Publication and notes
 
 * [ATLAS paper \(all\)](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/Publications)
-* [ATLAS paper \(by channels\)](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/WebHome#Physics_Analysis_Groups_Summary)
+* [ATLAS paper \(by energy/productions/channels\)](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/WebHome#Physics_Analysis_Groups_Summary)
 * [ATLAS Public Note](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/PUBnotes)
 * [ALTAS Conference Note](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/CONFnotes)
-
-
-
-
 
 ## Hand-on sessions
 
