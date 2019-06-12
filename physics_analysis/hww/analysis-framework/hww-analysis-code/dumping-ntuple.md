@@ -79,10 +79,6 @@ config/jobLists/VBF/jobs-MVA.txt
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-```text
-
-```
-
 ### Submit to dump nTuple
 
 We can then use **submit.py** to run the analysis parallel.

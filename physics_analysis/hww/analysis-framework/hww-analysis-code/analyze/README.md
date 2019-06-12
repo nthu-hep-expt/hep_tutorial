@@ -10,6 +10,8 @@ The `analyze` step is followed by the `initialize` ****step. The following is th
 ./analyze.py config/master/VBF/analyze-VBF-default.cfg
 ```
 
+Notice that a more convenient way, `submit`, is introduced in the [subsection](analyze-adv.md).
+
 ### Tags
 
 #### inputFile and outputFile

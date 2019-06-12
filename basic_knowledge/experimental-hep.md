@@ -8,13 +8,11 @@ An event is collected by the detector after the collision between two proton bea
 
 ## Trigger
 
-## Filter 
 
-#### Filter efficiency
 
 ## MC generators
 
-## Jargons
+## Jargon
 
 ### Kinematics 
 

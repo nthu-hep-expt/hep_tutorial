@@ -43,7 +43,6 @@
           * [Analyze and Submit](physics_analysis/hww/analysis-framework/hww-analysis-code/analyze/analyze-adv.md)
           * [Hands-on sessions](physics_analysis/hww/analysis-framework/hww-analysis-code/analyze/hands-on-sessions.md)
         * [Visualize \(Basic\)](physics_analysis/hww/analysis-framework/hww-analysis-code/visualize.md)
-        * [Advanced tutorial](physics_analysis/hww/analysis-framework/hww-analysis-code/advanced-tutorial.md)
         * [Dumping Ntuple and Eventlists](physics_analysis/hww/analysis-framework/hww-analysis-code/dumping-ntuple.md)
       * [HWWPhysicsxAODMaker](physics_analysis/hww/analysis-framework/hwwphysicsxaodmaker.md)
       * [Plotting Tools](physics_analysis/hww/analysis-framework/additional-plotting-tool.md)
