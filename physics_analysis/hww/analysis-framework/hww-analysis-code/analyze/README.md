@@ -4,27 +4,15 @@
 
 ![](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.13.21.png)
 
-The `analyze` step is followed by the `initialize` ****step.
+The `analyze` step is followed by the `initialize` ****step. The following is the command about how we analyze with configuration file and we take the VBF as example:
 
-The analyze config file is shown below.
-
-```text
-# define the cuts
-cuts: config/cuts/ZjetsFF/ZjetsFakeFactor-cuts.def
-
-#patches: 
-
-# add any observables
-customObservables.directories: observables/common,observables/ZjetsFF
-customObservables.snippets: HWWweight, HWWLeptonIDObservable, PassWZVeto, HWWZBosonPairFakeIndex, HWWInvMass2L
-
-# book histograms
-histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
-
-# include aliases
-[config]
-include: config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg
+```bash
+./analyze.py config/master/VBF/analyze-VBF-default.cfg
 ```
+
+Notice that a more convenient way, `submit`, is introduced in the [subsection](analyze-adv.md).
+
+### Tags
 
 #### inputFile and outputFile
 
@@ -42,62 +30,31 @@ In this `analyze` step, we include the cut files, which are used to define cuts 
 cuts: config/cuts/common/default-couplings.def, config/cuts/VBF/VBF.def
 ```
 
+#### Observables
 
+Observables are the features which we can _observe_ an event. In the configuration file, we include the snippets, which will further call the source codes to calculate the features.
 
-
-
-### Observables
-
-The observables are the variables to measure the kinematic distributions for events. We book observables in this analyze config file. 
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
-customObservables.directories: observables/common,observables/ZjetsFF
-customObservables.snippets: HWWweight, HWWLeptonIDObservable, PassWZVeto, HWWZBosonPairFakeIndex, HWWInvMass2L
+customObservables.directories: observables/common, observables/VBF
+customObservables.snippets: HWWTriggerWeight, HWWGRL,HWWTrigger,HWWbTagCounter,HWWMETRel,HWWMtautau,EventIndex,HWWpTSumobs,HWWFakeFactorWeight,HWWDRObs,HWWLeptonIDObservable,HWWRunNumber,SampleNorm,HWWCorrectedAverageMu,HWWJetCounter, HWWnLep, HWWSumMljobs, HWWOLVobs, HWWCJVobs, HWWMT2Obs, HWWMuonIsoWeight, HWWMuonTTVAWeight, HWWMuonRecoWeight, HWWElectronRecoWeight, HWWElectronIDWeight, HWWElectronIsoWeight, HWWJVTWeight, HWWBTagWeight, HWWPRWWeight, HWWMCWeight
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-We take an example observable snippet in the following. We can have an overview of how an observable snippet looks like. We will have a more complete description in the [observable](observables.md) section.
+There are very helpful tutorials for observables:
 
-{% code-tabs %}
-{% code-tabs-item title="share/observables/ZjetsFF/HWWInvMass2L.py" %}
-```python
-from QFramework import TQObservable,INFO,ERROR,BREAK
-from HWWAnalysisCode import HWWInvMass2L
+* [Observables - Injecting Physics into CAF](https://indico.cern.ch/event/771763/contributions/3207857/attachments/1767866/2872862/181210_Observables.pdf)
+* [Writing Custom Observables \(on gitlab\)](https://gitlab.cern.ch/atlas-caf/CAFExample/blob/master/Tutorial/WritingCustomObservables.md)
 
-def addObservables(config):
-  INFO("adding invariant mass observable")
-  invmass_l0l1 = HWWInvMass2L("invMassl0l1", 0, 1)
-  if not TQObservable.addObservable(invmass_l0l1):
-    INFO("failed to add invariant mass Observable")
-    return False
-  return True
+#### Histograms
 
-if __name__ == "__main__":
-  tags = TQTaggable()
-  if addObservables(tags):
-    print("Successfully added invariant mass observables")
-  else:
-    ERROR("Failed to add invariant mass observables")
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+We book the histograms in the histogram file. Then, we include the histogram file in the configuration file for `analyze` step. Here shows how we include the histogram file in the config file.
 
-### Histograms
-
-We book the histograms in the histogram file. Then, we include the histogram file in the config file for analyze step. Here shows how we include the histogram file in the config file.
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 histograms: config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
- Here, we show an example of the histogram file. We book [TH1F](https://root.cern.ch/doc/master/classTH1F.html) which is the one-dimensional histogram with a float per channel. We book the histogram at and after the CutFakeEl stages.
+Then, we show an example of the histogram file. We book [TH1F](https://root.cern.ch/doc/master/classTH1F.html) which is the one-dimensional histogram with a float per channel. We book the histograms at and after the `CutFakeEl` stages.
+
+The stages, for example `CutFakeEl`, which we can use to include should be defined in the cut file!
 
 {% code-tabs %}
 {% code-tabs-item title="share/config/histograms/ZjetsFF/ZjetsFakeFactor-histograms.txt" %}
@@ -109,31 +66,13 @@ TH1F('fakeElectronEta', '', 20, -3.0, 3.0) << ([$(elFakeAny_eta)] : 'el fake \#e
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We will describe more detailedly in the [histogram](histograms.md) section later.
+#### Alias
 
-### Alias
+The introduction to alias is described [here](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/aliases/common#aliases). We include the alias file in the configuration file.
 
-We define the variables used in the histogram and cut files in the alias file. So, we include the alias file in the config file.
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/analyze-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
-include: config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg
+include: config/aliases/common/aliases-flat.cfg,config/aliases/VBF/aliases_VBF.cfg
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-Here is an example for alias file. In the alias file, we define the **elFakeAny\_eta** variable which is used in the histogram definition.
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/aliases/ZjetsFF/ZjetsFakeFactor-aliases.cfg" %}
-```text
-[analyze]
-aliases.fitsChannel: @Event$(cand).size() > 0
-aliases.elFakeAny_eta: "([ZBosonPairFakeIndex]==3 ? [$(elFake0).eta()] : ( [ZBosonPairFakeIndex]==2 ? [$(lep1).eta()] : [$(lep0).eta()])) "
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-A more complicated description will be covered in the [alias](alias.md) section.
+The `aliases-flat.cfg` includes the common aliases and the `aliases_VBF.cfg` contains the aliases related to VBF analysis. 
 

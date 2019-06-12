@@ -4,7 +4,11 @@
 
 ![](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.13.10.png)
 
-After `prepare`, the analysis continues with `initialize`**.** 
+After `prepare`, the analysis continues with `initialize`**.** We run the `initialize` step by 
+
+```bash
+./prepare.py config/master/VBF/initialize-VBF-default.cfg
+```
 
 ### Tags
 
