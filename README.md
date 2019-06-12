@@ -4,7 +4,7 @@
 
 Any questions or comments about this tutorial are welcome!
 
-* **Yu-Hsin Chan:** yu-hsin.chan@cern.ch
+* **Yu-Hsin Chan:** amyjan0572@gmail.com
 * **Meng-Ju Tsai:** meng-ju.tsai@cern.ch
 
 ## Overview
