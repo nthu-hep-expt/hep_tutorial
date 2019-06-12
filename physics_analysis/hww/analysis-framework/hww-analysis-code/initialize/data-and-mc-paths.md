@@ -2,42 +2,25 @@
 
 ## How to include data and MC paths
 
-We have several samples including data and MC samples. For the fake estimation,  we also have both data and MC samples for W+jets.
+### Include samples by `dataPaths` and `mcPaths`
 
-We have two ways to include the samples. First, we can use the paths to run with all the samples in the given folder. Second, we can use the file lists to determine which samples are used in the prepare step.
+#### For non-fake samples
 
-### Include data and MC samples with paths
-
-#### Data and MC samples
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/VBF/initialize-VBF-Coupling-2018.cfg" %}
 ```text
-dataPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V18/2LDF/data/:CollectionTree
-mcPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V18/2LDF/mc/:CollectionTree
+dataPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2LDF/data/data1516/:CollectionTree
+mcPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2LDF/MC_Nominal/mc16a/:CollectionTree
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-#### Setup for fake data and MC samples
+#### For fake data and MC samples
 
-We can also add the fake samples by the paths. 
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/VBF/initialize-VBF-Coupling-2018.cfg" %}
 ```text
-ddFakes.dataPaths: /eos/user/m/metsai/PAOD_2LDF/v17b/fake_data/:CollectionTree
-ddFakes.mcPaths: /eos/user/m/metsai/PAOD_2LDF/v17b/fake_mc/:CollectionTree
-ddFakes.baseFolderName: Wjets
-ddFakes.subFolderNames: FakeE,FakeM, QCDCorr
-ddFakes.mcFoldersToVeto: Wjets
+ddFakes.dataPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2LDF/data/data1516/:CollectionTree
+ddFakes.mcPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2LDF/MC_Nominal/mc16a/:CollectionTree
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 Please note that we should add `:CollectionTree` followed by the paths since the informations of events are stored in the **CollectionTree** in the input PxAOD samples. 
 
-### Include data and MC samples with file lists
+### Include samples by `dataFileList` and `mcFileList`
 
 We could use tag to use the file lists which contain the lists of samples we would like to run.  We take the ggF file list for Release 21 validation as an example. 
 
@@ -64,40 +47,14 @@ In this file list, we could easily add the paths for different root files.
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## Run without fake estimation
+### Include samples by `Campaigns`
 
-We can remove the lines for the W+jets \(fake\) tags. Instead, we add the following line to close the fake estimation.
-
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/VBF/initialize-VBF-Coupling-2018.cfg" %}
-```text
-doDDfakes: False
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-### Run with samples
-
-We have several ways to run with our samples. We could run with the given lists or run with the samples inside some certain folders. Here we show two ways:
-
-#### File list
-
-We use the file list to pass the samples we would like to run.
-
-```
-dataFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-dataFileList.txt
-dataFileListTreeName: CollectionTree
-mcFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-mcFileList.txt
-mcFileListTreeName: CollectionTree
-```
-
-#### **Data path**
-
-We use the data path to run all the samples inside the folder. The following show an example path.
+We currently use the `Campaigns` to include the samples. 
 
 ```text
-dataPaths: /eos/user/d/dshope/forCAFExample/xAOD_Example/data/:CollectionTree
+campaignsConfig: config/master/common/campaigns.cfg
+campaigns: c16a,c16d,c16e
 ```
 
-### 
+Then in the `config/master/common/campaigns.cfg`, we use the [previous methods](data-and-mc-paths.md#include-samples-by-datapaths-and-mcpaths) to include samples.
 

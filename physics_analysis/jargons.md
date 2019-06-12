@@ -8,6 +8,8 @@
 
 ### Analysis
 
+* **Nominal samples:** samples as our baseline without variations
+* **Variation samples**: samples with theoretical or systematic variations to estimate the contribution from systematics
 * **Signal region \(SR\)** is the region where the signals populate
 * **Control Region \(CR\)** is the region dominated by some specific background and the CR is then used to **constraint MC simulated samples with data**
   * A control region should be **pure** and **with enough statistics**
