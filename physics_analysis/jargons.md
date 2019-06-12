@@ -5,7 +5,7 @@
 ### General
 
 * **Legacy paper** means the publication with full dataset. 
-* 
+
 ### Analysis
 
 * **Signal region \(SR\)** is the region where the signals populate
