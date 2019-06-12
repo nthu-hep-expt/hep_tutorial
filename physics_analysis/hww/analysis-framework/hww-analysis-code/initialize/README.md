@@ -4,9 +4,9 @@
 
 ![](../../../../../.gitbook/assets/ying-mu-kuai-zhao-20190610-xia-wu-8.13.10.png)
 
-After `prepare`, the analysis continues with `initialize`**.**
+After `prepare`, the analysis continues with `initialize`**.** 
 
-### Tages
+### Tags
 
 #### inputFile
 
@@ -24,104 +24,50 @@ Same as prepare step, we will output a root file from `initialize` step, which w
 outputFile: sampleFolders/initialized/samples-initialized-VBF-default.root
 ```
 
+#### Campaigns
+
+This is same as we introduced in the [prepare](../prepare/#campaigns) step.
+
+#### Fake estimation
+
+If you're not working on the fake estimation, you normally don't need to care about this. 
+
 ```text
+#--------------------------------------------------------------
+# Fake configuration
+doDDfakes: true
+ddFakes.baseFolderName: ddFakes
+# subfolders living inside above folder, each one will carry around its own full copy of data and mc.
+# intended to enable split up, e.g. in e-fakes and mu-fakes. You can also comment this line out completely,
+# which means no subfolders are created (you get only the base folder)
+ddFakes.subFolderNames: eFakes,mFakes,doubleFakes
+# mc processes to be ignored in the EW subtraction (i.e. folders with these names will not be copied)
+ddFakes.mcFoldersToVeto: Wjets
+# if there's already a mc sample in the bkg folder with the same name as base bkg folder given above,
+# it will be removed unless you flag true here (then, it will be saved under bkg/?/<process>MC/)
+#makeSampleFile.ddFakes.keepMCBkg: false
+```
 
-# paths and names of the input data files
-dataFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-dataFileList.txt
-dataFileListTreeName: CollectionTree
-#dataPaths: /eos/user/d/dshope/forCAFExample/xAOD_Example/data/:CollectionTree
-# additional input file configurations - these are already the defaults
-#dataFilePattern: *.root*
-#dataFolderPattern: data/$(channel)/all
+The only think you should notice here is that you can close the fake estimation by 
 
-# paths and names of the input mc files to initialize
-mcFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-mcFileList.txt
-mcFileListTreeName: CollectionTree
-#mcPaths: /eos/user/d/dshope/forCAFExample/xAOD_Example/mc/:CollectionTree
-# additional input file configurations - these are already the defaults
-#mcFilenameSuffix: *.root*
-#mcFilenamePrefix: *
+```text
+doDDfakes: false
+```
 
-# some debugging options for the sample initializer
-# initialize: false
+#### Debug setting
+
+```text
 printSamplesFailed: true
 verbose: true
-
-# channels to run over
-channels: ee,mm
-channelPlaceholder: channel
-
-# preInit patch files to apply
-preInit_patches: config/patches/ZjetsFF/ZjetsFakeFactor-default-patch.txt
-
-# postInit patch files to apply
-#postInit_patches: 
-
 ```
 
-### Run with samples
+#### Patches
 
-We have several ways to run with our samples. We could run with the given lists or run with the samples inside some certain folders. Here we show two ways:
+Patches provide the style for the TQSampleFolder as described [here](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/tree/master/share/config/patches/common#tqfolder-patches). 
 
-#### File list
-
-We use the file list to pass the samples we would like to run.
-
-```
-dataFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-dataFileList.txt
-dataFileListTreeName: CollectionTree
-mcFileList: config/samples/inputFileLists/ZjetsFF/ZjetsFakeFactor-mcFileList.txt
-mcFileListTreeName: CollectionTree
-```
-
-#### **Data path**
-
-We use the data path to run all the samples inside the folder. The following show an example path.
+> TQFolder Patch Files allow to place additional information on a SampleFolder structure in the form of additional tags. They also provide a way to modify the SampleFolder structure itself, e.g, by moving, copying, deleting, or creating TQ\(Sample\)Folders and TQSamples.
 
 ```text
-dataPaths: /eos/user/d/dshope/forCAFExample/xAOD_Example/data/:CollectionTree
+preInit_patches: config/patches/common/default-patch.txt
 ```
-
-### 
-
-### Include the patch \(style\) for the  TQSampleFolder
-
-```text
-preInit_patches: config/patches/ZjetsFF/ZjetsFakeFactor-default-patch.txt
-```
-
-In the patch file, we define the labels and tags for the TQSampleFolder
-
-{% code-tabs %}
-{% code-tabs-item title="config/patches/ZjetsFF/ZjetsFakeFactor-default-patch.txt" %}
-```text
-# -*- mode: tqfolder -*-
-
-<channel = "mm", cand = "MM", isMM=true,  isEE=false, isEM=false, isME=false> @ ?/mm; # mm channel for data,bkg,sig
-<channel = "ee", cand = "EE", isMM=false, isEE=true,  isEM=false, isME=false> @ ?/ee; # ee channel for data,bkg,sig
-<channel = "em", cand = "EM", isMM=false, isEE=false, isEM=true,  isME=false> @ ?/em; # em channel for data,bkg,sig
-<channel = "me", cand = "ME", isMM=false, isEE=false, isEM=false, isME=true > @ ?/me; # me channel for data,bkg,sig
-<isSF=true, isDF=false> @ ?/ee,?/mm;
-<isSF=false, isDF=true> @ ?/em,?/me;
-<isLeadE=true, isLeadM=false> @ ?/ee,?/em;
-<isLeadE=false, isLeadM=true> @ ?/mm,?/me;
-<isSubE=true, isSubM=false> @ ?/ee,?/me;
-<isSubE=false, isSubM=true> @ ?/em,?/mm;
-<wildcarded = true> @ ?/?; # we usually don't care about the channel-part of the path
-<isData = true, isMC = false, variation="nominal"> @ data; # for data,revert the data/MC tags
-<isData = false, isMC = true, variation="nominal"> @ sig,bkg;
-<isVjets = false> @ sig,bkg,data;
-<isVjets = true> @ /bkg/?/Zjets;
-
-# we want to apply mc event weights on MC samples
-# this tag is used by the sample initializer
-# to determine if it should extract bookkeeping info
-<usemcweights = true> @ sig,bkg; # we want to apply mc event weights on MC samples
-<usemcweights = false> @ data; # we don't want to apply any weights on data samples
-
-# Sherpa WZ normalisation = 1.15
-$modify(tag='.xsp.xSecScale',operator='=',value=1.15,path='bkg/?/diboson/NonWW/qq/WZgammaStar/*',filter='s',create=true);
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
