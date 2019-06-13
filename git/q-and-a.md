@@ -1,4 +1,4 @@
-# Git application and Q&A
+# Git Application and Q&A
 
 ## Applications
 
