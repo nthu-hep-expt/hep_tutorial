@@ -38,7 +38,8 @@ $$
 $$
 
 * [Good Run lists](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2)
-* \*\*\*\*
+* Reweigh
+* Normalized to unit area
 
 ### Abbreviation
 
