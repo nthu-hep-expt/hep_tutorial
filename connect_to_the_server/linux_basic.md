@@ -173,6 +173,16 @@ Emacs：神之編輯器
 
 [https://coolshell.cn/articles/5426.html](https://coolshell.cn/articles/5426.html)
 
+### Useful commands
+
+* [\[學習筆記\] Vim 常用技巧](https://shouzo.github.io/2017/03/17/vim/)
+
+#### 取消搜尋時的highlight
+
+```text
+:noh
+```
+
 ## Hands-on sessions
 
 ### 每個指令都看起來這麼長，怎麼辦？
@@ -203,6 +213,38 @@ vim share/config/samples/XSec/common/XS_13TeV.csv
 ```
 
 ![](../.gitbook/assets/tab.gif)
+
+### Vim的個人化設定
+
+我們可以設定自己喜歡的vim樣式跟使用方式！
+
+* [Vim 環境設定 - vimr](http://note.drx.tw/2008/01/vimrc-config.html)，以下列出幾個較常用或實用的設定：
+
+```text
+$ vim ~/.vimrc
+
+" 自動縮排：啟用自動縮排以後，在貼上剪貼簿的資料時排版可能會亂掉，這時可以手動切換至貼上模式 :set paste 再進行貼上。
+set ai
+
+" 啟用暗色背景模式。
+set background=dark
+
+" 啟用行游標提示。
+set cursorline
+
+" 標記關鍵字。
+set hls
+
+" 顯示行號。
+" set number
+
+" 搜尋不分大小寫。
+set ic
+
+" 自訂縮排 (Tab) 位元數。
+set tabstop=2
+set shiftwidth=2
+```
 
 ## Reference
 
