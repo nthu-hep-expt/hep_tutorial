@@ -176,7 +176,7 @@ Emacs：神之編輯器
 ### Useful commands
 
 * [\[學習筆記\] Vim 常用技巧](https://shouzo.github.io/2017/03/17/vim/)
-
+* 
 #### 取消搜尋時的highlight
 
 ```text
@@ -218,7 +218,10 @@ vim share/config/samples/XSec/common/XS_13TeV.csv
 
 我們可以設定自己喜歡的vim樣式跟使用方式！
 
-* [Vim 環境設定 - vimr](http://note.drx.tw/2008/01/vimrc-config.html)，以下列出幾個較常用或實用的設定：
+* [Vim 環境設定 - vimr](http://note.drx.tw/2008/01/vimrc-config.html)，
+* [個人化自己的vim文字編輯器\(.vimrc設定教學\)](https://magiclen.org/vimrc/)
+
+以下列出幾個較常用或實用的設定：
 
 ```text
 $ vim ~/.vimrc
