@@ -162,6 +162,12 @@ which `-X` and `-Y` are used to enable X11 forwarding. You can look into details
 man ssh
 ```
 
+If you still encounter the issue, you may use the following command
+
+```text
+export DISPLAY=:0.0
+```
+
 ### Subscribe working directory
 
 Please follow the [instruction](https://resources.web.cern.ch/resources/Help/?kbid=067040) to subscribe working directory since normally the accumulated output root and histogram files will be large.
