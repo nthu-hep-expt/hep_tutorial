@@ -19,6 +19,8 @@ We have two important frameworks, one for physics analysis and the other one is 
 
 ### HWW conveners \(會議召集人\)
 
+All past and current conveners of HWW group are listed in the [glance](https://glance.cern.ch/atlas/appointment/details?id=1282). 
+
 #### Current conveners
 
 * **Jonas Strandberg**
