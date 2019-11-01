@@ -47,10 +47,9 @@ $$
   * **Scale factor**: factors applied on the MC samples to correct the difference between MC and data
   * **Same flavor:** this means the lepton flavor are different in the final state
 * **OS** and **SS** represent the opposite-signed and same-signed \(leptons\) in the HWW analysis
-
-$$
-\text{B}^{\text{est}}_{\text{SR}} = \text{B}_{\text{SR}} \dot
-$$
+* **ML** could be possibly indicate 
+  * Machine Learning
+  * Multilepton
 
 ### English
 
