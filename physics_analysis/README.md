@@ -56,6 +56,10 @@ Here I listed some basic but very useful links for introduction. Many _jargon_ a
 * [ATLAS Public Note](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/PUBnotes)
 * [ALTAS Conference Note](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/CONFnotes)
 
+#### Glance
+
+[Glance](https://glance.cern.ch/atlas/) is a useful tool to search for the status of membership, publication, or even institutions. 
+
 ## Hand-on sessions
 
 ### Join meetings by vidyo
