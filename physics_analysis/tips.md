@@ -8,5 +8,7 @@ If the framework is already setup, but you don't know how to run the code. The f
 
 An example of the yaml file will look like [this](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/.gitlab-ci.yml). 
 
+#### Find the datasets
 
+The instruction is shown [here](https://indico.cern.ch/event/831761/contributions/3484260/attachments/1931553/3199246/FindingDatasets.pdf). 
 
