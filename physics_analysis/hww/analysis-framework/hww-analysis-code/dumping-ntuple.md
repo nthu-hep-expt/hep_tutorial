@@ -10,18 +10,15 @@ We have an introduction [**slide**](https://indico.cern.ch/event/771763/contribu
 
 We should define the nTuple definition in the analyze config file. In practice, we add the following line:
 
-{% code-tabs %}
-{% code-tabs-item title="config/master/VBF/analyze-VBF-Coupling-2018.cfg" %}
+{% code title="config/master/VBF/analyze-VBF-Coupling-2018.cfg" %}
 ```text
 ntuples: config/nTuples/VBF/mva_ntuple.txt
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Here we define the nTuple definition. We book a tree, called skim, and several branches for different variables. 
 
-{% code-tabs %}
-{% code-tabs-item title="config/nTuples/VBF/mva\_ntuple.txt" %}
+{% code title="config/nTuples/VBF/mva\_ntuple.txt" %}
 ```text
 # Define branches (make sure that this is a single line)
 skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ] , int isME << [ "$(channel)"=="me" ], float lep0_pt << $(lep0).pt(), float lep0_phi << $(lep0).phi(), float lep0_eta << $(lep0).eta();
@@ -34,8 +31,7 @@ skim: int evt_num << EventInfo.eventNumber(), int isEM << [ "$(channel)"=="em" ]
 # $(ntupName) is to define in config/patches/VBF/patch-VBF-MVA.txt
 @CutVBF_2jet: skim >> dump/$(ntupName).root:HWW_$(channel)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Dumping nTuple
 
@@ -47,8 +43,7 @@ We can create a file to include the labels which will allow us to define the var
 config/patches/VBF/patch-VBF-MVA.txt
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="config/patches/VBF/patch-VBF-MVA.txt" %}
+{% code title="config/patches/VBF/patch-VBF-MVA.txt" %}
 ```text
 <ntupName = "ggf"> @/sig/?/mh125/ggf;
 <ntupName = "vbf"> @/sig/?/mh125/vbf;
@@ -57,8 +52,7 @@ config/patches/VBF/patch-VBF-MVA.txt
 <ntupName = "ttbar"> @/bkg/?/top/ttbar;
 <ntupName = "Wt"> @/bkg/?/top/singletop/Wt;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Define the jobs to run parallel
 
@@ -66,8 +60,7 @@ config/patches/VBF/patch-VBF-MVA.txt
 config/jobLists/VBF/jobs-MVA.txt
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="config/jobLists/VBF/jobs-MVA.txt" %}
+{% code title="config/jobLists/VBF/jobs-MVA.txt" %}
 ```text
 /sig/?/mh125/ggf/
 /sig/?/mh125/vbf/
@@ -76,8 +69,7 @@ config/jobLists/VBF/jobs-MVA.txt
 /bkg/?/top/ttbar/
 /bkg/?/top/singletop/Wt
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Submit to dump nTuple
 

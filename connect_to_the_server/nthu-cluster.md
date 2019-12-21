@@ -55,26 +55,22 @@ You can setup the ATLAS environment automatically or manually, depending on what
 
 To automatically setup the ATLAS environment, you can add the following lines in the `~/.bashrc`.
 
-{% code-tabs %}
-{% code-tabs-item title="~/.bashrc" %}
+{% code title="~/.bashrc" %}
 ```bash
 export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
 source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
 alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
 setupATLAS
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 If you don't want to run this when login every time, you should still add the following line but run the `setupATLAS` when you want to use the ATLAS resources.
 
-{% code-tabs %}
-{% code-tabs-item title="~/.bashrc" %}
+{% code title="~/.bashrc" %}
 ```bash
 export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
 source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
 alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

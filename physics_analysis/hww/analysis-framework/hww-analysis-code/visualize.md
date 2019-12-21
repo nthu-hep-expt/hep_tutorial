@@ -9,8 +9,7 @@ After running with analyze step, we will run the visualize step to produce the p
 
 We will briefly discuss the config file in the visualize step.
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
+{% code title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 # -*- mode: config -*-
 
@@ -42,43 +41,36 @@ cutflowFormats: txt, tex, html
 cutflowProcessFiles: config/visualization/processes/ZjetsFF/ZjetsFakeFactor-cutflow-processes.txt
 cutflowCutFiles: config/visualization/cuts/ZjetsFF/ZjetsFakeFactor-cutflow-cuts.txt
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Output directory
 
 We can determine the path to produce the plots and cutflows.
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
+{% code title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 outputDir: results/ZjetsFF
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Patches
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
+{% code title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 patches: config/visualization/style/ZjetsFF/ZjetsFakeFactor-style.txt
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 In the patches, we define the definitions of different processes, like title, color, and the path to the processes.
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/visualization/style/ZjetsFF/ZjetsFakeFactor-style.txt" %}
+{% code title="share/config/visualization/style/ZjetsFF/ZjetsFakeFactor-style.txt" %}
 ```text
 # -*- mode: tqfolder -*-
 
 <style.default.title = "Total Bkg.", style.default.histLineColor = 1, style.default.histFillColor = 15> @ /bkg/;
 <style.default.title = "$Z/#gamma^{*}$", style.default.histFillColor = 210> @ /bkg/?/Zjets/;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Make plots
 
@@ -100,14 +92,12 @@ makeLogPlots: false
 
 The **makeCutflows** is used to draw the cutflows, which will show the event yields for different processes in the different stages.
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
+{% code title="share/config/master/ZjetsFF/visualize-ZjetsFakeFactor-Coupling-2018.cfg" %}
 ```text
 makeCutflows: true
 cutflowFormats: txt, tex, html
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 We can also use the following tags to define the processes and stages we would like to show.
 

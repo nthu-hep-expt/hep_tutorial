@@ -20,17 +20,21 @@ In the following, I will briefly introduce the tags we frequently used in the `p
 
 Designate your path and name of output sample folder.
 
+{% code title="" %}
 ```text
 outputFile:  sampleFolders/prepared/samples-prepared-ZjetsFakeFactor.root
 ```
+{% endcode %}
 
 #### XsecFiles
 
 The `XsecFiles` list the informations of Monte-Carlo \(MC\) simulated samples including DSIDs, cross-sections \(Xsec\), k-factors and MC generators. More details are shown in the [subsection](xsec-files.md). 
 
+{% code title="" %}
 ```text
 XsecFiles: config/samples/XSec/common/XS_13TeV.csv
 ```
+{% endcode %}
 
 #### XsecWhitelist
 
@@ -129,8 +133,7 @@ campaigns: c16a,c16d,c16e
 
 The campaigns are stored and organized in our group disk.
 
-{% code-tabs %}
-{% code-tabs-item title="config/master/common/campaigns.cfg" %}
+{% code title="config/master/common/campaigns.cfg" %}
 ```text
 [c16a]
 luminosity: 36207.66
@@ -154,8 +157,7 @@ mcPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2
 ddFakes.dataPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2LDF/data/data18/:CollectionTree
 ddFakes.mcPaths: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG3/R21/PAOD_V19/EMTopoJets/2LDF/MC_Nominal/mc16e/:CollectionTree
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Hand-on sessions
 
@@ -169,14 +171,12 @@ config/samples/whitelists/VBF/VBF-only-whitelist.txt
 
 Then in this `VBF-only-whitelist.txt`, we should include only VBF DSID as the following
 
-{% code-tabs %}
-{% code-tabs-item title="config/samples/whitelists/VBF/VBF-only-whitelist.txt" %}
+{% code title="config/samples/whitelists/VBF/VBF-only-whitelist.txt" %}
 ```text
 ## SM VBF HWW
 345948 $*_s*
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Then we should modify the `whitelist` file in the `prepare` configuration file with the following tag.
 

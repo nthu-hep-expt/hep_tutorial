@@ -8,9 +8,11 @@ A detailed introduction is provided in the [gitlab page](https://gitlab.cern.ch/
 
 In the HWW analysis, we use a default patch for HWW analysis in the `initialize` step. This patch provides us to define the structure of sample folder. 
 
+{% code title="" %}
 ```text
 preInit_patches: config/patches/common/default-patch.txt
 ```
+{% endcode %}
 
 Here I will discuss some syntaxes used in the [patch file](https://gitlab.cern.ch/atlas-physics/higgs/hww/HWWAnalysisCode/blob/master/share/config/patches/common/default-patch.txt).
 
@@ -18,21 +20,18 @@ Here I will discuss some syntaxes used in the [patch file](https://gitlab.cern.c
 
 Here, we can define the labels, as whatever you call, we can use in the analysis. For example, we define the **`channel`** to select the lepton flavors.
 
-{% code-tabs %}
-{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+{% code title="config/patches/common/default-patch.txt" %}
 ```text
 <channel = "mm", cand = "MM", isMM=true,  isEE=false, isEM=false, isME=false> @ ?/mm; # mm channel for data,bkg,sig
 <channel = "ee", cand = "EE", isMM=false, isEE=true,  isEM=false, isME=false> @ ?/ee; # ee channel for data,bkg,sig
 <channel = "em", cand = "EM", isMM=false, isEE=false, isEM=true,  isME=false> @ ?/em; # em channel for data,bkg,sig
 <channel = "me", cand = "ME", isMM=false, isEE=false, isEM=false, isME=true > @ ?/me; # me channel for data,bkg,sig
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 With this definition, we can use `$(channel)` as a variable to select the lepton flavors in the cut file. This is same as `label` in the patch file to select processes we want.Then we can use `$(label)` to select events.
 
-{% code-tabs %}
-{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+{% code title="config/patches/common/default-patch.txt" %}
 ```text
 <label="data"> @/data/;
 <label="ggF"> @/sig/?/mh125/ggf;
@@ -47,8 +46,7 @@ With this definition, we can use `$(channel)` as a variable to select the lepton
 <label="Vgamma"> @/bkg/?/Vgamma;
 <label="Wjets"> @bkg/?/Wjets;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Here we define the labels for the same-flavor \(SF\) and different-flavor \(DF\) samples
 
@@ -65,27 +63,23 @@ Here we define the labels for the same-flavor \(SF\) and different-flavor \(DF\)
 
 We apply mc event weights on MC samples including both signal and background samples. It will no MC weight applied in the data!
 
-{% code-tabs %}
-{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+{% code title="config/patches/common/default-patch.txt" %}
 ```text
 <usemcweights = true> @ sig,bkg; # we want to apply mc event weights on MC samples
 <usemcweights = false> @ data; # we don't want to apply any weights on data samples
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Pool
 
 The pool will allow us to define where to produce the plots and collect the events in the plots.
 
-{% code-tabs %}
-{% code-tabs-item title="config/patches/common/default-patch.txt" %}
+{% code title="config/patches/common/default-patch.txt" %}
 ```text
 <.aj.pool.histograms = true> @/sig/?/?/ggf/?;
 <.aj.pool.histograms = true> @/sig/?/?/vbf/?;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 With the pool shown, the plots will generate at the levels of those folder instead of generating plots in a more innermost level. If we collapse the events in the outer level, then we can **save the storages and memories** used in the sample folder. 
 

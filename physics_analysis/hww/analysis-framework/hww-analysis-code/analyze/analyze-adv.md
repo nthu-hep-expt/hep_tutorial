@@ -60,8 +60,7 @@ This will define the processes you would like to run in parallel.
 
 Currently, in V18 PxAOD samples, we don't have fake samples. Therefore, here we only run without the fake samples. We split the analysis into several jobs to run over different samples like data, ggf , vbf and diboson ...etc. 
 
-{% code-tabs %}
-{% code-tabs-item title="config/jobLists/VBF/jobs-noFake.txt" %}
+{% code title="config/jobLists/VBF/jobs-noFake.txt" %}
 ```text
 /data/?
 /sig/?/mh125/ggf/
@@ -78,8 +77,7 @@ Currently, in V18 PxAOD samples, we don't have fake samples. Therefore, here we 
 /bkg/?/top/ttbar/
 /bkg/?/top/singletop/Wt
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 #### --maxSampleSize and --maxSampleCount
 

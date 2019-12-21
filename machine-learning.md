@@ -78,13 +78,11 @@ make -j4
 cd python-package; sudo python3 setup.py install
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="~/.bashrc" %}
+{% code title="~/.bashrc" %}
 ```bash
 export PYTHONPATH=path-to-xgboost/xgboost/python-package
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Troubleshooting
 

@@ -6,8 +6,7 @@ In the full Run-2 VBF analysis, we used data collided at 13 TeV. Therefore, we i
 
 In the `XS_13TeV.csv` files, it includes the informations of the MC simulated samples including both signals and background samples. The following is part of the `XS_13TeV.csv` file.
 
-{% code-tabs %}
-{% code-tabs-item title="share/config/samples/XSec/common/XS\_13TeV.csv" %}
+{% code title="share/config/samples/XSec/common/XS\_13TeV.csv" %}
 ```text
 SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , process , simulation
 
@@ -25,8 +24,7 @@ SampleID , xsection , kfactor , filtereff , uncertainty , mh , generator , proce
 343477, 0.000318, 1.0, 0.7, --, 125,  MGaMcAtNlo+Pythia8+EvtGen, MGaMcAtNloPy8EG_A14_NNPDF23_ggFhwwlvlv_CP_ODD_emu,  OFLCOND-RUN12-SDR-30
 343989, 0.000318, 1.0, 0.7, --, 125,  MGaMcAtNlo+Pythia8+EvtGen, MGaMcAtNloPy8EG_A14_NNPDF23_ggFhwwlvlv_CP_ODD_mue,  OFLCOND-RUN12-SDR-30
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Informations
 
