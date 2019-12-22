@@ -30,6 +30,74 @@ For example, you can log in some specific node \(lxplus616\) by `ssh`
 ssh yourAccount@lxplus616.cern.ch​
 ```
 
+#### Login \(ssh/scp\) without password
+
+You can follow the [instruction](https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Password-lessSsh) below.
+
+```text
+kinit <yourname>@CERN.CH
+```
+
+Then do the following steps.
+
+* Create a key and enter a password \(It is dangerous to not use a passphrase for shell accounts. Your only protection is your passphrase. This is particularly important for laptops.\).  
+
+
+  ```text
+      ssh-keygen -t rsa 
+  ```
+
+  Note that the default key file will be id\_rsa and id\_rsa.pub but you can create it with a different name \(in case you need different keys for different remote hosts but try not to do that unless you have good reason !\) by adding the option `-f ~/.ssh/<filename>`.
+
+* Copy the public key to your remote machine; replace &lt;username&gt; and &lt;remote machine name&gt; below.
+
+```text
+    ssh-copy-id <username>@<remote machine name>
+```
+
+* After copying the above public key to lxplus, login to lxplus and type `/afs/cern.ch/project/svn/dist/bin/set_ssh`. This will fix the acl permissions of the file on lxplus.
+* Create a file ~/.ssh/config with the following information \(there is a template you can copy from `$ATLAS_LOCAL_ROOT_BASE/user/sshConfig`\).
+  * If your lxplus username is different from your local account, add a "User &lt;your lxplus username&gt;" to the lxplus, git and svn sections.
+
+```text
+Host lxplus*.cern.ch lxplus 
+Protocol 2 
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+PubkeyAuthentication no 
+PasswordAuthentication yes
+GSSAPITrustDns yes 
+ForwardX11 yes
+
+Host svn.cern.ch svn 
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+GSSAPITrustDns yes
+Protocol 2 
+ForwardX11 no
+
+Host gitlab.cern.ch
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+GSSAPITrustDns yes
+Protocol 2 
+ForwardX11 no
+
+Host *
+Protocol 2
+IdentityFile ~/.ssh/id_rsa
+```
+
+Make sure the permissions of the ~/.ssh directory and its contents have permissions set correctly; an example is
+
+```text
+  chmod 700 ~/.ssh
+  chmod 600 ~/.ssh/id_rsa
+  chmod 644 ~/.ssh/config ~/.ssh/id_rsa.pub
+```
+
+Finally, when you open a new terminal, you probably need to kinit again. 
+
 ### Quota in the Lxplus
 
 #### Home directory
