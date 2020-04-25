@@ -22,6 +22,8 @@ An event is collected by the detector after the collision between two proton bea
 
 ### Parton distribution function \(PDF\)
 
+See [Lectures](https://www.niu.edu/spmartin/phys686/PPP2018.pdf) from Stephen Martin. \(Sec 9.4\)
+
 ### Underlying event
 
 ### Showering
