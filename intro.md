@@ -36,34 +36,134 @@ We were also involved in the **searches of the dark matter** produced in associa
 | :--- | :--- | :--- |
 | Pai-hsien Jennifer Hsu | Professor | pjhsu@phys.nthu.edu.tw |
 | Yun-Ju Lu | Postdoc & collaborator | yunju@cern.ch |
-| Yu-Cheng Huang | 2nd year master | s966176ch@gmail.com |
 | Yu-Heng Yu | Undergraduate | ue88ue88ue88@gmail.com |
 | Cheng-Hsin Cheng | Undergraduate | mikech126@gmail.com |
 | Hui-Chi Lin | Undergraduate |  |
 
 ### Alumnus & Collaborations
 
-| Name | Current position | Grad Yr | Contacts |
-| :--- | :--- | :--- | :--- |
-| Yuan-Tang Chou | Phys PhD @ UMass, Amherst | 2017 | yuan-tang.chou@cern.ch |
-| Jay Chan | Phys PhD @ UW-Madison | 2017 |  |
-| Hao Hsu | CS PhD @ NTU | 2018 | paul82720@hotmail.com |
-| Po-Shan Shih |  | 2019 | po-shan.shih@cern.ch |
-| Cheng-Hsin Han |  | 2019 | gsjh80317cla@gmail.com |
-| Meng-Ju Tsai | Phys PhD @ UMich | 2019 | meng-ju.tsai@cern.ch |
-| Ya-Feng Lo | Phys PhD @ UCLA | 2019 | celialuo123@gmail.com |
-| Yu-Hsin Chan | TSMC | 2019 | amyjan0572@gmail.com |
+Note: MS means "master**"** and UG means "undergraduate"
 
-### Theses
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Current position</th>
+      <th style="text-align:left">Grad Yr</th>
+      <th style="text-align:left">Contacts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Yuan-Tang Chou</td>
+      <td style="text-align:left">Phys PhD @ UMass, Amherst</td>
+      <td style="text-align:left">2017 (M)</td>
+      <td style="text-align:left">yuan-tang.chou@cern.ch</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Jay Chan</td>
+      <td style="text-align:left">Phys PhD @ UW-Madison</td>
+      <td style="text-align:left">2017 (M)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hao Hsu</td>
+      <td style="text-align:left">CS PhD @ NTU</td>
+      <td style="text-align:left">
+        <p>2017</p>
+        <p>(M)</p>
+      </td>
+      <td style="text-align:left">paul82720@hotmail.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Po-Shan Shih</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>2019</p>
+        <p>(M)</p>
+      </td>
+      <td style="text-align:left">po-shan.shih@cern.ch</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Cheng-Hsin Han</td>
+      <td style="text-align:left">TSMC</td>
+      <td style="text-align:left">
+        <p>2019</p>
+        <p>(MS)</p>
+      </td>
+      <td style="text-align:left">gsjh80317cla@gmail.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Meng-Ju Tsai</td>
+      <td style="text-align:left">Phys PhD @ UMich</td>
+      <td style="text-align:left">
+        <p>2019</p>
+        <p>(MS)</p>
+      </td>
+      <td style="text-align:left">meng-ju.tsai@cern.ch</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Ya-Feng Lo</td>
+      <td style="text-align:left">Phys PhD @ UCLA</td>
+      <td style="text-align:left">
+        <p>2019</p>
+        <p>(MS)</p>
+      </td>
+      <td style="text-align:left">celialuo123@gmail.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Yu-Hsin Chan</td>
+      <td style="text-align:left">TSMC</td>
+      <td style="text-align:left">
+        <p>2019</p>
+        <p>(MS)</p>
+      </td>
+      <td style="text-align:left">amyjan0572@gmail.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Yu-Cheng Huang</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>2019</p>
+        <p>(MS)</p>
+      </td>
+      <td style="text-align:left">s966176ch@gmail.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Yu-Heng Yu</td>
+      <td style="text-align:left">Phys PhD @ Rochester</td>
+      <td style="text-align:left">
+        <p>2020</p>
+        <p>(UG)</p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Mike Cheng</td>
+      <td style="text-align:left">Physics PhD @</td>
+      <td style="text-align:left">
+        <p>2020</p>
+        <p>(UG)</p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>### Theses
 
 I listed the theses from NTHU master students. 
 
-* Meng-Ju Tsai \(2019\)
+* Yu-Cheng Huang \(Dec 2019\)
+  * [Validation of two jet algorithms and pileup study in Vector Boson Fusion H →WW∗ Analysis with the ATLAS detector](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=tmM6Hh/record?r1=1&h1=0)
+* Ya-Feng Lo \(May 2019\)
+  * [WW background estimation in the H →WW∗ → eνμν decay channel in pp collisions at √s = 13 TeV with the ATLAS detector](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=tmM6Hh/record?r1=2&h1=0)
+* Yu-Hsin Chan \(May 2019\)
+  * [Improved Dark Matter Searches with a New Jet Algorithm with the ATLAS Detector](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=tmM6Hh/record?r1=3&h1=0)
+* Meng-Ju Tsai \(Jan 2019\)
   * [Estimation of the WW background in the Vector Boson Fusion H→WW\* Analysis with the ATLAS Detector](https://hdl.handle.net/11296/9eu89a)
-* Han, Cheng-Hsin \(2019\)
+* Han, Cheng-Hsin \(Jan 2019\)
   * [Studies of the Background Estimation in the MonoHbb Analysis with the ATLAS Detector](https://hdl.handle.net/11296/pu56kw)
-* Shih, Po-Shan \(2019\)
+* Shih, Po-Shan \(Jan 2019\)
   * [The Estimation of the Background of the Z Boson in the MonoHbb Analysis](https://hdl.handle.net/11296/tq78w9)
-* Hsu, Hao \(2017\)
+* Hsu, Hao \(Dec 2017\)
   * [Drell-Yan Background estimation in the H → WW\* → lvlv channel with the ATLAS detector](https://hdl.handle.net/11296/9u8t89)
 
