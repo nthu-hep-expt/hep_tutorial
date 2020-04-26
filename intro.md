@@ -37,8 +37,8 @@ We were also involved in the **searches of the dark matter** produced in associa
 | Pai-hsien Jennifer Hsu | Professor | pjhsu@phys.nthu.edu.tw |
 | Yun-Ju Lu | Postdoc & collaborator | yunju@cern.ch |
 | Yu-Heng Yu | Undergraduate | ue88ue88ue88@gmail.com |
-| Cheng-Hsin Cheng | Undergraduate | mikech126@gmail.com |
 | Hui-Chi Lin | Undergraduate |  |
+| Cheng-Tse Huang |  |  |
 
 ### Alumnus & Collaborations
 
