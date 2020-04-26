@@ -57,13 +57,13 @@ Note: MS means "master**"** and UG means "undergraduate"
     <tr>
       <td style="text-align:left">Yuan-Tang Chou</td>
       <td style="text-align:left">Phys PhD @ UMass, Amherst</td>
-      <td style="text-align:left">2017 (M)</td>
+      <td style="text-align:left">2017 (MS)</td>
       <td style="text-align:left">yuan-tang.chou@cern.ch</td>
     </tr>
     <tr>
       <td style="text-align:left">Jay Chan</td>
       <td style="text-align:left">Phys PhD @ UW-Madison</td>
-      <td style="text-align:left">2017 (M)</td>
+      <td style="text-align:left">2017 (MS)</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -71,7 +71,7 @@ Note: MS means "master**"** and UG means "undergraduate"
       <td style="text-align:left">CS PhD @ NTU</td>
       <td style="text-align:left">
         <p>2017</p>
-        <p>(M)</p>
+        <p>(MS)</p>
       </td>
       <td style="text-align:left">paul82720@hotmail.com</td>
     </tr>
@@ -80,7 +80,7 @@ Note: MS means "master**"** and UG means "undergraduate"
       <td style="text-align:left"></td>
       <td style="text-align:left">
         <p>2019</p>
-        <p>(M)</p>
+        <p>(MS)</p>
       </td>
       <td style="text-align:left">po-shan.shih@cern.ch</td>
     </tr>
