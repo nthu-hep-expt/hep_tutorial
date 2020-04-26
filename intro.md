@@ -142,7 +142,7 @@ Note: MS means "master**"** and UG means "undergraduate"
     </tr>
     <tr>
       <td style="text-align:left">Mike Cheng</td>
-      <td style="text-align:left">Physics PhD @</td>
+      <td style="text-align:left">Physics PhD @ UIUC</td>
       <td style="text-align:left">
         <p>2020</p>
         <p>(UG)</p>
