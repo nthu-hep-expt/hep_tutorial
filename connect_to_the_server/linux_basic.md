@@ -176,12 +176,19 @@ Emacs：神之編輯器
 ### Useful commands
 
 * [\[學習筆記\] Vim 常用技巧](https://shouzo.github.io/2017/03/17/vim/)
-* 
+* [Vim大量註解](https://result945.pixnet.net/blog/post/28300565)
+
+#### 搜尋字串
+
+1. 按下`esc`
+2. 再用`/`來搜尋
+3. 例如搜尋`hello`這個字串，就打上`/hello`
+4. 如果要看下一個`hello`字串，就按`n`鍵
+
 #### 取消搜尋時的highlight
 
-```text
-:noh
-```
+1. 按下`esc`
+2. 再打`:noh`
 
 ## Hands-on sessions
 
