@@ -157,6 +157,18 @@ rucio download <root file or container>
 rucio download --nrandom num <container>
 ```
 
+## R2D2
+
+We are able to copy the datasets to some disks when the datasets are not easily accessible to some sites. [R2D2](https://rucio-ui.cern.ch/r2d2/request) provides a way to do so.
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.07.png)
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.21.png)
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.39.png)
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.47.png)
+
 ## Hands-on sessions
 
 ### Rucio
