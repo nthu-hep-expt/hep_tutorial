@@ -161,11 +161,19 @@ rucio download --nrandom num <container>
 
 We are able to copy the datasets to some disks when the datasets are not easily accessible to some sites. [R2D2](https://rucio-ui.cern.ch/r2d2/request) provides a way to do so.
 
+First click on "request new rule"
+
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.07.png)
+
+Then fill in datasets/containers you would like to copy. 
 
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.21.png)
 
+There are several RSEs you could copy to. The CERN-PROD\_SCARTCHDISK is an useful one.
+
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.39.png)
+
+Then, in principle, using the default options and then submit the request. With this you get a copy of the data to this RSE and will make sure your job will not fail due to the access problem to data. 
 
 ![](../.gitbook/assets/ying-mu-kuai-zhao-20200427-xia-wu-8.15.47.png)
 
