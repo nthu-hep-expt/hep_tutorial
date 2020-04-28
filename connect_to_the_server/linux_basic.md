@@ -190,6 +190,20 @@ Emacs：神之編輯器
 1. 按下`esc`
 2. 再打`:noh`
 
+## 讓terminal充滿色彩
+
+我們可以在我們的script輸出裡面加入一些色彩，透過在字串前面加入`\33[31m`及字串後端加入`\33[0m`
+
+請參考[這](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
+```text
+# Python
+print('\33[31m'+"Input folder = "+'\33[0m')                                                                                                                      
+
+# output will become a red color string 
+Input folder = 
+```
+
 ## Hands-on sessions
 
 ### 每個指令都看起來這麼長，怎麼辦？
