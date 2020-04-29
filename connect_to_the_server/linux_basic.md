@@ -190,6 +190,10 @@ Emacs：神之編輯器
 1. 按下`esc`
 2. 再打`:noh`
 
+## Source and shell
+
+The major difference between `source` and `sh` command is that the first one is mostly used for the environment setup, and the latter one is used to run the shell script.
+
 ## 讓terminal充滿色彩
 
 我們可以在我們的script輸出裡面加入一些色彩，透過在字串前面加入`\33[31m`及字串後端加入`\33[0m`
