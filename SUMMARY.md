@@ -27,7 +27,7 @@
   * [Git Command \(Advanced\)](git/git-command-advanced.md)
   * [Git Application and Q&A](git/q-and-a.md)
 * [Physics Analysis in ATLAS](physics_analysis/README.md)
-  * [Tips](physics_analysis/tips.md)
+  * [Tips and debugs](physics_analysis/tips.md)
   * [Jargon](physics_analysis/jargons.md)
   * [HWW](physics_analysis/hww/README.md)
     * [Frameworks](physics_analysis/hww/analysis-framework/README.md)

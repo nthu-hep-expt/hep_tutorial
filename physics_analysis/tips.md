@@ -1,4 +1,4 @@
-# Tips
+# Tips and debugs
 
 ## Start a new analysis
 
@@ -11,4 +11,10 @@ An example of the yaml file will look like [this](https://gitlab.cern.ch/atlas-p
 #### Find the datasets
 
 The instruction is shown [here](https://indico.cern.ch/event/831761/contributions/3484260/attachments/1931553/3199246/FindingDatasets.pdf). 
+
+## Debug and common issues
+
+### Negative MC events
+
+This might result from the negative mc weight. What we can do is to figure out if there is any weight is negative. 
 
