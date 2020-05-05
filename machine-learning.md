@@ -2,6 +2,7 @@
 
 ## Workshops
 
+* \*\*\*\*[**IML - HEP ML Resource list**](https://github.com/iml-wg/HEP-ML-Resources)\*\*\*\*
 * [Fifth Machine Learning in High Energy Physics Summer School 2019](https://indico.cern.ch/event/768915/timetable/?view=standard)
 
 ## ML with ROOT packages
