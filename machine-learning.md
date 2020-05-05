@@ -9,6 +9,8 @@
 
 ### TMVA
 
+* [TMVA tutorial](https://github.com/lmoneta/tmva-tutorial)
+
 ## ML with Python packages
 
 Here I used Mac OS to setup the environment for the machine learning \(ML\) packages with Python. 
