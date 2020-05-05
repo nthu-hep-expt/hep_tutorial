@@ -20,6 +20,7 @@
   * [Start from an Example](root/start-from-an-example.md)
   * [MakeClass](root/makeclass.md)
   * [ROOT Class Reference](root/root-class-reference.md)
+  * [Plot with ROOT](root/plot-with-root.md)
 * [Work with Git](git/README.md)
   * [Git Intro](git/git.md)
   * [Git Command \(Local\)](git/basic-git-local.md)

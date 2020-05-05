@@ -10,10 +10,6 @@
 
 We have several ways to install ROOT on your laptop \(locally\). I would recommend you to install ROOT by cloning the [repository in the GitHub](https://github.com/root-project/root) and build it with yourself. The other way is to conveniently build with the dmg file. However, it will possibly be limited by the version of Mac OS system.
 
-### Download ROOT
-
-ROOT can be downloaded at your laptop with the following [link](https://root.cern.ch/downloading-root).
-
 ### Build ROOT with [repository in the GitHub](https://github.com/root-project/root)
 
 This can be used for both Linux and Mac OS systems. We could follow the [instruction](https://github.com/root-project/root#building) below to build ROOT. 
