@@ -23,8 +23,8 @@ scp myCertificate.p12 youraccount@lxplus.cern.ch:.
 * You need to convert your certificate into the correct form using
 
 ```bash
-openssl pkcs12 -in mycert.pfx -clcerts -nokeys -out usercert.pem
-openssl pkcs12 -in mycert.pfx -nocerts -out userkey.pem
+openssl pkcs12 -in myCertificate.p12 -clcerts -nokeys -out usercert.pem
+openssl pkcs12 -in myCertificate.p12 -nocerts -out userkey.pem
 chmod 400 userkey.pem
 chmod 444 usercert.pem
 ```
