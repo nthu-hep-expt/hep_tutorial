@@ -16,7 +16,18 @@ The following sample is used to test the plotting.
 
 To draw a two-dimensional plot, we can write C++/python macro to draw the plot. The following provide an introduction about the 2D plot. 
 
-First we should create a macro \(C++ versi\) called `draw2dopt.cxx`
+First we should create a macro \(C++ version\) called `draw2dopt.cxx` . We can run this file by the following command
+
+```text
+# remember to initialize the environment like the following 
+setupATLAS
+lsetup root
+
+# if environment is setup, then run this to plot!
+root -l draw2dopt.cxx
+```
+
+The plotting code is like the following `draw2dopt.cxx`
 
 ```text
 void draw2dopt(){
@@ -52,19 +63,31 @@ void draw2dopt(){
   // ">>TH2" is make the plot go into an TH2 object
   // "(12,-1,1,12,-1,1)" is the binning for this plot
   // The second argument is the weight and cuts you would like to apply
-  // 
+  // The last arugment is the plot options you would like to have
   
   tree->Draw("BDT_LO_new:BDT_LO>>TH2_BDT_L0_old_new(12,-1,1,12,-1,1)","138965.16*(36207.7*(runNumber==284500)+44307.4*(runNumber==300000)+(runNumber==310000)*58450.1)*(1/138965.16)*weight_normalise*weight_pileup*weight_jvt*weight_mc*weight_leptonSF*weight_bTagSF_MV2c10_Continuous_CDI20190730*(weight_indiv_SF_EL_ChargeID*(SSee_passECIDS||SSem_passECIDS)+1*(!(SSee_passECIDS||SSem_passECIDS)))*((SSee_passECIDS||SSem_passECIDS||SSmm||eee_Zveto||eem_Zveto||emm_Zveto||mmm_Zveto) && HT_all>500000. && nBTags_MV2c10_77>=2 && nJets>=6 && mcChannelNumber==412043)","scat=5"); //#CONT, COLZ
+  
+  // Here is to get the TH2 object which we can use to set the options for the TH2 plot
   TH2F * hist1 = (TH2F*)gDirectory->Get("TH2_BDT_L0_old_new");
+  
+  // Set the title on the x-axis
   hist1->GetXaxis()->SetTitle("BDT");
+  
+  // Set the title on the y-axis
   hist1->GetYaxis()->SetTitle("BDT_new");
+  
+  // Set the title for the TH2 plot
   hist1->SetTitle("SM 4tops");
+  
+  // Set the offset for the title on the x-axis
   hist1->GetYaxis()->SetTitleOffset(1.35);
+  
+  // Update the canvas
   Canvas_BDT_LO_HT->Update();
+  
+  // Save this plot as a pdf
   Canvas_BDT_LO_HT->SaveAs("results/BDT_LO_old_new/SMtttt_BDT_LO_old_new.pdf");
 
-
 }
-
 ```
 
