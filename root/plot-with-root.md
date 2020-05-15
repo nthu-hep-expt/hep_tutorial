@@ -1,4 +1,4 @@
-# Plot with ROOT
+# Plotting with ROOT
 
 ## Introduction
 
