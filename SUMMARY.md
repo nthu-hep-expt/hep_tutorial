@@ -15,6 +15,7 @@
   * [CERNBox and EOS](connect_to_the_server/cernbox.md)
   * [Grid](connect_to_the_server/grid.md)
   * [MC production](connect_to_the_server/mc-production.md)
+  * [Statistical Intepretation](connect_to_the_server/statistical-intepretation.md)
 * [Machine Learning](machine-learning.md)
 * [ROOT](root/README.md)
   * [Start from an Example](root/start-from-an-example.md)

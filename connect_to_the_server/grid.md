@@ -61,6 +61,10 @@ If you get the following in the end of the results, then you are totally fine wi
     11 Rucio Information                                   OK
 ```
 
+### Certificate on browser
+
+We can import this certificate into the browser. So, we need to upload the certificate file `usercert.pem` and then you can login to the bigpanda, AMI and rucio r2d2 ... etc. 
+
 ## Grid submission
 
 ### Introduction
