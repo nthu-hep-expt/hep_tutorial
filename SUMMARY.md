@@ -12,7 +12,6 @@
   * [Linux \(Advanced\)](connect_to_the_server/linux-advanced.md)
   * [Lxplus](connect_to_the_server/lxplus.md)
   * [NTHU Cluster](connect_to_the_server/nthu-cluster.md)
-  * [CERNBox and EOS](connect_to_the_server/cernbox.md)
   * [Grid](connect_to_the_server/grid.md)
   * [MC production](connect_to_the_server/mc-production.md)
   * [Statistical Intepretation](connect_to_the_server/statistical-intepretation.md)
