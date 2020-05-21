@@ -59,7 +59,7 @@ To present the results, you could try to
 
 ## Communication via emails
 
-We always send the results and slides via emails. Please be noticed that if your slides are very large like 15 MB, you are suggested to **upload your slides** on the online drive like [CERNBox]() and send the link to them. This will save the storage for others' inbox. 
+We always send the results and slides via emails. Please be noticed that if your slides are very large like 15 MB, you are suggested to **upload your slides** on the online drive like [CERNBox](../connect_to_the_server/cernbox.md) and send the link to them. This will save the storage for others' inbox. 
 
 ## Posters
 

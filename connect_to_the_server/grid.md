@@ -211,5 +211,5 @@ Of course, you can download the whole dataset in this container
 rucio download group.phys-higgs:group.phys-higgs.data15_13TeV.HWW_VeryLooseLH.merge.PAOD_2L.V19.0_FakeWJets_PAOD_2LDF
 ```
 
-If you want to share the datasets with others after downloading the datasets, you could follow the instruction in the [CERNBox section]().
+If you want to share the datasets with others after downloading the datasets, you could follow the instruction in the [CERNBox section](cernbox.md#sharing).
 

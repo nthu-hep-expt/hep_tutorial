@@ -11,6 +11,7 @@
   * [Linux \(Basic\)](connect_to_the_server/linux_basic.md)
   * [Linux \(Advanced\)](connect_to_the_server/linux-advanced.md)
   * [Lxplus](connect_to_the_server/lxplus.md)
+  * [Batch](connect_to_the_server/batch.md)
   * [NTHU Cluster](connect_to_the_server/nthu-cluster.md)
   * [Grid](connect_to_the_server/grid.md)
   * [MC production](connect_to_the_server/mc-production.md)
