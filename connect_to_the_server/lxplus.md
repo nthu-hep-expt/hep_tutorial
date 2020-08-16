@@ -60,32 +60,30 @@ Then do the following steps.
   * If your lxplus username is different from your local account, add a "User &lt;your lxplus username&gt;" to the lxplus, git and svn sections.
 
 ```text
-Host lxplus*.cern.ch lxplus 
-Protocol 2 
-GSSAPIAuthentication yes 
-GSSAPIDelegateCredentials yes 
-PubkeyAuthentication no 
-PasswordAuthentication yes
-GSSAPITrustDns yes 
-ForwardX11 yes
-
 Host svn.cern.ch svn 
 GSSAPIAuthentication yes 
 GSSAPIDelegateCredentials yes 
-GSSAPITrustDns yes
 Protocol 2 
 ForwardX11 no
 
 Host gitlab.cern.ch
 GSSAPIAuthentication yes 
 GSSAPIDelegateCredentials yes 
-GSSAPITrustDns yes
 Protocol 2 
 ForwardX11 no
 
+Host lxplus*.cern.ch lxplus lxplus*
+Protocol 2 
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+PubkeyAuthentication no 
+ForwardX11 yes
+
 Host *
-Protocol 2
-IdentityFile ~/.ssh/id_rsa
+  Protocol 2
+  AddKeysToAgent yes   
+  IdentityFile ~/.ssh/id_rsa
+  ServerAliveInterval 120
 ```
 
 Make sure the permissions of the ~/.ssh directory and its contents have permissions set correctly; an example is
@@ -136,7 +134,7 @@ We will have an EOS space with 1 TB quota, which is mainly used as a space to st
 /eos/user/<first letter of your account>/<account>
 ```
 
-Moreover, the EOS space is integrated with [CERNBox](https://cernbox.cern.ch/). More information about CERNBox are listed [here](cernbox.md). 
+Moreover, the EOS space is integrated with [CERNBox](https://cernbox.cern.ch/). More information about CERNBox are listed [here](). 
 
 ### Commands in the Lxplus
 
@@ -169,6 +167,32 @@ localSetupPandaClient
 ```bash
 fs lq --human
 ```
+
+## CERNBox and EOS
+
+[CERNBox](https://cernbox.cern.ch/) corresponds to the [EOS space](lxplus.md#eos-space). You can also think the CERNBox as an online hard drive to store your files. The guideline of CERNBox is shown [here](https://cernbox.cern.ch/index.php/settings/help). 
+
+### Sharing
+
+It's not available to change the authorities of the files by `chmod` in the EOS space, instead, to share with others, we should **share** them with others by CERNBox. 
+
+The followings are the instructions about sharing in the CERNBox. 
+
+* We normally key in the full name of who you would like to share. It's because sometimes CERNBox cannot find people with only a part of the name.
+* We can also share with e-groups.
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-4.56.59.png)
+
+### Check quota of CERNBox/EOS space
+
+* [Check quota with command line](https://cern.service-now.com/service-portal/article.do?n=KB0002979)
+* Check quota in the CERNBox
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-4.54.22.png)
+
+![](../.gitbook/assets/ying-mu-kuai-zhao-20190611-xia-wu-4.54.18.png)
+
+### 
 
 ## Hand-on sessions
 
