@@ -45,12 +45,12 @@ config/patches/VBF/patch-VBF-MVA.txt
 
 {% code title="config/patches/VBF/patch-VBF-MVA.txt" %}
 ```text
-<ntupName = "ggf"> @/sig/?/mh125/ggf;
-<ntupName = "vbf"> @/sig/?/mh125/vbf;
-<ntupName = "WW"> @/bkg/?/diboson/WW;
-<ntupName = "Ztt"> @/bkg/?/Zjets/?/?/tt/;
-<ntupName = "ttbar"> @/bkg/?/top/ttbar;
-<ntupName = "Wt"> @/bkg/?/top/singletop/Wt;
+<ntupName = "ggf"> @/sig/?/?/mh125/ggf;
+<ntupName = "vbf"> @/sig/?/?/mh125/vbf;
+<ntupName = "WW"> @/bkg/?/?/diboson/WW;
+<ntupName = "Ztt"> @/bkg/?/?/Zjets/?/?/tt/;
+<ntupName = "ttbar"> @/bkg/?/?/top/ttbar;
+<ntupName = "Wt"> @/bkg/?/?/top/singletop/Wt;
 ```
 {% endcode %}
 
@@ -62,12 +62,12 @@ config/jobLists/VBF/jobs-MVA.txt
 
 {% code title="config/jobLists/VBF/jobs-MVA.txt" %}
 ```text
-/sig/?/mh125/ggf/
-/sig/?/mh125/vbf/
-/bkg/?/diboson/WW/
-/bkg/?/Zjets/?/?/tt/
-/bkg/?/top/ttbar/
-/bkg/?/top/singletop/Wt
+/sig/?/?/mh125/ggf/
+/sig/?/?/mh125/vbf/
+/bkg/?/?/diboson/WW/
+/bkg/?/?/Zjets/?/?/tt/
+/bkg/?/?/top/ttbar/
+/bkg/?/?/top/singletop/Wt
 ```
 {% endcode %}
 
