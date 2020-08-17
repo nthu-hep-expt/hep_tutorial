@@ -14,7 +14,7 @@ We were also involved in the **searches of the dark matter** produced in associa
 
 * [NTHU Group Meeting](https://indico.cern.ch/category/9447/)
 
-### Contributions from group member
+### Contributions from group members
 
 The following is done with [indicomb](https://login.cern.ch/adfs/ls/?wa=wsignin1.0&wreply=https%3A%2F%2Ftwiki.cern.ch%2FShibboleth.sso%2FADFS&wct=2020-04-26T07%3A10%3A37Z&wtrealm=https%3A%2F%2Ftwiki.cern.ch%2FShibboleth.sso%2FADFS&wctx=cookie%3A1587885037_6ef0). Please follow the instruction to grab your contributions and list below.
 
@@ -150,7 +150,9 @@ Note: MS means "master**"** and UG means "undergraduate"
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>### Theses
+</table>
+
+### Theses
 
 I listed the theses from NTHU master students. 
 
