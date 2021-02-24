@@ -2,7 +2,9 @@
 
 ## Introduction
 
-We always work with the grid services to run the samples on the grid. The tutorial for grid system is shown [here](https://indico.cern.ch/event/757797/timetable/?view=standard#b-309103-the-grid-and-getting).
+一般Monte Carlo sample production或是derivation都是用所謂的 **Grid** 來產生。
+
+The tutorial for grid system is shown [here](https://indico.cern.ch/event/757797/timetable/?view=standard#b-309103-the-grid-and-getting).
 
 ## Grid certificate
 
@@ -211,5 +213,5 @@ Of course, you can download the whole dataset in this container
 rucio download group.phys-higgs:group.phys-higgs.data15_13TeV.HWW_VeryLooseLH.merge.PAOD_2L.V19.0_FakeWJets_PAOD_2LDF
 ```
 
-If you want to share the datasets with others after downloading the datasets, you could follow the instruction in the [CERNBox section](cernbox.md#sharing).
+If you want to share the datasets with others after downloading the datasets, you could follow the instruction in the [CERNBox section]().
 
