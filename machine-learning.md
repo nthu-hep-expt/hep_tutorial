@@ -6,7 +6,9 @@ Machine learning is a hot topic now. In HEP, we always use TMVA to run the MVA w
 
 In the following, we will provide some hands-on example with TMVA and python packages.
 
-## Lesson 1 - TMVA
+## Hands-on examples
+
+### TMVA
 
 TMVA stands for The Toolkit for Multivariate Analysis, it lets you perform multivariate classification and multivariate regression analysis. See the [TMVA User Guide](https://root.cern.ch/download/doc/tmva/TMVAUsersGuide.pdf) or [TMVA tutorial](https://github.com/lmoneta/tmva-tutorial) for more information. 
 
