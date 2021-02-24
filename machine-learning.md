@@ -2,9 +2,7 @@
 
 ## Introduction
 
-Machine learning is a hot topic now. In HEP, we always use TMVA to run the MVA with root nTuple. However, there are more novel ways to do the MVA training with Python packages like XGBoost, Keras and  Tensorflow with Pandas dataframe. 
-
-In the following, we will provide some hands-on example with TMVA and python packages.
+In high energy experiment at CERN, we always use TMVA to run the MVA training with root nTuple. There are also many novel ways to train the MVA with Python packages like XGBoost, Keras and Tensorflow with Pandas dataframe. In the following, we will provide some hands-on example with TMVA and python packages.
 
 ## Hands-on examples
 
