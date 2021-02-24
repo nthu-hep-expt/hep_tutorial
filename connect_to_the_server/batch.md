@@ -1,4 +1,8 @@
-# Batch system
+---
+description: Condor batch system for parallel job submission
+---
+
+# Condor system
 
 ## Introduction
 
