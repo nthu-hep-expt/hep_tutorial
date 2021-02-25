@@ -1,4 +1,4 @@
-# HEP techs
+# HEP Tutorial
 
 #### Indicomb
 

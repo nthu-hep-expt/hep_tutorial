@@ -6,27 +6,13 @@ description: Introduction to NTHU High Energy Physics Experiment group
 
 ## Introduction
 
-We're working on the experimental high energy physics \(HEP-ex\) with the ATLAS collaboration at the LHC. In our group, we've mainly contributed to the **measurement of the Higgs boson via a W-boson pair \(HWW\)**. We've just finished the first Run-2 publication for the HWW with 36 fb^-1 data. We are now focusing on and pursuing the new publication for HWW with more data \(~140 fb^-1\) collected from 2015 to 2018. Hopefully, we will get the results and publish with full Run-2 datasets by the end of 2020. 
+We're working on the experimental high energy physics with the ATLAS collaboration at the LHC. In our group, we've mainly contributed to the **measurement of the Higgs boson via a W-boson pair \(HWW\)**. We've just finished the first Run-2 publication for the HWW with 36 fb^-1 data. We are now focusing on and pursuing the new publication for HWW with more data \(~140 fb^-1\) collected from 2015 to 2018. Hopefully, we will get the results and publish with full Run-2 datasets by the end of 2020. 
 
 We were also involved in the **searches of the dark matter** produced in association with a Higgs boson decaying to two bottom quarks \(Mono-Hbb\). Moreover, we also contributed to the **implementation of High-Granularity Timing Detector for the ATLAS phase-II upgrade**. The upgrade projects are still ongoing!  
 
 ### Meetings @ NTHU
 
 * [NTHU Group Meeting](https://indico.cern.ch/category/9447/)
-
-### Contributions from group members
-
-The following is done with [indicomb](https://login.cern.ch/adfs/ls/?wa=wsignin1.0&wreply=https%3A%2F%2Ftwiki.cern.ch%2FShibboleth.sso%2FADFS&wct=2020-04-26T07%3A10%3A37Z&wtrealm=https%3A%2F%2Ftwiki.cern.ch%2FShibboleth.sso%2FADFS&wctx=cookie%3A1587885037_6ef0). Please follow the instruction to grab your contributions and list below.
-
-#### HWW
-
-* [Contributions from Meng-Ju](http://metsai.web.cern.ch/metsai/meetings/distributions/Meng-Ju-Contributions.html)
-* Contributions from Ya-Feng
-* Contributions from Yu-Cheng
-
-#### HGTD
-
-* Contributions from Yu-Hsin
 
 ### Website of NTHU HEP group
 
@@ -152,9 +138,7 @@ Note: MS means "master**"** and UG means "undergraduate"
   </tbody>
 </table>
 
-### Theses
-
-I listed the theses from NTHU master students. 
+## Theses
 
 * Yu-Cheng Huang \(Dec 2019\)
   * [Validation of two jet algorithms and pileup study in Vector Boson Fusion H →WW∗ Analysis with the ATLAS detector](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=tmM6Hh/record?r1=1&h1=0)
