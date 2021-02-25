@@ -18,6 +18,7 @@
   * [Statistical Intepretation](connect_to_the_server/statistical-intepretation.md)
 * [Machine Learning](machine-learning/README.md)
   * [Setup Environment](machine-learning/setup-environment.md)
+  * [Pandas](machine-learning/pandas.md)
 * [ROOT](root/README.md)
   * [Start from an Example](root/start-from-an-example.md)
   * [MakeClass](root/makeclass.md)
