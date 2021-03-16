@@ -1,20 +1,35 @@
-# Lxplus
+# Clusters and EOS
 
-## Introduction 
+## Lxplus 
 
-[Lxplus](https://lxplusdoc.web.cern.ch/lxplusdoc/) \(Linux Public Login User Service\) is the interactive logon service to Linux for all CERN users. We normally work with Lxplus since the environments in the Lxplus are finely set with the ATLAS experiment. It could interact to the eos system and CERNBox, which are used to stored dataset. 
+[Lxplus](https://lxplusdoc.web.cern.ch/lxplusdoc/) \(Linux Public Login User Service\) is the interactive logon service to Linux for all CERN users. 
 
-### Working in the Lxplus  
+#### **主要有幾個重要的位置，參考以下章節**
 
-Once you have CERN account, we can access the Lxplus by the following commands:
+* Home directory \(10G\)
+* Working directory \(100G\)：主要用來執行程式的位置
+* EOS directory \(1TB\)：主要用來儲存dataset的位置
 
-#### Log in Lxplus with different systems
+### Log in Lxplus with different systems
 
 Log in Lxplus with CentOS CERN 7 \(CC7\) system
 
 ```bash
 ssh yourAccount@lxplus.cern.ch​
+
+# Example: metsai is my account name
+ssh metsai@lxplus.cern.ch
 ```
+
+{% hint style="warning" %}
+注意，當他要求密碼，你打出的密碼並不會顯示在螢幕上，所以放心的輸入密碼，然後按下enter鍵。
+
+```bash
+# Then it will show up this kind of information and request the password, and enter you password and hit return.
+Warning: Permanently added the ECDSA host key for IP address '2001:1458:d00:17::38c' to the list of known hosts.
+Password: 
+```
+{% endhint %}
 
 Log in Lxplus with Scientific Linux 6 \(SLC 6\) system
 
@@ -38,65 +53,7 @@ You can follow the [instruction](https://twiki.atlas-canada.ca/bin/view/AtlasCan
 kinit <yourname>@CERN.CH
 ```
 
-Then do the following steps.
-
-* Create a key and enter a password \(It is dangerous to not use a passphrase for shell accounts. Your only protection is your passphrase. This is particularly important for laptops.\).  
-
-
-  ```text
-      ssh-keygen -t rsa 
-  ```
-
-  Note that the default key file will be id\_rsa and id\_rsa.pub but you can create it with a different name \(in case you need different keys for different remote hosts but try not to do that unless you have good reason !\) by adding the option `-f ~/.ssh/<filename>`.
-
-* Copy the public key to your remote machine; replace &lt;username&gt; and &lt;remote machine name&gt; below.
-
-```text
-    ssh-copy-id <username>@<remote machine name>
-```
-
-* After copying the above public key to lxplus, login to lxplus and type `/afs/cern.ch/project/svn/dist/bin/set_ssh`. This will fix the acl permissions of the file on lxplus.
-* Create a file ~/.ssh/config with the following information \(there is a template you can copy from `$ATLAS_LOCAL_ROOT_BASE/user/sshConfig`\).
-  * If your lxplus username is different from your local account, add a "User &lt;your lxplus username&gt;" to the lxplus, git and svn sections.
-
-```text
-Host svn.cern.ch svn 
-GSSAPIAuthentication yes 
-GSSAPIDelegateCredentials yes 
-Protocol 2 
-ForwardX11 no
-
-Host gitlab.cern.ch
-GSSAPIAuthentication yes 
-GSSAPIDelegateCredentials yes 
-Protocol 2 
-ForwardX11 no
-
-Host lxplus*.cern.ch lxplus lxplus*
-Protocol 2 
-GSSAPIAuthentication yes 
-GSSAPIDelegateCredentials yes 
-PubkeyAuthentication no 
-ForwardX11 yes
-
-Host *
-  Protocol 2
-  AddKeysToAgent yes   
-  IdentityFile ~/.ssh/id_rsa
-  ServerAliveInterval 120
-```
-
-Make sure the permissions of the ~/.ssh directory and its contents have permissions set correctly; an example is
-
-```text
-  chmod 700 ~/.ssh
-  chmod 600 ~/.ssh/id_rsa
-  chmod 644 ~/.ssh/config ~/.ssh/id_rsa.pub
-```
-
-Finally, when you open a new terminal, you probably need to kinit again. 
-
-### Quota in the Lxplus
+### Important paths in the Lxplus
 
 #### Home directory
 
@@ -120,21 +77,19 @@ You can subscribe an additional working directory with 100 GB quota. The instruc
 /afs/cern.ch/work/<first letter of your account>/<account>
 ```
 
-For example, if you account is _metsai_, the path will be  
+For example, if you account is `metsai`, the path will be  
 
 ```bash
 /afs/cern.ch/work/m/metsai
 ```
 
-#### EOS space
+#### EOS space \(integrated with [CERNBox](https://cernbox.cern.ch/)\)
 
-We will have an EOS space with 1 TB quota, which is mainly used as a space to store samples. The path to EOS space is 
+EOS space is mainly used to store the dataset and the limit of EOS space is 1 TB quota. The path to EOS space is 
 
 ```
 /eos/user/<first letter of your account>/<account>
 ```
-
-Moreover, the EOS space is integrated with [CERNBox](https://cernbox.cern.ch/). More information about CERNBox are listed [here](). 
 
 ### Commands in the Lxplus
 
@@ -144,28 +99,34 @@ You should initialize with the following command when you login every time
 
 ```bash
 setupATLAS
+
+# If the above is not working, please add the follows in ~/.bashrc
+export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
+alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
+
 ```
 
 ![&quot;setupATLAS&quot; initializes for the ATLAS environment](../.gitbook/assets/ying-mu-kuai-zhao-20190116-shang-wu-4.43.46.png)
 
-To interact with GitHub or GitLab, we should initialize your git environment by
-
-```bash
-lsetup git
-```
-
-If you would like to use the grid system, we should setup the local panda client by
-
-```text
-localSetupPandaClient
-```
-
-#### Useful commands
-
-* Check the quota in user or working directory 
+#### Check the quota in user or working directory 
 
 ```bash
 fs lq --human
+```
+
+## NTHU cluster
+
+The IP of our cluster is **140.114.94.172.** To login to the cluster, you can use the following commands. For new students, please contact Jennifer. 
+
+```bash
+# login to the cluster with IP
+ssh yourAccount@140.114.94.172
+
+# Once you login to the cluster, you can access the other node #2~#4
+ssh yourAccount@nthuhep02
+ssh yourAccount@nthuhep03
+ssh yourAccount@nthuhep04
 ```
 
 ## CERNBox and EOS
@@ -260,7 +221,5 @@ If you still encounter the issue, you may use the following command
 export DISPLAY=:0.0
 ```
 
-### Subscribe working directory
-
-Please follow the [instruction](https://resources.web.cern.ch/resources/Help/?kbid=067040) to subscribe working directory since normally the accumulated output root and histogram files will be large.
+### 
 
